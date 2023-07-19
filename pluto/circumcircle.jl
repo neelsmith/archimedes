@@ -22,7 +22,9 @@ begin
 end
 
 # ╔═╡ 2b0ce9c8-25b0-11ee-32a8-8544a48ac7f3
-md"""## Archimedes *Sphere and Cylinder* 1.1
+md"""## A non-Archimedean construction
+
+>### Circumscribing a polygon with a circle
 """
 
 # ╔═╡ 9e343fe0-733e-4b59-8565-3165c97abb79
@@ -55,8 +57,99 @@ html"""
 <hr/>
 """
 
+# ╔═╡ 51126538-3c9f-4286-a5b7-b2ca6a841274
+md"> **User content**"
+
 # ╔═╡ c9d9cb37-0dca-420f-b26d-ce11e41629c4
-md"> **Background computation**"
+md"> **Generic geometric computations**"
+
+# ╔═╡ 61b72cec-4343-41dc-a91d-bdb562bb4474
+
+
+# ╔═╡ a91892b0-c962-4341-a40f-70561a6cd962
+"""Compute list of midpoints for a give list of points."""
+function computemidpoints(vertices::Vector{Point}, n)
+	ptlist = Point[]
+	for i in eachindex(vertices[1:end-1])
+	    push!(ptlist, midpoint(vertices[i], vertices[i + 1]))
+	end
+	tail = vertices[end]
+	top = vertices[1]
+	push!(ptlist, midpoint(tail, top))
+	
+	ptlist
+end
+
+# ╔═╡ f07bcd76-5308-4863-959e-df7ba4f89643
+"""Find perpendicular bisectors of polygon edges."""
+function findperpendiculars(v)
+	perplist = Tuple{Point, Point}[]
+	for i in eachindex(v[1:end-1])
+	    push!(perplist,perpendicular(v[i], v[i + 1]))
+	end
+	push!(perplist, perpendicular(v[end], v[1]))
+
+	perplist
+end
+
+# ╔═╡ 806f04a6-2c0b-40e5-828f-25ba0a0002e7
+"""Compose figure circumscribing an `n`-gon in 6 steps. """
+function stepfigure(n::Int, step::Int; canvasdim = 400)
+	@draw begin
+	# construct polygon:	
+	vertices = ngon(O, nlen, nsides, vertices = false)
+		
+	if step > 0
+		# plot polygon:
+		poly(vertices, :stroke, close=true)
+	end
+
+	if step > 1
+		# midpoints of edges
+		sethue("red")
+	
+		midpointsv = computemidpoints(vertices, nsides)
+		for pt in midpointsv
+			circle(pt, 4, :fill)
+		end
+	end
+
+	if step > 2
+		setdash("dot")
+		sethue("silver")
+		
+		# perpendiculars to midpoints
+		perps = findperpendiculars(vertices)		
+		for pr in perps
+			line(pr[1], pr[2], :stroke)
+		end
+	end
+	setdash("solid")
+		
+	if step > 3
+		sethue("blue")
+
+		centerpt = intersectionlines(perps[1][1], perps[1][2], perps[end][1], perps[end][2])
+		circle(centerpt[2], 4, :fill)
+	end
+
+	if step > 4
+		r = ((vertices[1].x - centerpt[2].x)^2 + (vertices[1].y - centerpt[2].y)^2 ) |> sqrt
+		line(centerpt[2], vertices[1], :stroke)
+		
+		if step > 5
+			sethue("gray")
+				
+			circle(centerpt[2], r, :stroke)
+		end
+	end
+
+		
+	end canvasdim canvasdim
+end
+
+# ╔═╡ 273642af-82ee-4c06-b2de-ab552d0ef254
+stepfigure(nsides, stepcount)
 
 # ╔═╡ 55719606-d4aa-4f8a-9b0f-8ca8d9d2e986
 """Name for polygon with `n` sides."""
@@ -77,8 +170,10 @@ function gon_name(n::Int)
 end
 
 # ╔═╡ fa2fbf81-5839-4127-8ecd-f48de2760473
-"""Compose text of construction step by step."""
-function theorem_1_1(step, numsides)
+"""Compose text of construction step by step.
+`numsides` is the number of sides in the polygon.
+"""
+function ecthesis(step, numsides)
 	polygonname = gon_name(numsides)
 	polygonlabel = polygonname[1] == 'o' ? "an $(polygonname)" : "a $(polygonname)"
 	
@@ -107,110 +202,17 @@ function theorem_1_1(step, numsides)
 end
 
 # ╔═╡ bf298162-f45d-4a7a-833e-53b0fe81c5bd
-aside(tip(theorem_1_1(stepcount, nsides)))
+aside(tip(ecthesis(stepcount, nsides)))
 
-# ╔═╡ 4a76399a-0d9d-43ee-a76e-1dc20801ee4d
-"""Vertices of polygon as `Point` objects."""
-ngon_vertices = ngon(O, nlen, nsides, vertices = false)
+# ╔═╡ 98d4066b-8b18-42c1-8c9c-71df80ff9661
+html"""
 
-# ╔═╡ a91892b0-c962-4341-a40f-70561a6cd962
-"""Compute list of midpoints for a give list of points."""
-function computemidpoints(vertices::Vector{Point}, n)
-	ptlist = Point[]
-	for i in eachindex(vertices[1:end-1])
-	    push!(ptlist, midpoint(vertices[i], vertices[i + 1]))
-	end
-	tail = vertices[end]
-	top = vertices[1]
-	push!(ptlist, midpoint(tail, top))
-	
-	ptlist
-end
-
-# ╔═╡ 61b72cec-4343-41dc-a91d-bdb562bb4474
-"""Mid points of polygon edges."""
-midpointsv = computemidpoints(ngon_vertices, nsides)
-
-# ╔═╡ f07bcd76-5308-4863-959e-df7ba4f89643
-"""Find perpendicular bisectors of polygon edges."""
-function findperpendiculars(v)
-	perplist = Tuple{Point, Point}[]
-	for i in eachindex(v[1:end-1])
-	    push!(perplist,perpendicular(v[i], v[i + 1]))
-	end
-	push!(perplist, perpendicular(v[end], v[1]))
-
-	perplist
-end
-
-# ╔═╡ 5c65467a-9fe7-4b0b-b022-587081544a79
-"""Perpendiculars to polygon edges"""
-perps = findperpendiculars(ngon_vertices)
-
-# ╔═╡ 806f04a6-2c0b-40e5-828f-25ba0a0002e7
-"""Compose figure circumscribing a polygon in 6 steps.
-Data we need:
-
-- list of polygon vertices
-- list of midpoints of polygon edges
-- list of perpendiculars to midpoints
-
+<br/><br/><br/><br/><br/>
+<hr/>
 """
-function figure_1_1(step::Int)
-	@draw begin
-	if step > 0
-	# regular ngon at origin, computed below
-	poly(ngon_vertices, :stroke, close=true)
-	end
-
-	if step > 1
-	# midpoints of edgeds
-	sethue("red")
-		
-	for pt in midpointsv
-		circle(pt, 4, :fill)
-	end
-	end
-
-	if step > 2
-	setdash("dot")
-	sethue("silver")
-		
-	for pr in perps
-		line(pr[1], pr[2], :stroke)
-	end
-	end
-
-	setdash("solid")
-	if step > 3
-	
-	sethue("blue")
-		
-	centerpt = intersectionlines(perps[1][1], perps[1][2], perps[end][1], perps[end][2])
-	circle(centerpt[2], 4, :fill)
-	end
-
-	if step > 4
-		r = ((ngon_vertices[1].x - centerpt[2].x)^2 + (ngon_vertices[1].y - centerpt[2].y)^2 ) |> sqrt
-		line(centerpt[2], ngon_vertices[1], :stroke)
-		
-		if step > 5
-		sethue("gray")
-			
-		circle(centerpt[2], r, :stroke)
-		end
-	end
-
-		
-	end 400 400
-end
-
-# ╔═╡ 273642af-82ee-4c06-b2de-ab552d0ef254
-figure_1_1(stepcount)
 
 # ╔═╡ b436b0ff-7540-4392-9a0e-230022d67cde
-md"""---
-
+md"""
 > Unused
 """
 
@@ -227,9 +229,6 @@ function findslopes(ptlist)
 	
 	slopelist
 end
-
-# ╔═╡ 980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
-slopesv = findslopes(midpointsv)
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -985,17 +984,16 @@ version = "3.5.0+0"
 # ╟─bf298162-f45d-4a7a-833e-53b0fe81c5bd
 # ╟─273642af-82ee-4c06-b2de-ab552d0ef254
 # ╟─b2c1d567-788f-476c-be7f-d1f16051ffec
-# ╟─c9d9cb37-0dca-420f-b26d-ce11e41629c4
-# ╟─55719606-d4aa-4f8a-9b0f-8ca8d9d2e986
+# ╟─51126538-3c9f-4286-a5b7-b2ca6a841274
 # ╟─fa2fbf81-5839-4127-8ecd-f48de2760473
 # ╟─806f04a6-2c0b-40e5-828f-25ba0a0002e7
-# ╟─4a76399a-0d9d-43ee-a76e-1dc20801ee4d
+# ╟─c9d9cb37-0dca-420f-b26d-ce11e41629c4
 # ╟─61b72cec-4343-41dc-a91d-bdb562bb4474
 # ╟─a91892b0-c962-4341-a40f-70561a6cd962
-# ╟─5c65467a-9fe7-4b0b-b022-587081544a79
 # ╟─f07bcd76-5308-4863-959e-df7ba4f89643
+# ╟─55719606-d4aa-4f8a-9b0f-8ca8d9d2e986
+# ╟─98d4066b-8b18-42c1-8c9c-71df80ff9661
 # ╟─b436b0ff-7540-4392-9a0e-230022d67cde
-# ╟─980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
 # ╟─4496ff98-0b38-41b0-bf1e-02f69651d8a5
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
