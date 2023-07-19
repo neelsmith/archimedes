@@ -16,55 +16,37 @@ end
 
 # ╔═╡ 644d8045-0f7e-482b-9c1a-9b6970d335db
 begin
-	using Luxor
+	using Luxor, Colors
 	using PlutoUI
+	using PlutoTeachingTools
 end
 
 # ╔═╡ 2b0ce9c8-25b0-11ee-32a8-8544a48ac7f3
-md"""## Archimedes *S&C* 1.1"""
+md"""## Archimedes *Sphere and Cylinder* 1.1
+"""
 
-# ╔═╡ 85323c2a-6a82-438c-8a98-95611d4146b7
-md"*Number sides* $(@bind nsides Slider(3:12, show_value  = true))"
+# ╔═╡ 9e343fe0-733e-4b59-8565-3165c97abb79
+md"""**Define polygon**:"""
 
 # ╔═╡ dbc54456-d0e5-48e1-83a9-4226613469ce
- md"*Length of side (pixels)* $(@bind nlen Slider(20:5:80, default=40, show_value=true))"
+ md"*Set length of side (pixels)* $(@bind nlen Slider(50:5:200, default=60, show_value=true))"
 
-# ╔═╡ 07fa7126-21af-4384-98b3-61ecf6e91ace
-@draw begin
-	▲ = Point[Point(-100.0, 0.0), Point(110.0, 30.0), Point(65.0, 90.0)]
+# ╔═╡ 85323c2a-6a82-438c-8a98-95611d4146b7
+md"*Set number of sides* $(@bind nsides Slider(3:12, show_value  = true))"
 
-	@layer begin
-	    sethue("red")
-	    setline(2)
-	    poly(▲,  :stroke, close=true)
+# ╔═╡ 969756ef-9333-4a7e-896d-1257591d03ce
+md"""**Step through construction:** $(@bind stepcount NumberField(0:6, default = 0))"""
+
+# ╔═╡ 6901262c-b3f8-46fa-b1a2-9e1f69e581e9
+begin
+	if stepcount == 6
+		md"Step $(stepcount): construction complete"
+	elseif stepcount > 0
+		md"Step $(stepcount)" 
+	else
+		nothing
 	end
-	
-	# circumcenter
-	circle(▲..., :stroke)
-	cp = trianglecircumcenter(▲...)
-	circle(cp, 2, :fill)
-	label("circumcenter", :N, cp)
-	
-	# incenter
-	cp = triangleincenter(▲...)
-	circle(cp, 2, :fill)
-	pt1 = getnearestpointonline(▲[1], ▲[2], cp)
-	@layer begin
-	    sethue("black")
-	    circle(cp, distance(cp, pt1), :stroke)
-	    label("incenter", :S, cp)
-	end
-	
-	# center
-	cp = trianglecenter(▲...)
-	circle(cp, 2, :fill)
-	label("center", :w, cp)
-	
-	# orthocenter
-	cp = triangleorthocenter(▲...)
-	circle(cp, 2, :fill)
-	label("orthocenter", :e, cp)
-end 300 300
+end
 
 # ╔═╡ b2c1d567-788f-476c-be7f-d1f16051ffec
 html"""
@@ -76,65 +58,189 @@ html"""
 # ╔═╡ c9d9cb37-0dca-420f-b26d-ce11e41629c4
 md"> **Background computation**"
 
+# ╔═╡ 55719606-d4aa-4f8a-9b0f-8ca8d9d2e986
+"""Name for polygon with `n` sides."""
+function gon_name(n::Int)
+	namesdict = Dict(
+		3 => "triangle",
+		4 => "quadrangle",
+		5 => "pentagon",
+		6 => "hexagon",
+		7 => "heptagon",
+		8 => "octagon",
+		9 => "nonagon",
+		10 => "decagon",
+		11 => "hendecagon",
+		12 => "dodecagon"
+	)
+	n in keys(namesdict) ? namesdict[n] : "unnamed polygon"
+end
+
+# ╔═╡ fa2fbf81-5839-4127-8ecd-f48de2760473
+"""Compose text of construction step by step."""
+function theorem_1_1(step, numsides)
+	polygonname = gon_name(numsides)
+	polygonlabel = polygonname[1] == 'o' ? "an $(polygonname)" : "a $(polygonname)"
+	
+	mdlines = ["## Circumscribing $(polygonlabel)", ""]
+	
+	if step > 0 
+		push!(mdlines, "1. Construct a polygon with $(numsides) sides (*$(polygonlabel)*)")
+	end
+	if step > 1
+		push!(mdlines, "1. Find the midpoint of each side.")
+	end
+	if step > 2
+		push!(mdlines, "1. Construct perpendiculars to the midpoints.")
+	end
+	if step > 3
+		push!(mdlines,"1. Find the intersection of the perpendiculars. ☞ *This is the center of the circumscribing circle*")
+	end
+	if step > 4
+		push!(mdlines, "1. Find the distance from the center point to a vertext. ☞ *This is the radius of the circumscribing circle*")
+	end
+	if step > 5
+		push!(mdlines, "1. Use the center point and radius to construct a circle circumscribing the $(gon_name(numsides)) (*the circumcircle*. ")
+	end
+	
+	join(mdlines, "\n")|> Markdown.parse
+end
+
+# ╔═╡ bf298162-f45d-4a7a-833e-53b0fe81c5bd
+aside(tip(theorem_1_1(stepcount, nsides)))
+
 # ╔═╡ 4a76399a-0d9d-43ee-a76e-1dc20801ee4d
+"""Vertices of polygon as `Point` objects."""
 ngon_vertices = ngon(O, nlen, nsides, vertices = false)
 
 # ╔═╡ a91892b0-c962-4341-a40f-70561a6cd962
 """Compute list of midpoints for a give list of points."""
-function midpointlist(vertices::Vector{Point}, n)
+function computemidpoints(vertices::Vector{Point}, n)
 	ptlist = Point[]
 	for i in eachindex(vertices[1:end-1])
-	    pt1 = vertices[mod1(i, n)]
-	    pt2 = vertices[mod1(i + 1, n)]
-	    push!(ptlist, midpoint(pt1, pt2))
+	    push!(ptlist, midpoint(vertices[i], vertices[i + 1]))
 	end
-	trail = vertices[end]
+	tail = vertices[end]
 	top = vertices[1]
-	push!(ptlist, midpoint(trail, top))
+	push!(ptlist, midpoint(tail, top))
 	
 	ptlist
 end
 
 # ╔═╡ 61b72cec-4343-41dc-a91d-bdb562bb4474
-midpointv = midpointlist(ngon_vertices, nsides)
-	#=begin
-	ptlist = Point[]
-	for (i, vertext) in enumerate(ngon_vertices[1:end-1])
-	    pt1 = ngon_vertices[mod1(i, 5)]
-	    pt2 = ngon_vertices[mod1(i + 1, 5)]
-	    push!(ptlist, midpoint(pt1, pt2))
-	end
-	trail = ngon_vertices[end]
-	top = ngon_vertices[1]
-	push!(ptlist, midpoint(trail, top))
-	
-	ptlist
-end =#
+"""Mid points of polygon edges."""
+midpointsv = computemidpoints(ngon_vertices, nsides)
 
-# ╔═╡ c0eecb43-96b6-481a-be8e-228ed4405cde
-@draw begin
+# ╔═╡ f07bcd76-5308-4863-959e-df7ba4f89643
+"""Find perpendicular bisectors of polygon edges."""
+function findperpendiculars(v)
+	perplist = Tuple{Point, Point}[]
+	for i in eachindex(v[1:end-1])
+	    push!(perplist,perpendicular(v[i], v[i + 1]))
+	end
+	push!(perplist, perpendicular(v[end], v[1]))
+
+	perplist
+end
+
+# ╔═╡ 5c65467a-9fe7-4b0b-b022-587081544a79
+"""Perpendiculars to polygon edges"""
+perps = findperpendiculars(ngon_vertices)
+
+# ╔═╡ 806f04a6-2c0b-40e5-828f-25ba0a0002e7
+"""Compose figure circumscribing a polygon in 6 steps."""
+function figure_1_1(step::Int)
+	@draw begin
+	if step > 0
 	# regular ngon at origin, computed below
 	poly(ngon_vertices, :stroke, close=true)
+	end
+
+	if step > 1
+	# midpoints of edgeds
 	sethue("red")
-	for pt in midpointv
+		
+	for pt in midpointsv
 		circle(pt, 4, :fill)
 	end
+	end
+
+	if step > 2
+	setdash("dot")
+	sethue("silver")
+		
+	for pr in perps
+		line(pr[1], pr[2], :stroke)
+	end
+	end
+
+	setdash("solid")
+	if step > 3
 	
-	#circle(ngon_vertices..., :stroke)
-end 200 200
+	sethue("blue")
+		
+	centerpt = intersectionlines(perps[1][1], perps[1][2], perps[end][1], perps[end][2])
+	circle(centerpt[2], 4, :fill)
+	end
+
+	if step > 4
+		r = ((ngon_vertices[1].x - centerpt[2].x)^2 + (ngon_vertices[1].y - centerpt[2].y)^2 ) |> sqrt
+		line(centerpt[2], ngon_vertices[1], :stroke)
+		
+		if step > 5
+		sethue("gray")
+		
+			
+	
+	
+	
+			
+		circle(centerpt[2], r, :stroke)
+		end
+	end
+
+		
+	end 400 400
+end
+
+# ╔═╡ 273642af-82ee-4c06-b2de-ab552d0ef254
+figure_1_1(stepcount)
+
+# ╔═╡ b436b0ff-7540-4392-9a0e-230022d67cde
+md"""---
+
+> Unused
+"""
+
+# ╔═╡ 4496ff98-0b38-41b0-bf1e-02f69651d8a5
+"""Compute slopes of line segments connecting points in `ptlist`."""
+function findslopes(ptlist)
+	slopelist = Float64[]
+	for i in eachindex(ptlist[1:end-1])
+		slope = (ptlist[i + 1].y - ptlist[i].y) /  (ptlist[i + 1].x - ptlist[i].x) 
+	    push!(slopelist,slope)
+	end
+	lastslope = (ptlist[1].y - ptlist[end].y) /  (ptlist[1].x - ptlist[end].x) 
+	push!(slopelist, lastslope)
+	
+	slopelist
+end
 
 # ╔═╡ 980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
-slopesv = begin
-end
+slopesv = findslopes(midpointsv)
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
+Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
+PlutoTeachingTools = "661c6b06-c737-4d37-b85c-46df65de6f69"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
+Colors = "~0.12.10"
 Luxor = "~3.7.0"
+PlutoTeachingTools = "~0.2.12"
 PlutoUI = "~0.7.51"
 """
 
@@ -144,7 +250,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.9.1"
 manifest_format = "2.0"
-project_hash = "dec659a5d1886234803378568d52711bbb358089"
+project_hash = "93ba53838304bd172215b014e86986500a45c8ed"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -180,6 +286,12 @@ git-tree-sha1 = "4b859a208b2397a7a623a03449e4636bdb17bcf2"
 uuid = "83423d85-b0ee-5818-9007-b63ccbeb887a"
 version = "1.16.1+1"
 
+[[deps.CodeTracking]]
+deps = ["InteractiveUtils", "UUIDs"]
+git-tree-sha1 = "d730914ef30a06732bdd9f763f6cc32e92ffbff1"
+uuid = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
+version = "1.3.1"
+
 [[deps.ColorTypes]]
 deps = ["FixedPointNumbers", "Random"]
 git-tree-sha1 = "eb7f0f8307f71fac7c606984ea5fb2817275d6e4"
@@ -200,6 +312,10 @@ version = "1.0.2+0"
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
+[[deps.Distributed]]
+deps = ["Random", "Serialization", "Sockets"]
+uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 
 [[deps.Downloads]]
 deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
@@ -244,6 +360,12 @@ deps = ["Artifacts", "Bzip2_jll", "Expat_jll", "FreeType2_jll", "JLLWrappers", "
 git-tree-sha1 = "21efd19106a55620a188615da6d3d06cd7f6ee03"
 uuid = "a3f928ae-7b40-5064-980b-68af3947d34b"
 version = "2.13.93+0"
+
+[[deps.Formatting]]
+deps = ["Printf"]
+git-tree-sha1 = "8339d61043228fdd3eb658d86c926cb282ae72a8"
+uuid = "59287772-0a20-5a39-b81b-1366585eb4c0"
+version = "0.4.2"
 
 [[deps.FreeType2_jll]]
 deps = ["Artifacts", "Bzip2_jll", "JLLWrappers", "Libdl", "Zlib_jll"]
@@ -327,6 +449,12 @@ git-tree-sha1 = "6f2675ef130a300a112286de91973805fcc5ffbc"
 uuid = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
 version = "2.1.91+0"
 
+[[deps.JuliaInterpreter]]
+deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
+git-tree-sha1 = "6a125e6a4cb391e0b9adbd1afa9e771c2179f8ef"
+uuid = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
+version = "0.9.23"
+
 [[deps.Juno]]
 deps = ["Base64", "Logging", "Media", "Profile"]
 git-tree-sha1 = "07cb43290a840908a771552911a6274bc6c072c7"
@@ -361,6 +489,24 @@ version = "2.10.1+0"
 git-tree-sha1 = "f2355693d6778a178ade15952b7ac47a4ff97996"
 uuid = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 version = "1.3.0"
+
+[[deps.Latexify]]
+deps = ["Formatting", "InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "OrderedCollections", "Printf", "Requires"]
+git-tree-sha1 = "8c57307b5d9bb3be1ff2da469063628631d4d51e"
+uuid = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+version = "0.15.21"
+
+    [deps.Latexify.extensions]
+    DataFramesExt = "DataFrames"
+    DiffEqBiologicalExt = "DiffEqBiological"
+    ParameterizedFunctionsExt = "DiffEqBase"
+    SymEngineExt = "SymEngine"
+
+    [deps.Latexify.weakdeps]
+    DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+    DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
+    DiffEqBiological = "eb300fae-53e8-50a0-950c-e21f52c2b7e0"
+    SymEngine = "123dc426-2d89-5057-bbad-38513e3affd8"
 
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
@@ -439,6 +585,12 @@ uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 [[deps.Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
 
+[[deps.LoweredCodeUtils]]
+deps = ["JuliaInterpreter"]
+git-tree-sha1 = "60168780555f3e663c536500aa790b6368adc02a"
+uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
+version = "2.3.0"
+
 [[deps.Luxor]]
 deps = ["Base64", "Cairo", "Colors", "Dates", "FFMPEG", "FileIO", "Juno", "LaTeXStrings", "Random", "Requires", "Rsvg", "SnoopPrecompile"]
 git-tree-sha1 = "909a67c53fddd216d5e986d804b26b1e3c82d66d"
@@ -516,6 +668,11 @@ git-tree-sha1 = "51a08fb14ec28da2ec7a927c4337e4332c2a4720"
 uuid = "91d4177d-7536-5919-b921-800302f37372"
 version = "1.3.2+0"
 
+[[deps.OrderedCollections]]
+git-tree-sha1 = "d321bf2de576bf25ec4d3e4360faca399afca282"
+uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
+version = "1.6.0"
+
 [[deps.PCRE2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
@@ -543,6 +700,24 @@ version = "0.42.2+0"
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "Serialization", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 version = "1.9.0"
+
+[[deps.PlutoHooks]]
+deps = ["InteractiveUtils", "Markdown", "UUIDs"]
+git-tree-sha1 = "072cdf20c9b0507fdd977d7d246d90030609674b"
+uuid = "0ff47ea0-7a50-410d-8455-4348d5de0774"
+version = "0.0.5"
+
+[[deps.PlutoLinks]]
+deps = ["FileWatching", "InteractiveUtils", "Markdown", "PlutoHooks", "Revise", "UUIDs"]
+git-tree-sha1 = "8f5fa7056e6dcfb23ac5211de38e6c03f6367794"
+uuid = "0ff47ea0-7a50-410d-8455-4348d5de0420"
+version = "0.1.6"
+
+[[deps.PlutoTeachingTools]]
+deps = ["Downloads", "HypertextLiteral", "LaTeXStrings", "Latexify", "Markdown", "PlutoLinks", "PlutoUI", "Random"]
+git-tree-sha1 = "45f9e1b6f62a006a585885f5eb13fc22554a8865"
+uuid = "661c6b06-c737-4d37-b85c-46df65de6f69"
+version = "0.2.12"
 
 [[deps.PlutoUI]]
 deps = ["AbstractPlutoDingetjes", "Base64", "ColorTypes", "Dates", "FixedPointNumbers", "Hyperscript", "HypertextLiteral", "IOCapture", "InteractiveUtils", "JSON", "Logging", "MIMEs", "Markdown", "Random", "Reexport", "URIs", "UUIDs"]
@@ -588,6 +763,12 @@ deps = ["UUIDs"]
 git-tree-sha1 = "838a3a4188e2ded87a4f9f184b4b0d78a1e91cb7"
 uuid = "ae029012-a4dd-5104-9daa-d747884805df"
 version = "1.3.0"
+
+[[deps.Revise]]
+deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "Pkg", "REPL", "Requires", "UUIDs", "Unicode"]
+git-tree-sha1 = "1e597b93700fa4045d7189afa7c004e0584ea548"
+uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
+version = "3.5.3"
 
 [[deps.Rsvg]]
 deps = ["Cairo", "Glib_jll", "Librsvg_jll"]
@@ -792,17 +973,27 @@ version = "3.5.0+0"
 """
 
 # ╔═╡ Cell order:
-# ╠═644d8045-0f7e-482b-9c1a-9b6970d335db
+# ╟─644d8045-0f7e-482b-9c1a-9b6970d335db
 # ╟─2b0ce9c8-25b0-11ee-32a8-8544a48ac7f3
-# ╟─85323c2a-6a82-438c-8a98-95611d4146b7
+# ╟─9e343fe0-733e-4b59-8565-3165c97abb79
 # ╟─dbc54456-d0e5-48e1-83a9-4226613469ce
-# ╟─c0eecb43-96b6-481a-be8e-228ed4405cde
-# ╟─07fa7126-21af-4384-98b3-61ecf6e91ace
+# ╟─85323c2a-6a82-438c-8a98-95611d4146b7
+# ╟─969756ef-9333-4a7e-896d-1257591d03ce
+# ╟─6901262c-b3f8-46fa-b1a2-9e1f69e581e9
+# ╟─bf298162-f45d-4a7a-833e-53b0fe81c5bd
+# ╟─273642af-82ee-4c06-b2de-ab552d0ef254
 # ╟─b2c1d567-788f-476c-be7f-d1f16051ffec
 # ╟─c9d9cb37-0dca-420f-b26d-ce11e41629c4
-# ╠═4a76399a-0d9d-43ee-a76e-1dc20801ee4d
-# ╠═61b72cec-4343-41dc-a91d-bdb562bb4474
-# ╠═a91892b0-c962-4341-a40f-70561a6cd962
+# ╟─55719606-d4aa-4f8a-9b0f-8ca8d9d2e986
+# ╟─fa2fbf81-5839-4127-8ecd-f48de2760473
+# ╟─806f04a6-2c0b-40e5-828f-25ba0a0002e7
+# ╟─4a76399a-0d9d-43ee-a76e-1dc20801ee4d
+# ╟─61b72cec-4343-41dc-a91d-bdb562bb4474
+# ╟─a91892b0-c962-4341-a40f-70561a6cd962
+# ╟─5c65467a-9fe7-4b0b-b022-587081544a79
+# ╟─f07bcd76-5308-4863-959e-df7ba4f89643
+# ╟─b436b0ff-7540-4392-9a0e-230022d67cde
 # ╠═980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
+# ╟─4496ff98-0b38-41b0-bf1e-02f69651d8a5
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
