@@ -1,0 +1,14 @@
+From chatgpt
+Gather the coordinates of the vertices of the polygon. Let's assume you have n vertices, and the coordinates are (x1, y1), (x2, y2), ..., (xn, yn).
+Find the midpoint of any two consecutive vertices. The midpoint can be calculated using the following formulas:
+Midpoint X-coordinate = (x1 + x2) / 2
+Midpoint Y-coordinate = (y1 + y2) / 2
+Calculate the slopes of the lines connecting the midpoints of consecutive sides. The slope can be calculated using the formula:
+Slope = (y2 - y1) / (x2 - x1)
+Find the perpendicular bisectors of each side of the polygon. The perpendicular bisector of a line segment is a line that is perpendicular to the segment and passes through its midpoint. The equation of a line with a given slope passing through a point (x, y) is given by:
+y = mx + c, where m is the slope and c is the y-intercept.
+Using the midpoint and slope, you can calculate the equation of the perpendicular bisector for each side of the polygon.
+Solve the equations of the perpendicular bisectors simultaneously to find their point of intersection. This point represents the center of the circumcircle.
+Calculate the distance between the center point and any vertex of the polygon. This distance is the radius of the circumcircle.
+The equation of the circumcircle can be expressed as:
+(x - center_x)^2 + (y - center_y)^2 = radius^2, where (center_x, center_y) is the center point of the circumcircle, and radius is the distance between the center point and any vertex.
