@@ -100,7 +100,7 @@ function theorem_1_1(step, numsides)
 		push!(mdlines, "1. Find the distance from the center point to a vertext. ☞ *This is the radius of the circumscribing circle*")
 	end
 	if step > 5
-		push!(mdlines, "1. Use the center point and radius to construct a circle circumscribing the $(gon_name(numsides)) (*the circumcircle*. ")
+		push!(mdlines, "1. Use the center point and radius to construct a circle circumscribing the $(gon_name(numsides)) (*the circumcircle*.)")
 	end
 	
 	join(mdlines, "\n")|> Markdown.parse
@@ -148,7 +148,14 @@ end
 perps = findperpendiculars(ngon_vertices)
 
 # ╔═╡ 806f04a6-2c0b-40e5-828f-25ba0a0002e7
-"""Compose figure circumscribing a polygon in 6 steps."""
+"""Compose figure circumscribing a polygon in 6 steps.
+Data we need:
+
+- list of polygon vertices
+- list of midpoints of polygon edges
+- list of perpendiculars to midpoints
+
+"""
 function figure_1_1(step::Int)
 	@draw begin
 	if step > 0
@@ -189,11 +196,6 @@ function figure_1_1(step::Int)
 		
 		if step > 5
 		sethue("gray")
-		
-			
-	
-	
-	
 			
 		circle(centerpt[2], r, :stroke)
 		end
@@ -993,7 +995,7 @@ version = "3.5.0+0"
 # ╟─5c65467a-9fe7-4b0b-b022-587081544a79
 # ╟─f07bcd76-5308-4863-959e-df7ba4f89643
 # ╟─b436b0ff-7540-4392-9a0e-230022d67cde
-# ╠═980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
+# ╟─980a8d2e-6a2f-4e2e-ae00-4c7d4c469081
 # ╟─4496ff98-0b38-41b0-bf1e-02f69651d8a5
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
