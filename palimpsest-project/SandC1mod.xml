@@ -309,15 +309,15 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ὕψ</abbr>
 						<expan>ὕψ<ex>ος</ex></expan>
 					</choice>
-					<lb n="13"/>ἴσον· ὕστερον δὲ ἡμῖν <w part="I">ὑποπε</w>
+					<lb n="13"/>ἴσον: ὕστερον δὲ ἡμῖν <w part="I">ὑποπε</w>
 					<lb n="14"/><w part="F">σόντων</w> θεωρημάτων <w>ἀξίω<supplied reason="lost">ν</supplied></w>
 					<lb n="15"/>λόγου πεπραγματεύμεθα περὶ <lb n="16"/>τὰς ἀποδείξεις αὐτῶν. ἔστι δὲ <lb n="17"
-						/>τάδε· πρῶτον μέν,
+						/>τάδε: πρῶτον μέν,
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> πάσης <lb n="18"/>σφαίρας ἡ ἐπιφάνεια <w part="I">τετραπλα</w>
-					<lb n="19"/><w part="F">σία</w> ἐστὶν τοῦ μεγίστου κύκλου τῶν <lb n="20"/>ἐν αὐτῆι· ἔπειτα
+					<lb n="19"/><w part="F">σία</w> ἐστὶν τοῦ μεγίστου κύκλου τῶν <lb n="20"/>ἐν αὐτῆι: ἔπειτα
 						δέ,
 					<choice>
 						<abbr></abbr>
@@ -337,7 +337,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="26"/>κύκλου, ὅς <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστι</ex></expan>
-					</choice> βάσις τοῦ τμάματος·
+					</choice> βάσις τοῦ τμάματος:
 					<milestone n="Arch45v" unit="underTextFolio"/><milestone n="109v1" unit="folio"/>
 					<lb n="1"/>πρὸς δὲ <w>τ<unclear>ο</unclear><supplied reason="lost">ύ</supplied>τοις</w>,
 					<choice>
@@ -368,7 +368,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="12"/>γεωμετρίαν ἀνεστραμμένων <lb n="13"/>οὐδενὸς αὐτῶν <w>ἐπινενοη<supplied reason="lost"
 							>κότος</supplied></w>
-					<lb n="14"/>ὅτι τούτων τῶν σχαμάτων ἐστὶν <lb n="15"/>συμμετρία· διόπερ οὐκ ἂν <w part="I"
+					<lb n="14"/>ὅτι τούτων τῶν σχαμάτων ἐστὶν <lb n="15"/>συμμετρία: διόπερ οὐκ ἂν <w part="I"
 						>ὀκνή</w>
 					<lb n="16"/><w part="F">σαιμι</w> ἀντιπαραβαλεῖν αὐτὰ <lb n="17"/><choice>
 						<abbr></abbr>
@@ -397,7 +397,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τὴ</abbr>
 						<expan>τὴ<ex>ν</ex></expan>
 					</choice>
-					<lb n="27"/>αὐτὴν τῶι κώνωι καὶ ὕψος ἴσον·
+					<lb n="27"/>αὐτὴν τῶι κώνωι καὶ ὕψος ἴσον:
 					<lb n="28"/>καὶ γὰρ τούτων <choice>
 						<abbr>προϋπαρχόντω</abbr>
 						<expan>προϋπαρχόντω<ex>ν</ex></expan>
@@ -412,7 +412,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">ὤ</w>
 					<milestone n="109v2" unit="folio"/>
 					<lb n="1"/><w part="F">φειλε</w> μὲν οὖν Κόνωνος ἔτι <w part="I">ζῶν</w>
-					<lb n="2"/><w part="F">τος</w> ἐκδίδοσθαι ταῦτα· τῆνον <lb n="3"/>γὰρ ὑπολαμβάνομέν που <w
+					<lb n="2"/><w part="F">τος</w> ἐκδίδοσθαι ταῦτα: τῆνον <lb n="3"/>γὰρ ὑπολαμβάνομέν που <w
 						part="I">μά</w>
 					<lb n="4"/><w part="F">λιστα</w> δύνασθαι κατανοῆσαι <lb n="5"/>ταῦτα καὶ τὴν ἁρμόζουσαν <w part="I"
 						>ὑ</w>
@@ -420,7 +420,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<abbr>ποιήσ</abbr>
 							<expan>ποιήσ<ex>ασ</ex></expan>
 						</choice></w>
-					<lb n="7"/><w part="F">θαι</w>· δοκιμάζοντες δὲ καλῶς <lb n="8"/>ἔχειν μεταδιδόναι τοῖς
+					<lb n="7"/><w part="F">θαι</w>: δοκιμάζοντες δὲ καλῶς <lb n="8"/>ἔχειν μεταδιδόναι τοῖς
 					οἰκείοις <lb n="9"/>τῶν μαθημάτων <w part="I">ἀποστέλλο</w>
 					<lb n="10"/><w part="F">μέν</w> σοι τὰς ἀποδείξεις <w part="I">ἀναγρά</w>
 					<lb n="11"/><w part="F">ψαντες</w>, ὑπὲρ ὧν ἐξέσται τοῖς <lb n="12"/>περὶ τὰ μαθήματα <w
@@ -571,7 +571,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="22"/><w part="F">νες</w> αὐτῶν ἐπ’ εὐθείας ὦσι <w part="I">κείμε</w>
 					<lb n="23"/><w part="F">νοι</w>, τὸ ἐξ ἀμφοῖν τοῖν κώνοιν <lb n="24"/>συγκείμενον τὸ
 					στερεὸν σχῆμα.
-					<lb n="25"/>λαμβάνω δὲ ταῦτα·
+					<lb n="25"/>λαμβάνω δὲ ταῦτα:
 				</ab>
 				<milestone unit="postulate" n="1"/>
 				<ab> τῶν τὰ αὐτὰ <lb n="26"/>πέρατα ἐχουσῶν γραμμῶν <w part="I">ἐ</w>
@@ -708,7 +708,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="29"/><w part="F">σων</w> ἐστὶν τῆς τοῦ κύκλου <choice>
 						<abbr>περιφερεί</abbr>
 						<expan>περιφερεί<ex>ας</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="30"/>ἑκάστη γὰρ τῶν τοῦ πολυγώνου <w part="I">πλ<supplied reason="lost">ευ</supplied></w>
 					<lb n="31"/><w part="F">ρῶν</w> ἐλάσσων ἐστὶ τῆς τοῦ κύκλου <w part="I"><choice>
 							<abbr></abbr>
@@ -833,7 +833,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="5"/>κείσθω τις εὐθεῖα γραμμὴ ἡ ΖΗ·
+					<lb n="5"/>κείσθω τις εὐθεῖα γραμμὴ ἡ ΖΗ:
 					<lb n="6"/>τὸ δὴ ΓΑ ἑαυτῶι <choice>
 						<abbr>ἐπισυντιθέμεν</abbr>
 						<expan>ἐπισυντιθέμεν<ex>ον</ex></expan>
@@ -851,7 +851,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστι</ex></expan>
 					</choice> τὸ ΑΘ τοῦ ΑΓ,
 					<w part="I">τοσαυταπλά</w>
-					<lb n="10"/><w part="F">σιος</w> ἔστω ἡ ΖΗ τῆς ΖΕ· ἔστιν ἄρα,
+					<lb n="10"/><w part="F">σιος</w> ἔστω ἡ ΖΗ τῆς ΖΕ: ἔστιν ἄρα,
 					<lb n="11"/>ὡς τὸ ΘΑ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
@@ -862,7 +862,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ ΖΗ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΗΕ· καὶ <w part="I">ἀνά</w>
+					</choice> ΗΕ: καὶ <w part="I">ἀνά</w>
 					<lb n="12"/><w part="F">παλίν</w> ἐστιν, ὡς ἡ ΗΕ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
@@ -888,7 +888,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΑΘ, οὕτως <lb n="17"/>ἡ ΕΗ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΗΖ· ἡ ΕΗ <choice>
+					</choice> ΗΖ: ἡ ΕΗ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -899,7 +899,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><unclear>ἔ</unclear>χει</w> ἤπερ τὸ ΓΑ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸ <unclear>Γ</unclear>Β·
+					</choice> τὸ <unclear>Γ</unclear>Β:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -919,7 +919,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΒΓ <sic><w part="I">διάλλη</w></sic>
-					<lb n="21"/><sic><w part="F">μα</w></sic>. ἴσον δὲ τὸ ΒΓ τῶι Δ· ἡ ΕΖ <choice>
+					<lb n="21"/><sic><w part="F">μα</w></sic>. ἴσον δὲ τὸ ΒΓ τῶι Δ: ἡ ΕΖ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -952,7 +952,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
 					<w part="I">ἐ</w>
-					<lb n="3"/><w part="F">πεζεύχθωσαν</w> αἱ ΔΑ ΔΓ ΔΒ·
+					<lb n="3"/><w part="F">πεζεύχθωσαν</w> αἱ ΔΑ ΔΓ ΔΒ:
 					<w part="I">λέ</w>
 					<lb n="4"/><w part="F">γω</w>
 					<choice>
@@ -968,7 +968,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="7"/><w part="F">γώνου</w>, ἡ δὲ ἀπὸ τῆς κορυφῆς <lb n="8"/>ἐπὶ τὴν βάσιν κάθετος ἴση
 					τῆι <lb n="9"/>καθέτωι τῆι ἀπὸ τοῦ Δ ἐπὶ τὴν <lb n="10"/>ΒΓ ἀγομένην. ἤχθωσαν γὰρ <w
 						part="I">κά</w>
-					<lb n="11"/><w part="F">θετοι</w> αἱ ΔΚ ΔΛ ΔΜ· αὗται ἄρα <lb n="12"/>ἴσαι ἀλλήλαις <choice>
+					<lb n="11"/><w part="F">θετοι</w> αἱ ΔΚ ΔΛ ΔΜ: αὗται ἄρα <lb n="12"/>ἴσαι ἀλλήλαις <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσίν</ex></expan>
 					</choice>. καὶ κείσθω <w part="I">τρί</w>
@@ -1000,7 +1000,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>διπλάσι</abbr>
 						<expan>διπλάσι<ex>ον</ex></expan>
 					</choice>
-					<lb n="27"/>τοῦ ΕΗΖ τριγώνου· ἴσον <choice>
+					<lb n="27"/>τοῦ ΕΗΖ τριγώνου: ἴσον <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> τὸ ΕΖΗ <lb n="28"/>τρίγωνον τοῖς ΑΛΒ ΒΔΓ ΑΔΓ <w part="I">τρι</w>
@@ -1026,7 +1026,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τουτ<ex>έστι</ex></expan>
 					</choice> τὸ ΔΕΖ <w>πολύγων<unclear>ον</unclear></w>
 					<w part="I"><unclear>π</unclear>εριγε</w>
-					<lb n="11"/><w part="F">γραμμένον</w> περὶ τὸν ΑΒΓ κύκλον <lb n="12"/>εἶναι· λέγω <choice>
+					<lb n="11"/><w part="F">γραμμένον</w> περὶ τὸν ΑΒΓ κύκλον <lb n="12"/>εἶναι: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ἡ ἐπιφάνεια τῆς <w part="I">πυ</w>
@@ -1070,7 +1070,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> αἱ εἰρημέναι <lb n="24"/>κάθετοι ἴσαι <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
-					</choice> ἀλλήλαις· πλευραὶ <lb n="25"/>γάρ εἰσιν τοῦ κώνου. κείσθω δὴ τὸ <w
+					</choice> ἀλλήλαις: πλευραὶ <lb n="25"/>γάρ εἰσιν τοῦ κώνου. κείσθω δὴ τὸ <w
 						part="I">τρί</w>
 					<lb n="26"/><w part="F">γωνον</w> τοῦ ΘΚΛ ἴσην ἔχων τὴν μὲν <lb n="27"/>ΘΚ τῆι περιμέτρωι τοῦ ΔΕΖ <choice>
 						<abbr>τριγών</abbr>
@@ -1101,7 +1101,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<supplied reason="lost">ΘΚ</supplied>
 					<supplied reason="lost">ΛΜ</supplied>
 					<w><supplied reason="lost">δ</supplied>ιπλάσιον</w> τοῦ <lb n="4"/><unclear>Λ</unclear>ΚΘ
-						τριγώνου· διὰ τοῦτο δὴ ἴση <choice>
+						τριγώνου: διὰ τοῦτο δὴ ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice>
@@ -1150,7 +1150,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="21"/><w part="F">νου</w> ἰσοσκελοῦς βάσις ὁ ΑΒΓ <w part="I">κύ</w>
 					<lb n="22"/><w part="F">κλος</w>, κορυφὴ δὲ τὸ Δ, καὶ διήχθω <lb n="23"/>τις εἰς
 					αὐτὸν εὐθεῖα ἡ ΑΓ, καὶ ἀπὸ <lb n="24"/>τῆς κορυφῆς ἐπὶ τὰ ΑΓ <w part="I">ἐπεζεύ</w>
-					<lb n="25"/><w part="F">χθωσαν</w> αἱ ΑΔ ΔΓ· λέγω <choice>
+					<lb n="25"/><w part="F">χθωσαν</w> αἱ ΑΔ ΔΓ: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> τὸ ΑΔΓ <lb n="26"/>τρίγωνον ἔλασσόν ἐστιν τῆς <w part="I">ἐπι</w>
@@ -1158,7 +1158,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="1"/><w part="F">φανείας</w> τῆς <w>κωνικῆ<supplied reason="lost">ς</supplied></w> τῆς <w
 						part="I">με</w>
 					<lb n="2"/><w part="F">ταξὺ</w> τῶν ΑΔΓ. τετμήσθω ἡ ΑΒΓ <lb n="3"/>περιφέρεια δίχα κατὰ
-							<w>τ<unclear>ὸ</unclear></w> Β, καὶ <lb n="4"/>ἐπεζεύχθωσαν αἱ ΑΒ ΓΒ ΔΒ·
+							<w>τ<unclear>ὸ</unclear></w> Β, καὶ <lb n="4"/>ἐπεζεύχθωσαν αἱ ΑΒ ΓΒ ΔΒ:
 					<choice>
 						<abbr>ἔστ</abbr>
 						<expan>ἔστ<ex>αι</ex></expan>
@@ -1185,7 +1185,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="15"/>ἔχουσαι τὴν περίμετρον τοῦ <w part="I">τρι</w>
 					<lb n="16"/><w part="F">γώνου</w> τοῦ ΑΒΔ, μείζων ἔσται ἡ <lb n="17"/>περιλαμβάνουσα τῆς <w
 						part="I">περιλαμ</w>
-					<lb n="18"/><w part="F">βανομένης</w>· μείζων ἄρα <choice>
+					<lb n="18"/><w part="F">βανομένης</w>: μείζων ἄρα <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ἡ <milestone n="5r2" unit="folio"/>
@@ -1196,14 +1196,14 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						n="23"/>τοῦ ΓΒ τμήματος μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> τοῦ <lb n="24"/>ΒΔΓ· ὅλη <choice>
+					</choice> τοῦ <lb n="24"/>ΒΔΓ: ὅλη <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἡ κωνικὴ ἐπιφάνεια <lb n="25"/>μετὰ τοῦ Θ χωρίου μείζων ἐστὶ τῶν <lb n="26"/>εἰρημένων
 						τριγώνων. τὰ δὲ <w part="I">εἰρη</w>
 					<lb n="27"/><w part="F">μένα</w> τρίγωνα ἴσα ἐστὶν τῶ τε <lb n="28"/>ΑΔΓ τριγώνωι καὶ τῶι Θ
 						χωρίωι.
-					<lb n="29"/>κοινὸν ἀφηιρήσθω τὸ Θ χωρίον·
+					<lb n="29"/>κοινὸν ἀφηιρήσθω τὸ Θ χωρίον:
 					<lb n="30"/>λοιπὴ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -1225,7 +1225,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						n="9"/>ΑΔΕ τριγώνου, ἡ δὲ μεταξὺ τοῦ <w part="I">Ε</w>
 					<lb n="10"/><w part="F">ΔΒ</w> μετὰ τοῦ ἐπὶ τῆς ΕΒ <w part="I">τμήμα</w>
 					<lb n="11"/><w part="F">τος</w> μείζων ἐστὶν <w>το<unclear>ῦ</unclear></w> ΕΔΒ <w part="I">τριγώ</w>
-					<lb n="12"/><w part="F">νου</w>· ἡ <choice>
+					<lb n="12"/><w part="F">νου</w>: ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἐπιφάνεια ἡ μεταξὺ τῶν <lb n="13"/>ΑΔΒ μετὰ τῶν ἐπὶ τῶν <w>Α<unclear>Ε</unclear></w> ΕΒ <w
@@ -1250,7 +1250,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					/>τῶν ΑΒΓ μετὰ τῶν ἐπὶ τῶν ΒΖ <lb n="24"/>ΖΓ τμημάτων μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> τοῦ ΔΒΓ <lb n="25"/>τριγώνου· ὅλη ἄρα ἡ <choice>
+					</choice> τοῦ ΔΒΓ <lb n="25"/>τριγώνου: ὅλη ἄρα ἡ <choice>
 						<abbr>ἐπιφάνει</abbr>
 						<expan>ἐπιφάνει<ex>α</ex></expan>
 					</choice>
@@ -1266,9 +1266,9 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="30"/>τῶι Θ χωρίωι· ὧν τὰ εἰρημένα <lb n="31"/>τμήματα ἐλάσσονα τοῦ Θ <w part="I"
+					<lb n="30"/>τῶι Θ χωρίωι: ὧν τὰ εἰρημένα <lb n="31"/>τμήματα ἐλάσσονα τοῦ Θ <w part="I"
 						>χω</w>
-					<lb n="32"/><w part="F">ρίου</w>· λοιπὴ <choice>
+					<lb n="32"/><w part="F">ρίου</w>: λοιπὴ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἡ <w>ἐ<unclear>π</unclear>ιφάνεια</w> ἡ <lb n="33"/>μεταξὺ τῶν ΑΔΓ μείζων <choice>
@@ -1306,7 +1306,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						n="17"/>αὐτῶι ἐπιπέδωι οὖσαι αἱ ΑΔ <w><supplied reason="lost">Γ</supplied>Δ</w>,
 					<lb n="18"/>καὶ ἀπὸ τοῦ Ε σημείου, ὅ ἐστι <w part="I">κορυ</w>
 					<lb n="19"/><w part="F">φὴ</w> τοῦ κώνου, ἐπὶ τὰ ΑΔΓ <w part="I">ἐπεζεύ</w>
-					<lb n="20"/><w part="F">χθωσαν</w> αἱ ΕΑ ΕΔ ΕΓ· λέγω ὅτι τὰ <lb n="21"/>ΑΔΕ ΔΕΓ τρίγωνα
+					<lb n="20"/><w part="F">χθωσαν</w> αἱ ΕΑ ΕΔ ΕΓ: λέγω ὅτι τὰ <lb n="21"/>ΑΔΕ ΔΕΓ τρίγωνα
 					μείζονά ἐστι <lb n="22"/>τῆς κωνικῆς ἐπιφανείας τῆς <lb n="23"/>μεταξὺ τῶν ΑΕ ΓΕ εὐθειῶν καὶ τῆς <lb
 						n="24"/>ΑΓ περιφερείας. ἤχθω γὰρ ἡ ΗΒΖ <lb n="25"/>ἐφαπτομένη τοῦ κύκλου καὶ <w
 						part="I">πα</w>
@@ -1318,7 +1318,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>εἰσὶν</ex></expan>
 					</choice> αἱ ΗΔ ΔΖ τῆς ΗΖ, κοιναὶ <milestone n="Arch48v" unit="underTextFolio"/><milestone
 						n="108v1" unit="folio"/>
-					<lb n="1"/>προσκείσθωσαν αἱ ΗΑ ΖΓ· ὅλαι <choice>
+					<lb n="1"/>προσκείσθωσαν αἱ ΗΑ ΖΓ: ὅλαι <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -1328,15 +1328,15 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τῶν ΑΗ ΗΖ ΖΓ.
 					<lb n="3"/>καὶ ἐπεὶ αἱ <w>Α<unclear>Ε</unclear></w> ΕΒ ΕΓ πλευραί εἰσιν <lb n="4"/>τοῦ
 						κώνου, ἴσαι εἰσὶν διὰ τὸ <w part="I">ἰσο</w>
-					<lb n="5"/><w part="F">σκελῆ</w> εἶναι τὸν κῶνον· ὁμοίως <lb n="6"/>δὲ καὶ κάθετοί <choice>
+					<lb n="5"/><w part="F">σκελῆ</w> εἶναι τὸν κῶνον: ὁμοίως <lb n="6"/>δὲ καὶ κάθετοί <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσιν</ex></expan>
 					</choice> ὡς ἐδείχθη ἐν τῶ <lb n="7"/><choice>
 						<abbr>λήματι</abbr>
 						<expan>λή<ex>μ</ex>ματι</expan>
 					</choice>, τὰ δὲ ὑπὸ τῶν καθέτων <lb n="8"/>καὶ τῶν βάσεων διπλάσιά ἐστιν <lb n="9"/>τῶν
-						τριγώνων· μείζονά ἐστιν τὰ <lb n="10"/>ΑΕΔ ΔΕΓ τρίγωνα τῶν ΑΗΕ ΗΕΖ <lb n="11"/>ΖΕΓ
-						τριγώνων·
+						τριγώνων: μείζονά ἐστιν τὰ <lb n="10"/>ΑΕΔ ΔΕΓ τρίγωνα τῶν ΑΗΕ ΗΕΖ <lb n="11"/>ΖΕΓ
+						τριγώνων:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
@@ -1345,7 +1345,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> αἱ μὲν ΑΗ ΗΖ <lb n="12"/>ΖΓ ἐλάσσους τῶν ΓΑ ΔΑ, τὰ δὲ ὕψη <lb n="13"/>αὐτῶν
-						ἴσα· φανερὸν γὰρ <choice>
+						ἴσα: φανερὸν γὰρ <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ἡ ἀπὸ <lb n="14"/>τῆς κορυφῆς τοῦ ὀρθοῦ κώνου <w part="I">ἐ</w>
@@ -1384,7 +1384,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					πυραμίδος <w part="I">χω</w>
 					<lb n="30"/><w part="F">ρὶς</w> τοῦ ΑΕΓ τριγώνου μείζων ἐστὶ <lb n="31"/>τῆς κωνικῆς ἐπιφανείας μετὰ
 						<lb n="32"/>τοῦ τμήματος τοῦ ΑΒΓ. κοινὸν <w part="I">ἀφη</w>
-					<lb n="33"/><w part="F">ρήσθω</w> τὸ ΑΒΓ τμῆμα· λοιπὰ ἄρα <lb n="34"/>τὰ τρίγωνα τὰ ΑΗΕ ΗΕΖ
+					<lb n="33"/><w part="F">ρήσθω</w> τὸ ΑΒΓ τμῆμα: λοιπὰ ἄρα <lb n="34"/>τὰ τρίγωνα τὰ ΑΗΕ ΗΕΖ
 					ΖΕΓ <w>με<unclear>τ</unclear>ὰ</w>
 					<milestone n="108v2" unit="folio"/>
 					<lb n="1"/>τῶν ΑΗΒΚ ΒΖΓΑ <choice>
@@ -1397,7 +1397,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="5"/><w part="F">των</w> οὐκ ἔλασσόν ἐστιν τὸ Θ <choice>
 						<abbr>χωρί</abbr>
 						<expan>χωρί<ex>ον</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="6"/>πολλῶ ἄρα τὰ ΑΗΕ ΗΕΖ ΖΕΓ <w part="I">τρί</w>
 					<lb n="7"/><w part="F">γωνα</w> μετὰ τοῦ Θ μείζονα ἔσται <choice>
 						<abbr>τ</abbr>
@@ -1405,7 +1405,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="8"/>κωνικῆς ἐπιφανείας τῆς <w part="I">μετα</w>
 					<lb n="9"/><w part="F">ξὺ</w> τῶν ΑΕ ΕΓ. ἀλλὰ τὰ ΑΗΕ ΗΕΖ <w part="I">τρί</w>
-					<lb n="10"/><w part="F">γωνα</w> μετὰ τοῦ Θ ἐστὶν τὰ ΑΕΔ ΔΕΓ <lb n="11"/>τρίγωνα· τὰ <choice>
+					<lb n="10"/><w part="F">γωνα</w> μετὰ τοῦ Θ ἐστὶν τὰ ΑΕΔ ΔΕΓ <lb n="11"/>τρίγωνα: τὰ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ΑΕΔ ΔΕΓ <w part="I">τρίγω</w>
@@ -1469,14 +1469,14 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					τῶι κυλίνδρωι, ἴσα εἶναι <lb n="7"/>τῶι ΑΒ ΓΒ παραλληλογράμμωι <lb n="8"/><choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> τῶι Η χωρίωι· καὶ ἡ <w part="I">ἀποτεμνο</w>
+					</choice> τῶι Η χωρίωι: καὶ ἡ <w part="I">ἀποτεμνο</w>
 					<lb n="9"/><w part="F">μένη</w> ἄρα κυλινδρικὴ <w part="I">ἐπιφά</w>
 					<lb n="10"/><w part="F">νεια</w> ὑπὸ τῶν ΑΓ ΒΔ εὐθειῶν καὶ <lb n="11"/>τὰ ΑΘ ΘΕ ΕΚ ΚΒ ΓΛ ΛΖ ΖΜ ΜΔ <w
 						part="I">ἐπί</w>
 					<lb n="12"/><w part="F">πεδα</w> τμήματα μείζονά ἐστιν <lb n="13"/>τῶν ΑΓΔΒ παραλληλογράμμων <lb
 						n="14"/>καὶ τοῦ Η χωρίου. ἀφαιρεθέντα δὲ <lb n="15"/>τὰ ΑΘ ΘΕ ΕΚ ΚΒ ΓΛ ΛΖ ΖΜ ΜΔ <w
 						part="I">τμή</w>
-					<lb n="16"/><w part="F">ματα</w> τοῦ Η χωρίου ἐλάσσονα·
+					<lb n="16"/><w part="F">ματα</w> τοῦ Η χωρίου ἐλάσσονα:
 					<w part="I"><supplied reason="lost">λ</supplied>οι</w>
 					<lb n="17"/><w part="F">πὴ</w> ἄρα ἡ ἀποτεμνομένη <w part="I"><choice>
 							<abbr>κυλι</abbr>
@@ -1537,7 +1537,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							reason="lost">εί</supplied></w>
 					<lb n="18"/><w part="F">αι</w>
 					<w>ε<unclear>ὐ</unclear>θεῖαι</w> ἠγμέναι ἐπιψαύουσαι <lb n="19"/>τοῦ
-							<w>κύκ<unclear>λ</unclear><supplied reason="lost">ο</supplied>υ</w>· δεικτέον <choice>
+							<w>κύκ<unclear>λ</unclear><supplied reason="lost">ο</supplied>υ</w>: δεικτέον <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> τὰ <w part="I">π<unclear>αρ</unclear><supplied reason="lost">αλλη</supplied></w>
@@ -1554,7 +1554,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ἐπιφανεί</abbr>
 						<expan>ἐπιφανεί<ex>ας</ex></expan>
 					</choice>
-					<lb n="28"/>τῆς ἑτέρας βάσεως· τὰ δὴ <w part="I">παραλ</w>
+					<lb n="28"/>τῆς ἑτέρας βάσεως: τὰ δὴ <w part="I">παραλ</w>
 					<lb n="29"/><w part="F">ληλόγραμμα</w> τὰ περιεχόμενα ὑπὸ <lb n="30"/>τῶν ΑΗ ΗΓ καὶ τῶν πλευρῶν τοῦ
 						<w part="I">κυ</w>
 					<lb n="31"/><w part="F">λίνδρου</w> μείζονά ἐστιν τῶν <w part="I">παραλ</w>
@@ -1565,7 +1565,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="33"/>ὑπό τε τῶν ΑΕ ΕΖ ΖΓ <w>κα<supplied reason="lost">ὶ</supplied></w>
 					<w><unclear>τ</unclear>ῆς</w>
 					<w><supplied reason="lost">π</supplied>λευρ<supplied reason="lost">ᾶς</supplied></w>
-					<lb n="34"/>τοῦ κυλίνδρου· ἐπεὶ γὰρ αἱ ΕΗ ΗΖ τῆς <lb n="35"/>ΕΖ μείζους <unclear>
+					<lb n="34"/>τοῦ κυλίνδρου: ἐπεὶ γὰρ αἱ ΕΗ ΗΖ τῆς <lb n="35"/>ΕΖ μείζους <unclear>
 						<choice>
 							<abbr></abbr>
 							<expan><ex>εἰσίν</ex></expan>
@@ -1574,7 +1574,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κείσθω<supplied reason="lost">σ</supplied>α<unclear>ν</unclear></abbr>
 						<expan><ex>προσ</ex>κείσθω<supplied reason="lost">σ</supplied>α<unclear>ν</unclear></expan>
 					</choice>
-					<lb n="36"/>αἱ ΑΕ ΖΓ·
+					<lb n="36"/>αἱ ΑΕ ΖΓ:
 					<w><supplied reason="lost">ὅλ</supplied>αι</w>
 					<unclear>
 						<choice>
@@ -1634,7 +1634,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="19"/><w>ἀ<unclear>π</unclear>εναντίον</w> αὐτοῦ <w>π<supplied reason="lost"
 						>έρ</supplied>ας</w> ἡ <w part="I">αὐ</w>
 					<milestone n="134r1" unit="folio"/>
-					<lb n="20"/><w part="F">τὴ</w> περίμετρος· αἱ οὖν εἰρημέναι <lb n="21"/>ἐπιφάνειαι τὸ αὐτὸ
+					<lb n="20"/><w part="F">τὴ</w> περίμετρος: αἱ οὖν εἰρημέναι <lb n="21"/>ἐπιφάνειαι τὸ αὐτὸ
 					πέρας <w part="I">ἔχου</w>
 					<lb n="22"/><w part="F">σαι</w> τυγχάνουσιν, ὅπερ ἐστὶν ἐν <w part="I">ἐ</w>
 					<lb n="23"/><w part="F">πιπέδωι</w>, καί <choice>
@@ -1644,7 +1644,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="24"/><w part="F">πὶ</w> τὰ αὐτὰ κοῖλαι, καί τινα μὲν <lb n="25"/>περιλαμβάνει ἡ
 					ἑτέρα αὐτῶν,
 					<w part="I">τι</w>
-					<lb n="26"/><w part="F">νὰ</w> δὲ κοινὰ ἔχουσιν· ἐλάσσων <lb n="27"/><choice>
+					<lb n="26"/><w part="F">νὰ</w> δὲ κοινὰ ἔχουσιν: ἐλάσσων <lb n="27"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -1671,12 +1671,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>εἰσὶν</ex></expan>
 					</choice> τῆς ἐπιφανείας τῆς <w part="I">συγκει</w>
 					<lb n="5"/><w part="F">μένης</w> ἔκ τῶν <w part="I">παραλληλογράμ</w>
-					<lb n="6"/><w part="F">μων</w> τῶν κατὰ τὰς ΑΗ ΗΓ· μετὰ <choice>
+					<lb n="6"/><w part="F">μων</w> τῶν κατὰ τὰς ΑΗ ΗΓ: μετὰ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
 					<lb n="7"/>τοῦ Κ μείζονος ὄντος τῶν <w part="I">σχη</w>
-					<lb n="8"/><w part="F">μάτων</w> ἴσαι ἦσαν αὐτοῖς· δῆλον <lb n="9"/>οὖν <choice>
+					<lb n="8"/><w part="F">μάτων</w> ἴσαι ἦσαν αὐτοῖς: δῆλον <lb n="9"/>οὖν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> τὰ παραλληλόγραμμα <lb n="10"/>τὰ περιεχόμενα ὑπὸ τῶν ΑΗ ΓΗ <lb n="11"/>καὶ τῶν πλευρῶν
@@ -1707,10 +1707,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>, ἐὰν εἰς <w part="I">κῶ</w>
 					<lb n="24"/><w part="F">νον</w> ἰσοσκελῆ πυραμὶς ἐγγραφῆι,
 					<lb n="25"/>ἡ ἐπιφάνεια τῆς πυραμίδος <w part="I">χω</w>
-					<lb n="26"/><w part="F">ρὶς</w> τῆς βάσεως ἐλάσσων ἐστὶ τῆς <lb n="27"/>κωνικῆς ἐπιφανείας·
+					<lb n="26"/><w part="F">ρὶς</w> τῆς βάσεως ἐλάσσων ἐστὶ τῆς <lb n="27"/>κωνικῆς ἐπιφανείας:
 					ἕκαστον <lb n="28"/>γὰρ τῶν περιεχόντων τὴν <w part="I">πυρα</w>
 					<lb n="29"/><w part="F">μίδα</w> τριγώνων ἔλασσόν ἐστιν <lb n="30"/>τῆς κωνικῆς ἐπιφανείας τῆς <lb
-						n="31"/>μεταξὺ τοῦ τριγώνου πλευρῶν·
+						n="31"/>μεταξὺ τοῦ τριγώνου πλευρῶν:
 					<lb n="32"/>ὥστε καὶ ἡ ὅλη ἐπιφάνεια τῆς <lb n="33"/>πυραμίδος χωρὶς τῆς βάσεως <lb n="34"/>ἐλάσσων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
@@ -1749,7 +1749,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τῆς ἐπιφανείας <lb n="13"/>τοῦ κυλίνδρου χωρὶς τῆς <w part="I">βάσε</w>
-					<lb n="14"/><w part="F">ως</w>· ἔλασσον γὰρ ἕκαστον <w part="I">παραλ</w>
+					<lb n="14"/><w part="F">ως</w>: ἔλασσον γὰρ ἕκαστον <w part="I">παραλ</w>
 					<lb n="15"/><w part="F">ληλόγραμμον</w> τοῦ πρίσματός <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστι</ex></expan>
@@ -1804,7 +1804,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					/>κείσθω κύκλος, οὗ ἐκ τοῦ κέντρου ἴση <lb n="10"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῆι Η ΟΒ· δεικτέον <choice>
+					</choice> τῆι Η ΟΒ: δεικτέον <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ Β κύκλος <lb n="11"/>ἴσος <choice>
@@ -1850,13 +1850,13 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="26"/><w part="F">γραμμον</w> ὅμοιον τῶι περὶ τὸν Β <lb n="27"/>περιγεγραμμένω, καὶ
 						<w part="I">ἀναγεγρά</w>
 					<lb n="28"/><w part="F">φθω</w> ἀπὸ τοῦ εὐθυγράμμου <w part="I">πρίσ</w>
-					<lb n="29"/><w part="F">μα</w>· ἔσται δὴ περὶ τὸν κύλινδρον <lb n="30"
+					<lb n="29"/><w part="F">μα</w>: ἔσται δὴ περὶ τὸν κύλινδρον <lb n="30"
 						/>περιγεγραμμένον. ἔστω δὴ καὶ τῆι <lb n="31"/>περιμέτρω τοῦ εὐθυγράμμου τοῦ <choice>
 						<abbr></abbr>
 						<expan><ex>περὶ</ex></expan>
 					</choice>
 					<lb n="32"/>τὸν Α κύκλον ἴση ἡ ΚΔ καὶ τῆι ΚΔ <lb n="33"/>ἴση ἡ ΛΞ, τῆς δὲ ΓΔ ἡμίσεια ἔστω ἡ
-						<lb n="34"/>ΓΔΤ· ἔσται δὴ τὸ ΚΔΤ τρίγωνον <choice>
+						<lb n="34"/>ΓΔΤ: ἔσται δὴ τὸ ΚΔΤ τρίγωνον <choice>
 						<abbr><supplied reason="lost">ἴσ</supplied>ο</abbr>
 						<expan><supplied reason="lost">ἴσ</supplied>ο<ex>ν</ex></expan>
 					</choice>
@@ -1887,7 +1887,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice>
 					</supplied> τῆς ἴσης τῆι περιμέτρωι τῆς <lb n="11"/>βάσεως τοῦ πρίσματος. κείσθω δὴ <lb
 						n="12"/>τῆι <supplied reason="lost">Ε</supplied>Ζ ἴση ἡ <supplied reason="lost"
-						>Ε</supplied>Ρ· ἴσον ἄρα ἐστὶν τὸ Ζ<unclear>ΡΛ</unclear>
+						>Ε</supplied>Ρ: ἴσον ἄρα ἐστὶν τὸ Ζ<unclear>ΡΛ</unclear>
 					<lb n="13"/>τρίγωνον τῶι ΕΛ <w part="I">παραλληλογράμ</w>
 					<lb n="14"/><w part="F">μωι</w>, ὥστε <choice>
 						<abbr></abbr>
@@ -1900,7 +1900,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="19"/><supplied reason="lost">ἐκ</supplied>
 					<supplied reason="lost">τῶν</supplied>
 					<supplied reason="lost">κέντρων</supplied>
-					<w><supplied reason="lost">δυνάμε</supplied><unclear>ι</unclear></w>·
+					<w><supplied reason="lost">δυνάμε</supplied><unclear>ι</unclear></w>:
 					<w><supplied reason="lost">ἕ</supplied><unclear>ξ</unclear><supplied reason="lost"
 							>ε</supplied><unclear>ι</unclear></w>
 					<supplied reason="lost">
@@ -1917,7 +1917,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
-					<lb n="22"/>Η δυνάμει· αἱ γὰρ ΤΔΗ ἴσαι εἰσὶν <lb n="23"/>ταῖς ἐκ τῶν κέντρων. ἀλλ’
+					<lb n="22"/>Η δυνάμει: αἱ γὰρ ΤΔΗ ἴσαι εἰσὶν <lb n="23"/>ταῖς ἐκ τῶν κέντρων. ἀλλ’
 					ὃν <w part="I">ἔ</w>
 					<lb n="24"/><w part="F">χει</w> λόγον ἡ ΤΔ <choice>
 						<abbr></abbr>
@@ -1930,18 +1930,18 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΤΔ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΡΖ μήκει· ἡ <lb n="26"/><choice>
+					</choice> ΡΖ μήκει: ἡ <lb n="26"/><choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> Η τῶν Τ<unclear>Δ</unclear> ΡΖ μέση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> ἀνάλογον <lb n="27"/>διὰ τὸ καὶ τῶν ΓΔ ΕΖ· πῶς δὲ τοῦτο;
+					</choice> ἀνάλογον <lb n="27"/>διὰ τὸ καὶ τῶν ΓΔ ΕΖ: πῶς δὲ τοῦτο;
 					<lb n="28"/>ἐπεὶ γὰρ ἴση ἐστὶν ἡ <supplied reason="lost">μὲν</supplied>
 					<supplied reason="lost">ΔΤ</supplied> τῆι ΓΗ,
 					<lb n="29"/>ἡ δὲ ΡΕ τῆι ΕΖ,
 					<w>διπλ<supplied reason="lost">ασία</supplied></w> ἄρα ἐστὶν <lb n="30"/>ἡ ΤΔ τῆς ΓΔ, καὶ ἡ
-					ΡΖ τῆς ΡΕ·
+					ΡΖ τῆς ΡΕ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
@@ -1961,7 +1961,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὑπὸ τῶν ΓΔ ΕΖ ἴσον ἐστὶν τῶι <lb n="33"/>ὑπὸ τῶν ΤΔ ΡΖ. τῶ δὲ ὑπὸ τῶν ΓΔ <lb
-						n="34"/><supplied reason="lost">ΕΖ</supplied> ἴσον ἐστὶν τὸ ἀπὸ Η· καὶ τῶι ὑπὸ
+						n="34"/><supplied reason="lost">ΕΖ</supplied> ἴσον ἐστὶν τὸ ἀπὸ Η: καὶ τῶι ὑπὸ
 						<milestone n="38v2" unit="folio"/>
 					<lb n="1"/>τῶν ΤΔ <unclear>Ρ</unclear>Ζ <choice>
 						<abbr></abbr>
@@ -1973,7 +1973,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><supplied reason="lost">τ</supplied>ὸ</w>
 					<supplied reason="lost">ἀπὸ</supplied>
 					<w><unclear>τ</unclear>ῆς</w>
-					<lb n="2"/>Η·
+					<lb n="2"/>Η:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
@@ -2017,7 +2017,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<w><supplied reason="lost">τ</supplied>ὸ</w>
 					<w part="I"><unclear>ἀ</unclear></w>
-					<lb n="4"/><w part="F">πὸ</w> τῆς Η· ἐὰν <choice>
+					<lb n="4"/><w part="F">πὸ</w> τῆς Η: ἐὰν <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> τρεῖς <w><supplied reason="lost">εὐ</supplied><unclear>θ</unclear><supplied reason="lost"
@@ -2036,7 +2036,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<w><unclear>δ</unclear>ευτέρας</w>
 					<w part="I">εἶ</w>
 					<lb n="8"/><w part="F">δος</w> τὸ ὅμοιον καὶ ὁμοίως <w part="I">ἀναγεγρα</w>
-					<lb n="9"/><w part="F">μμένον</w>· ὃν δὲ λόγον ἔχει ἡ ΤΔ <choice>
+					<lb n="9"/><w part="F">μμένον</w>: ὃν δὲ λόγον ἔχει ἡ ΤΔ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
@@ -2045,12 +2045,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸ ΡΛΖ· ἐπειδήπερ ἴσαι <choice>
+					</choice> τὸ ΡΛΖ: ἐπειδήπερ ἴσαι <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
 					</choice>
 					<w><unclear>α</unclear>ἱ</w>
-					<lb n="12"/>ΚΔ ΛΖ· τὸν αὐτὸν ἄρα λόγον ἔχει <lb n="13"/>τὸ ΚΤΔ τρίγωνον <choice>
+					<lb n="12"/>ΚΔ ΛΖ: τὸν αὐτὸν ἄρα λόγον ἔχει <lb n="13"/>τὸ ΚΤΔ τρίγωνον <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> τὸ <w part="I">εὐθύγραμ</w>
@@ -2071,7 +2071,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							>γραμμένωι</supplied></w>
 					<w part="I"><supplied reason="lost">εὐθυ</supplied></w>
 					<milestone n="35r2" unit="folio"/>
-					<lb n="19"/><w part="F">γράμμω</w>· ὥστε καὶ ἡ ἐπιφάνεια <lb n="20"/>τοῦ πρίσματος τοῦ περὶ
+					<lb n="19"/><w part="F">γράμμω</w>: ὥστε καὶ ἡ ἐπιφάνεια <lb n="20"/>τοῦ πρίσματος τοῦ περὶ
 					τὸν Α <w part="I">κύ</w>
 					<lb n="21"/><w part="F">λινδρον</w> περιγεγραμμένου τῶι <lb n="22"/>εὐθυγράμμωι τὸ περὶ τὸν Β <choice>
 						<abbr>κύκλ</abbr>
@@ -2107,11 +2107,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
-					<lb n="34"/>τὸν Β κύκλον· καὶ <w>ἐναλλ<unclear>άξ</unclear></w>·
+					<lb n="34"/>τὸν Β κύκλον: καὶ <w>ἐναλλ<unclear>άξ</unclear></w>:
 					<w><supplied reason="lost">ὅ</supplied>περ</w>
 					<milestone n="Arch51r" unit="underTextFolio"/><milestone n="99r1" unit="folio"/>
 					<lb n="1"/><w><unclear>ἀ</unclear>δύ<unclear>ν</unclear><supplied reason="lost"
-						>ατον</supplied></w>·
+						>ατον</supplied></w>:
 					<unclear>ἡ</unclear>
 					<w><unclear>μὲ</unclear>ν</w> γὰρ <w>ἐπι<supplied reason="lost">φάνεια</supplied></w>
 					<lb n="2"/>τοῦ <w><supplied reason="lost">π</supplied><unclear>ρ</unclear><supplied reason="lost"
@@ -2167,7 +2167,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I"><supplied reason="lost">πρί</supplied><unclear>σ</unclear></w>
 					<lb n="19"/><w part="F">μα</w> ἀναγεγράφθω ἀπὸ τοῦ ἐν <lb n="20"/><w>τ<unclear>ῶι</unclear></w>
 					<w><supplied reason="lost">κ</supplied><unclear>ύ</unclear>κλωι</w> ἐγγεγραμμένου <w part="I">πο</w>
-					<lb n="21"/><w part="F">λυγώνου</w>· καὶ πάλιν ἡ ΚΔ ἴση <lb n="22"/>τῆι περιμέτρωι τοῦ <choice>
+					<lb n="21"/><w part="F">λυγώνου</w>: καὶ πάλιν ἡ ΚΔ ἴση <lb n="22"/>τῆι περιμέτρωι τοῦ <choice>
 						<abbr>εὐθυγράμμ</abbr>
 						<expan>εὐθυγράμμ<ex>ου</ex></expan>
 					</choice>
@@ -2178,7 +2178,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>μεῖζο<ex>ν</ex></expan>
 					</choice>
 					<lb n="26"/>τοῦ εὐθυγράμμου τοῦ ἐν τῶι Α <w part="I"><unclear>κ</unclear>ύ</w>
-					<lb n="27"/><w part="F">κλωι</w> ἐγγεγραμμένου·
+					<lb n="27"/><w part="F">κλωι</w> ἐγγεγραμμένου:
 					<choice>
 						<abbr>δι</abbr>
 						<expan>δι<ex>ότι</ex></expan>
@@ -2189,7 +2189,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr><unclear>καθ</unclear>έτ</abbr>
 						<expan><unclear>καθ</unclear>έτ<ex>ου</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="32"/>τὸ δὲ ΕΛ <w>παραλληλόγραμμ<supplied reason="lost">ον</supplied></w>
 					<choice>
 						<abbr>ἴσ<supplied reason="lost"></supplied></abbr>
@@ -2201,7 +2201,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><supplied reason="lost">τ</supplied><unclear>ῶν</unclear></w>
 					<w><supplied reason="lost">π</supplied>αρα<supplied reason="lost">λληλ</supplied>ογράμμων</w>
 					<milestone n="99r2" unit="folio"/>
-					<lb n="1"/>συγκειμένηι·
+					<lb n="1"/>συγκειμένηι:
 					<choice>
 						<abbr>δι</abbr>
 						<expan>δι<ex>ότι</ex></expan>
@@ -2217,7 +2217,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><supplied reason="lost">εὐ</supplied><unclear>θυ</unclear>γράμμου</w>, ὅς <lb n="4"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
-					</choice> βάσις τοῦ <w><unclear>π</unclear>ρίσματος</w>·
+					</choice> βάσις τοῦ <w><unclear>π</unclear>ρίσματος</w>:
 					<w><supplied reason="lost">ὥ</supplied>στ<supplied reason="lost">ε</supplied></w> καὶ <lb n="5"/>τὸ
 					ΡΛΖ <w>τρίγω<unclear>ν</unclear>ον</w>
 					<w>ἴ<unclear>σ</unclear><supplied reason="lost">ον</supplied></w>
@@ -2268,7 +2268,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κύ<unclear>κ</unclear>λω</abbr>
 						<expan>κύ<unclear>κ</unclear>λω<ex>ν</ex></expan>
 					</choice>
-					<lb n="13"/>δυνάμει· τὸν αὐτὸν ἄρα <w>λ<unclear>ό</unclear>γον</w> ἔχει <lb n="14"/>τὸ
+					<lb n="13"/>δυνάμει: τὸν αὐτὸν ἄρα <w>λ<unclear>ό</unclear>γον</w> ἔχει <lb n="14"/>τὸ
 					εὐθύγραμμον τὸ ἐν τῶι Β <w part="I"><supplied reason="lost">ἐγγε</supplied></w>
 					<lb n="15"/><w part="F">γραμμένον</w>
 					<choice>
@@ -2300,18 +2300,18 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>τ<unclear></unclear></abbr>
 						<expan>τ<unclear><ex>οῦ</ex></unclear></expan>
-					</choice> ΚΤΔ <supplied reason="lost">τριγώνου</supplied>·
+					</choice> ΚΤΔ <supplied reason="lost">τριγώνου</supplied>:
 					<lb n="19"/>ἔλασσον ἄρα τὸ <w>εὐ<unclear>θ</unclear>ύγ<unclear>ρ</unclear>αμμον</w> τὸ <lb n="20"
 					/>ἐν τῶι Β κύκλωι ἐγγεγραμμένον <choice>
 						<abbr>τ<unclear></unclear></abbr>
 						<expan>τ<unclear><ex>οῦ</ex></unclear></expan>
 					</choice>
-					<lb n="21"/>ΖΡΛ τριγώνου·
+					<lb n="21"/>ΖΡΛ τριγώνου:
 					<w><unclear>ὥσ</unclear>τε</w> καὶ τῆς <w part="I">ἐπιφα</w>
 					<lb n="22"/><w part="F">νείας</w> τοῦ πρίσματος τοῦ <w>ἐ<unclear>ν</unclear></w>
 					<unclear>τῶ</unclear>
-					<lb n="23"/><sic>κυλίνωι</sic> ἐγγεγραμμένου· ὅπερ <w part="I">ἀ</w>
-					<lb n="24"/><w part="F">δύνατον</w>· ἐπεὶ γὰρ ἐλάσσονα <choice>
+					<lb n="23"/><sic>κυλίνωι</sic> ἐγγεγραμμένου: ὅπερ <w part="I">ἀ</w>
+					<lb n="24"/><w part="F">δύνατον</w>: ἐπεὶ γὰρ ἐλάσσονα <choice>
 						<abbr>λόγο</abbr>
 						<expan>λόγο<ex>ν</ex></expan>
 					</choice>
@@ -2367,7 +2367,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<abbr>κυλί</abbr>
 							<expan>κυλί<ex>ν</ex></expan>
 						</choice></w>
-					<lb n="33"/><w part="F"><supplied reason="lost">δ</supplied>ρου</w>· ὥστε καὶ τῆς
+					<lb n="33"/><w part="F"><supplied reason="lost">δ</supplied>ρου</w>: ὥστε καὶ τῆς
 							<w>ἐπι<supplied reason="lost">φ</supplied>ανείας</w> τοῦ <lb n="34"/><supplied reason="lost"
 						>πρίσματος</supplied>.
 					<w><unclear>οὐ</unclear>κ</w>
@@ -2383,7 +2383,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="2"/><w part="F">δείχθη</w> δὲ <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
-					</choice> οὐδὲ ἐλάσσων· ἴσον <choice>
+					</choice> οὐδὲ ἐλάσσων: ἴσον <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -2421,7 +2421,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κύκλ</abbr>
 						<expan>κύκλ<ex>ος</ex></expan>
 					</choice>
-					<lb n="14"/>ἐχέτω τὴν ἐκ τοῦ κέντρου τῆ Ε <lb n="15"/>ἴσην· λέγω <choice>
+					<lb n="14"/>ἐχέτω τὴν ἐκ τοῦ κέντρου τῆ Ε <lb n="15"/>ἴσην: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ κύκλος <choice>
@@ -2437,7 +2437,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">με</w>
 					<lb n="20"/><w part="F">γέθη</w> ἄνισα ἥ τε <w>ἐπι<supplied reason="lost">φάνεια</supplied></w>
 					<lb n="21"/>τοῦ κώνου καὶ ὁ Β <w><unclear>κύκλ</unclear>ος</w>, καὶ <lb n="22"/>μείζων ἡ
-					ἐπιφάνεια τοῦ κώνου·
+					ἐπιφάνεια τοῦ κώνου:
 					<lb n="23"/>δυνατὸν ἄρα εἰς τὸν Β κύκλον <w part="I">πολύ</w>
 					<lb n="24"/><w part="F">γωνον</w> ἰσόπλευρον <w>ἐγ<supplied reason="lost"
 							>γ</supplied><unclear>ρ</unclear><supplied reason="lost">ά</supplied>ψαι</w>
@@ -2533,7 +2533,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="24"/><w part="F">γεγραμμένης</w> περὶ τὸν <choice>
 						<abbr>κῶν</abbr>
 						<expan>κῶν<ex>ον</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="25"/>ἡ μὲν γὰρ Γ ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
@@ -2546,12 +2546,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>πλευρὰ<ex>ν</ex></expan>
 					</choice>
 					<lb n="27"/>τοῦ πολυγώνου, ἡ δὲ Δ τῆι <w part="I">πλευ</w>
-					<lb n="28"/><w part="F">ρᾶι</w> τοῦ κώνου· κοινὸν δὲ ὕψος <lb n="29"/>ἡ
+					<lb n="28"/><w part="F">ρᾶι</w> τοῦ κώνου: κοινὸν δὲ ὕψος <lb n="29"/>ἡ
 							<w>περίμετρ<unclear>ο</unclear>ς</w> τοῦ πολυγώνου <choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="30"/>τὰ ἡμίση τῶν ἐπιφανειῶν·
+					<lb n="30"/>τὰ ἡμίση τῶν ἐπιφανειῶν:
 					<choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ὸν</ex></expan>
@@ -2607,7 +2607,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ποιείτω τομὴν <lb n="11"/>τὴν ΔΕ, ἄξων δὲ τοῦ κώνου ἔστω ὁ ΒΗ,
 					<lb n="12"/>κύκλος δέ τις ἐκκείσθω, οὗ ἡ ἐκ τοῦ <lb n="13"/>κέντρου μέση ἀνάλογόν ἐστι τῆς
 						<lb n="14"/>τε ΑΔ καὶ συναμφοτέρου τῆς <lb n="15"/>ΔΖ ΗΑ, ἔστω δὲ ὁ κύκλος ὁ
-						Θ· λέγω <lb n="16"/><choice>
+						Θ: λέγω <lb n="16"/><choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ Θ κύκλος ἴσος <choice>
@@ -2619,7 +2619,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					μὲν Κ κύκλου ἡ ἐκ <milestone n="29v1" unit="folio"/>
 					<lb n="20"/>τοῦ κέντρου δυνάσθω τὸ ὑπὸ τὸ <lb n="21"/>ΒΔΖ, τοῦ δὲ Λ ἡ ἐκ τοῦ κέντρου <w
 						part="I">δυ</w>
-					<lb n="22"/><w part="F">νάσθω</w> τὸ ὑπὸ ΒΑΗ· ὁ μὲν ἄρα Λ <lb n="23"/>κύκλος ἴσος ἐστὶν τῆι
+					<lb n="22"/><w part="F">νάσθω</w> τὸ ὑπὸ ΒΑΗ: ὁ μὲν ἄρα Λ <lb n="23"/>κύκλος ἴσος ἐστὶν τῆι
 					ἐπιφανείαι <lb n="24"/><choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
@@ -2652,7 +2652,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice>
 					<lb n="36"/>τοῖς ἀπὸ τῶν ἐκ τῶν κέντρων <milestone n="34r2" unit="folio"/>
-					<lb n="1"/>τῶν ΚΘ κύκλων·
+					<lb n="1"/>τῶν ΚΘ κύκλων:
 					<w>ὥσ<unclear>τ</unclear>ε</w>
 					<unclear>καὶ</unclear>
 					<supplied reason="lost">ὁ</supplied>
@@ -2681,7 +2681,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w>ἐπι<supplied reason="lost">φανείαι</supplied></w>
 					<supplied reason="lost">τοῦ</supplied>
 					<w><supplied reason="lost">Δ</supplied><unclear>Β</unclear><supplied reason="lost">Ε</supplied></w>
-					<supplied reason="lost">κώνου</supplied>·
+					<supplied reason="lost">κώνου</supplied>:
 					<lb n="5"/>λοιπὴ <unclear>
 						<choice>
 							<abbr></abbr>
@@ -2715,7 +2715,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="10"/>τετμήσθω ἡ ΒΑ πλευρά, ὡς ἔτυχεν,
 					<lb n="11"/>κατὰ τὸ Δ, καὶ διὰ τοῦ Δ ἤχθω <w part="I">πα</w>
 					<lb n="12"/><w part="F">ράλληλος</w> τῆι ΑΗ ἡ ΔΘ, διὰ δὲ τοῦ Ζ <lb n="13"/>τῆι ΒΑ ἡ
-						ΚΛ·
+						ΚΛ:
 					<w><supplied reason="lost">λ</supplied><unclear>έ</unclear>γω</w>
 					<choice>
 						<abbr></abbr>
@@ -2759,7 +2759,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><supplied reason="lost">τ</supplied>ῆς</w>
 					<w><supplied reason="lost">Δ</supplied><unclear>Ζ</unclear></w>
 					<unclear>ΑΛ</unclear> ὁ <supplied reason="lost">ΜΝΞ</supplied>
-					<lb n="19"/>γνώμων· τῶ <w>μ<supplied reason="lost">ὲν</supplied></w> γὰρ <w>ὑ<supplied
+					<lb n="19"/>γνώμων: τῶ <w>μ<supplied reason="lost">ὲν</supplied></w> γὰρ <w>ὑ<supplied
 							reason="lost">πὸ</supplied></w>
 					<w><supplied reason="lost">Δ</supplied>ΑΗ</w>
 					<w part="I"><supplied reason="lost">ἴ</supplied></w>
@@ -2774,7 +2774,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							reason="lost">ὑ</supplied><unclear>π</unclear>ὸ</w>
 					<unclear>ΔΑ</unclear>
 					<supplied reason="lost">ΔΖ</supplied>
-					<lb n="23"/><w>τ<unclear>ὸ</unclear></w> ΔΛ· ὅλον ἄρα <supplied reason="lost">τὸ</supplied>
+					<lb n="23"/><w>τ<unclear>ὸ</unclear></w> ΔΛ: ὅλον ἄρα <supplied reason="lost">τὸ</supplied>
 					<w><supplied reason="lost">Β</supplied>Η</w>,
 					<w><unclear>ὅ</unclear>π<supplied reason="lost">ε</supplied>ρ</w>
 					<supplied reason="lost">ἐστὶν</supplied>
@@ -2799,7 +2799,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>ἔχ<ex>ον</ex>τες</expan>
 					</choice>
 					<lb n="4"/>τὸν αὐτὸν ἔχουσι λόγον ταῖς <w part="I">βάσε</w>
-					<lb n="5"/><w part="F">σιν</w>· καὶ οἱ ἴσας ἔχοντες βάσεις τὸν <lb n="6"/>αὐτὸν ἔχουσι
+					<lb n="5"/><w part="F">σιν</w>: καὶ οἱ ἴσας ἔχοντες βάσεις τὸν <lb n="6"/>αὐτὸν ἔχουσι
 					λόγον τοῖς <choice>
 						<abbr>ὕψεσι</abbr>
 						<expan>ὕψεσι<ex>ν</ex></expan>
@@ -2827,7 +2827,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice> τῶν ἴσων κώνων <w part="I">ἀντιπεπόν</w>
-					<lb n="14"/><w part="F">θασιν</w> αἱ βάσεις τοῖς ὕψεσιν· καὶ <lb n="15"/>ὧν ἀντιπεπόνθασιν
+					<lb n="14"/><w part="F">θασιν</w> αἱ βάσεις τοῖς ὕψεσιν: καὶ <lb n="15"/>ὧν ἀντιπεπόνθασιν
 					αἱ βάσεις <lb n="16"/>τοῖς ὕψεσιν,
 					<w><unclear>ἴ</unclear>σο<unclear>ι</unclear></w>
 					<unclear>
@@ -2892,7 +2892,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice> Θ <lb n="35"/>ἐπὶ μίαν πλευρὰν τοῦ κώνου, οἷον <lb n="36"/>ἐπὶ τὴν <w>Δ<supplied
-							reason="lost">Ε</supplied></w>, καθέτωι ἠγμένη τῆι ΚΘ·
+							reason="lost">Ε</supplied></w>, καθέτωι ἠγμένη τῆι ΚΘ:
 					<milestone n="34v2" unit="folio"/>
 					<lb n="1"/><supplied reason="lost">λέγω</supplied>
 					<choice>
@@ -2940,7 +2940,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ὴν</ex></expan>
-					</choice> ΘΚ·
+					</choice> ΘΚ:
 					<w part="I">ἐδεί</w>
 					<lb n="9"/><w part="F">χθη</w> γὰρ τοῦτο,
 					<choice>
@@ -2977,7 +2977,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΕΘ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΘΚ·
+					</choice> ΘΚ:
 					<w part="I">ἰσο</w>
 					<lb n="15"/><w part="F">γώνια</w> γάρ <choice>
 						<abbr></abbr>
@@ -2985,7 +2985,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὰ τρίγωνα. ἴση δέ <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
-					</choice> ἡ <lb n="16"/>ΘΚ τῆι ΑΗ· ὡς <choice>
+					</choice> ἡ <lb n="16"/>ΘΚ τῆι ΑΗ: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἡ βάσις <choice>
@@ -3007,7 +3007,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
 					<w>ἀντιπ<unclear>ε</unclear>πόνθασιν</w> αἱ βάσεις τοῖς <milestone n="29r2" unit="folio"/>
-					<lb n="20"/>ὕψεσιν· ἴσος <choice>
+					<lb n="20"/>ὕψεσιν: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -3099,7 +3099,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ τὰς βάσεις αὐτῶν <choice>
 						<abbr></abbr>
 						<expan><ex>εἶναι</ex></expan>
-					</choice> ἴσας·
+					</choice> ἴσας:
 					<lb n="8"/>ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -3114,7 +3114,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ὁ ΑΒΓ ῥόμβος <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸν <lb n="10"/>ΒΓΔ <w><supplied reason="lost">κ</supplied>ῶνον</w>· ἴσος ἄρα
+					</choice> τὸν <lb n="10"/>ΒΓΔ <w><supplied reason="lost">κ</supplied>ῶνον</w>: ἴσος ἄρα
 					ἐστὶν ὁ ΜΝΞ <lb n="11"/>τῶι ΑΒΓΔ ῥόμβωι.
 					<choice>
 						<abbr></abbr>
@@ -3145,7 +3145,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="15"/>ΗΘΚ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὴν βάσιν τοῦ ΜΝΞ· ἡ <choice>
+					</choice> τὴν βάσιν τοῦ ΜΝΞ: ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
@@ -3190,7 +3190,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ὁ ΜΝΞ <w><unclear>κῶ</unclear>νος</w>
-					<unclear>τῶι</unclear> Α <lb n="2"/>ΒΓ <w>κών<unclear>ω</unclear>ι</w>· ἐὰν γὰρ ὦσι δύο
+					<unclear>τῶι</unclear> Α <lb n="2"/>ΒΓ <w>κών<unclear>ω</unclear>ι</w>: ἐὰν γὰρ ὦσι δύο
 					κῶνοι <lb n="3"/>ἰσοσκελεῖς, ἡ δὲ τοῦ ἑτέρου <w>κώ<unclear>ν</unclear><supplied
 							reason="lost">ου</supplied></w>
 					<lb n="4"/>ἐπιφάνεια ἴση ἦ τῆι τοῦ ἑτέρου <lb n="5"/>βάσει, ἔτι δὲ ἡ ἀπὸ τοῦ κέντρου <lb
@@ -3203,7 +3203,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ὁ ΟΠ<unclear>Ρ</unclear> κῶνος τῶι ΒΔ ΖΕ <w part="I">ῥόμ</w>
-					<lb n="13"/><w part="F">βωι</w>· τοῦτο γὰρ προαπεδείχθη. ἐπεὶ <lb n="14"/>δὲ ἡ τοῦ
+					<lb n="13"/><w part="F">βωι</w>: τοῦτο γὰρ προαπεδείχθη. ἐπεὶ <lb n="14"/>δὲ ἡ τοῦ
 						Α<supplied reason="lost">Β</supplied>Γ κώνου ἐπιφάνεια <lb n="15"/>σύγκειται ἔκ τε τῆς τοῦ ΔΒΕ
 						<w part="I">ἐπι</w>
 					<lb n="16"/><w part="F">φανείας</w> καὶ τῆς μεταξὺ τῶν <lb n="17"/>ΔΕ ΑΓ, ἀλλ’ ἡ μὲν τοῦ
@@ -3262,7 +3262,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τὴ<ex>ν</ex></expan>
 					</choice>
 					<lb n="9"/>ΕΖ κύκλον κῶνος <w>ἀναγεγ<supplied reason="lost">ράφ</supplied>θ<unclear>ω</unclear></w>
-					<lb n="10"/>τὴν κορυφὴν ἔχων τὸ Δ σημεῖον·
+					<lb n="10"/>τὴν κορυφὴν ἔχων τὸ Δ σημεῖον:
 					<lb n="11"/><w>ἔστ<supplied reason="lost">α</supplied>ι</w> δὴ γεγονὼς ῥόμβος ὁ ΕΒΔΖ.
 					<lb n="12"/>καὶ νοείσθω ἀφηρημένος ἀπὸ <lb n="13"/>τοῦ ὅλου ῥόμβου, ἐκκείσθω δέ τις <lb
 						n="14"/>κῶνος ὁ ΘΚΛ τὴν μὲν βάσιν <w part="I">ἴ</w>
@@ -3273,7 +3273,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">εὐ</w>
 					<milestone n="36v1" unit="folio"/>
 					<lb n="19"/><w part="F"><supplied reason="lost">θ</supplied><unclear>είας</unclear></w>
-					<w><unclear>αὐ</unclear>τῆι</w>· λέγω <choice>
+					<w><unclear>αὐ</unclear>τῆι</w>: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ ΘΚΛ <choice>
@@ -3345,7 +3345,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>εἰσιν</ex></expan>
 					</choice> οἱ <w>κῶ<supplied reason="lost">νοι</supplied></w>
 					<w part="I">ὑ</w>
-					<lb n="7"/><w part="F">πὸ</w> τὸ αὐτὸ <w>ὕ<unclear>ψ</unclear>ος</w>· καὶ ὁ ΜΝΞ <unclear>
+					<lb n="7"/><w part="F">πὸ</w> τὸ αὐτὸ <w>ὕ<unclear>ψ</unclear>ος</w>: καὶ ὁ ΜΝΞ <unclear>
 						<choice>
 							<abbr></abbr>
 							<expan><ex>ἄρα</ex></expan>
@@ -3361,7 +3361,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τῶι <w part="I">Α</w>
 					<lb n="10"/><w part="F">ΒΓΔ</w> ῥόμβωι, ὁ δὲ ΟΠΡ κῶνος τῶ <w part="I">Ε</w>
-					<lb n="11"/><w part="F">ΒΔΖ</w> ῥόμβωι·
+					<lb n="11"/><w part="F">ΒΔΖ</w> ῥόμβωι:
 					<w>λο<supplied reason="lost">ι</supplied>πὸς</w>
 					<choice>
 						<abbr></abbr>
@@ -3424,7 +3424,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice>
 					</supplied> ἐν αὐτῶι πολύγωνον <w part="I">ἐγγεγρά</w>
 					<lb n="10"/><w part="F">φ<unclear>θω</unclear></w> τὸ ΑΕΖ ΒΗΘ ΓΜ ΝΔ ΛΚΑ <lb n="11"/>καὶ ἐπεζεύχθωσαν
-					αἱ ΕΚ ΖΛ ΒΔ <lb n="12"/>ΗΝ ΘΜ· δῆλον δὴ <choice>
+					αἱ ΕΚ ΖΛ ΒΔ <lb n="12"/>ΗΝ ΘΜ: δῆλον δὴ <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice>
@@ -3439,7 +3439,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice>
 					</supplied> τῆι ὑπὸ δύο πλευρὰς τοῦ <w part="I">πολυ</w>
 					<lb n="14"/><w part="F">γώνου</w>
-					<w>ὑπο<supplied reason="lost">τ</supplied>εινούσηι</w>· λέγω οὖν <choice>
+					<w>ὑπο<supplied reason="lost">τ</supplied>εινούσηι</w>: λέγω οὖν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice>
@@ -3472,7 +3472,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΕΑ.
 					<w part="I">ἐπεζεύ</w>
-					<lb n="18"/><w part="F">χθωσαν</w> γὰρ αἱ ΖΚ ΑΒ ΗΔ ΘΝ·
+					<lb n="18"/><w part="F">χθωσαν</w> γὰρ αἱ ΖΚ ΑΒ ΗΔ ΘΝ:
 					<milestone n="36r1" unit="folio"/>
 					<lb n="19"/>παράλληλος <choice>
 						<abbr></abbr>
@@ -3483,13 +3483,13 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>καὶ</ex></expan>
 					</choice> ἔτι ἡ μὲν ΔΗ τῆι <lb n="21"/>ΒΛ <unclear>ἡ</unclear> δὲ ΘΝ <w>τῆ<supplied reason="lost"
 							>ι</supplied></w> ΔΗ καὶ ἡ ΓΜ <w>τῆ<supplied reason="lost">ι</supplied></w>
-					<lb n="22"/>ΘΝ· καὶ ἐπεὶ δύο παράλληλοί <choice>
+					<lb n="22"/>ΘΝ: καὶ ἐπεὶ δύο παράλληλοί <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσιν</ex></expan>
 					</choice> αἱ <lb n="23"/>ΕΑ ΚΖ καὶ δύο διηγμέναι <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
-					</choice> αἱ ΕΚ <lb n="24"/>ΑΟ·
+					</choice> αἱ ΕΚ <lb n="24"/>ΑΟ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
@@ -3587,7 +3587,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ὡς εἷς τῶν λόγων <lb n="33"/><choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ἕνα· ὡς <choice>
+					</choice> ἕνα: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -3610,7 +3610,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΓΕ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΕΑ·
+					</choice> ΕΑ:
 					<choice>
 						<abbr>ἔστ</abbr>
 						<expan>ἔστ<ex>αι</ex></expan>
@@ -3677,7 +3677,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>εἰσιν</ex></expan>
 					</choice> παράλληλοι τῆι βάσει τοῦ <w part="I">τμή</w>
-					<lb n="24"/><w part="F">ματος</w>· λέγω <choice>
+					<lb n="24"/><w part="F">ματος</w>: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice>
@@ -3696,7 +3696,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice>
 					</unclear> ΖΒ. πάλιν γὰρ <w part="I">ὁμοί</w>
 					<lb n="2"/><w part="F">ως</w>
-					<w>ἐπ<unclear>ε</unclear>ζεύχθωσαν</w> αἱ ΗΕ ΑΘ·
+					<w>ἐπ<unclear>ε</unclear>ζεύχθωσαν</w> αἱ ΗΕ ΑΘ:
 					<w part="I">παρ<unclear>ά</unclear>λ</w>
 					<lb n="3"/><w part="F">ληλοι</w>
 					<choice>
@@ -3706,7 +3706,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
-					</choice> τῆι ΒΖ· διὰ δὴ ταὐτά ἐστιν <lb n="4"/>ὡς ἡ ΚΖ <choice>
+					</choice> τῆι ΒΖ: διὰ δὴ ταὐτά ἐστιν <lb n="4"/>ὡς ἡ ΚΖ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΚΒ ἥ τε ΗΚ <choice>
@@ -3721,7 +3721,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΗΘ πρὸς ΜΝ καὶ ἡ ΞΑ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΞΝ·
+					</choice> ΞΝ:
 					<lb n="6"/>καὶ ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -3732,7 +3732,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>λόγον</ex></expan>
 					</choice>
-					<lb n="7"/>πρὸς ἕνα· ὡς <choice>
+					<lb n="7"/>πρὸς ἕνα: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> αἱ ΖΗ <unclear>Ε</unclear>Θ ΑΞ <choice>
@@ -3754,7 +3754,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΔΖ <lb n="9"/><choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΖΒ·
+					</choice> ΖΒ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -3812,7 +3812,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>τὸ</abbr>
 						<expan>τὸ<ex>ν</ex></expan>
-					</choice> ΑΒΓΔ <lb n="2"/>κύκλον· διάμετροι δὲ αὐτῶν <choice>
+					</choice> ΑΒΓΔ <lb n="2"/>κύκλον: διάμετροι δὲ αὐτῶν <choice>
 						<abbr>ἔσ</abbr>
 						<expan>ἔσ<ex>ον</ex><ex>ται</ex></expan>
 					</choice> αἱ <lb n="3"/>ἐπιζευγνοῦσαι τὰς γωνίας τοῦ <w part="I">πο</w>
@@ -3868,7 +3868,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="22"/><w part="F">ναι</w> αἱ ΒΗ ΔΜ ἀλλήλαις τε <choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> τῆι ΓΑ·
+					</choice> τῆι ΓΑ:
 					<lb n="23"/>ὁμοίως <w><supplied reason="lost">δ</supplied>ὲ</w> καὶ ἐν τῶι ἑτέρωι <w part="I"
 						>ἡμικυ</w>
 					<lb n="24"/><w part="F">κλίωι</w> πλευραὶ κατὰ κωνικῶν <lb n="25"/>ἐπιφανειῶν οἰσθήσονται <choice>
@@ -3914,7 +3914,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<expan><supplied reason="lost">ἔχ</supplied><ex>ου</ex></expan>
 						</choice></w>
 					<lb n="3"/><w part="F">σιν</w> ἐν <w>ἑν<supplied reason="lost">ὶ</supplied></w>
-					<w>ἐπι<unclear>πέ</unclear><supplied reason="lost">δωι</supplied></w>·
+					<w>ἐπι<unclear>πέ</unclear><supplied reason="lost">δωι</supplied></w>:
 					<w><supplied reason="lost">ἀμφ</supplied>οτ<unclear>έ</unclear>ρων</w>
 					<lb n="4"/>γὰρ τῶν ἐπιφανειῶν πέρας ἐστὶ <choice>
 						<abbr>τ</abbr>
@@ -3923,7 +3923,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="5"/><w><supplied reason="lost">κ</supplied><unclear>ύ</unclear>κ<supplied reason="lost"
 							>λο</supplied>υ</w> ἡ περιφέρεια τοῦ περὶ <w part="I">διά</w>
 					<lb n="6"/><w part="F">μετρον</w> τὴν ΒΔ ὀρθοῦ πρὸς τὸν ΑΒΓΔ <lb n="7"/><w>κ<supplied reason="lost"
-							>ύκλο</supplied><unclear>ν</unclear></w>· καί <choice>
+							>ύκλο</supplied><unclear>ν</unclear></w>: καί <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice>
@@ -3950,7 +3950,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="14"/><w part="F">σων</w> ἐστὶν τῆς τοῦ <w><unclear>ἡμ</unclear>ι<supplied reason="lost"
 							>σφ</supplied>αιρίο<unclear>υ</unclear></w>
 					<w part="I">ἐπι</w>
-					<lb n="15"/><w part="F">φανείας</w>·
+					<lb n="15"/><w part="F">φανείας</w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -4028,7 +4028,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<supplied reason="lost">ΑΕ</supplied>
 					<lb n="13"/><supplied reason="lost">καὶ</supplied>
 					<w><supplied reason="lost">τ</supplied><unclear>ῆ</unclear><supplied reason="lost">ς</supplied></w>
-					ἴσης ταῖς ΕΖ ΗΘ ΓΔ ΚΛ <lb n="14"/><supplied reason="lost">ΜΝ</supplied>·
+					ἴσης ταῖς ΕΖ ΗΘ ΓΔ ΚΛ <lb n="14"/><supplied reason="lost">ΜΝ</supplied>:
 					<w><unclear>λ</unclear>έγω</w>
 					<choice>
 						<abbr></abbr>
@@ -4137,7 +4137,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="13"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστίν</ex></expan>
-					</choice>·
+					</choice>:
 					<w>ο<supplied reason="lost">ἱ</supplied></w>
 					<w><unclear>πά</unclear>ν<unclear>τ</unclear>ες</w>
 					<w>ἄρ<unclear>α</unclear></w> κύκλοι ἴσοι <choice>
@@ -4170,7 +4170,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
-					</choice> αἱ ΕΖ ΗΘ ΚΛ <w>Μ<unclear>Ν</unclear></w>·
+					</choice> αἱ ΕΖ ΗΘ ΚΛ <w>Μ<unclear>Ν</unclear></w>:
 					<lb n="20"/>αἱ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -4187,7 +4187,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>συγκειμέν<supplied reason="lost"></supplied></abbr>
 						<expan>συγκειμέν<supplied reason="lost"><ex>ης</ex></supplied></expan>
 					</choice>
-					<lb n="26"/>ἐκ πασῶν τῶν ΕΖ ΗΘ ΓΔ ΚΛ ΜΝ·
+					<lb n="26"/>ἐκ πασῶν τῶν ΕΖ ΗΘ ΓΔ ΚΛ ΜΝ:
 					<lb n="27"/>ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -4198,7 +4198,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τ<unclear></unclear></abbr>
 						<expan>τ<unclear><ex>ῶν</ex></unclear></expan>
 					</choice>
-					<lb n="29"/>Ο Π Ρ Σ Τ Υ κύκλων·
+					<lb n="29"/>Ο Π Ρ Σ Τ Υ κύκλων:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -4226,7 +4226,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<supplied reason="lost">τῆι</supplied>
 					<lb n="32"/>εἰρημένηι τοῦ <w>σχ<supplied reason="lost">ήμ</supplied>ατος</w>
 					<w part="I">ἐπιφα</w>
-					<lb n="33"/><w part="F">νείαι</w>·
+					<lb n="33"/><w part="F">νείαι</w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -4272,7 +4272,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="11"/>νοείσθω <w>ἐπιφ<unclear>άν</unclear>εια</w> ἡ ὑπὸ <w>τ<unclear>ῶν</unclear></w>
 					<w part="I">κω</w>
-					<lb n="12"/><w part="F">νικῶν</w> ἐπιφανειῶν περιεχομένη·
+					<lb n="12"/><w part="F">νικῶν</w> ἐπιφανειῶν περιεχομένη:
 					<lb n="13"/><w><supplied reason="lost">λ</supplied>έγω</w>
 					<choice>
 						<abbr></abbr>
@@ -4313,7 +4313,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΕΙ <w><unclear>Ζ</unclear>Κ</w>
 					<w><unclear>Β</unclear>Δ</w>
 					<supplied reason="lost">ΗΛ</supplied>
-					<supplied reason="lost">ΘΜ</supplied>·
+					<supplied reason="lost">ΘΜ</supplied>:
 					<supplied reason="lost">διὰ</supplied>
 					<supplied reason="lost">δὴ</supplied>
 					<lb n="23"/>τὸ <w>π<supplied reason="lost">ρ</supplied>οδει<unclear>χ</unclear>θὲν</w> ἴσος <w><unclear><choice>
@@ -4361,7 +4361,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice>
-					<lb n="9"/>τοῦ ἀπὸ τῆς ΑΓ· ἔλασσον ἄρα <choice>
+					<lb n="9"/>τοῦ ἀπὸ τῆς ΑΓ: ἔλασσον ἄρα <choice>
 						<abbr>ἐστὶ</abbr>
 						<expan>ἐστὶ<ex>ν</ex></expan>
 					</choice>
@@ -4369,7 +4369,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice>
-					<lb n="12"/>ἡ ἐκ τοῦ κέντρου τοῦ Ρ τῆς ΑΓ·
+					<lb n="12"/>ἡ ἐκ τοῦ κέντρου τοῦ Ρ τῆς ΑΓ:
 					<w part="I">ὥσ</w>
 					<lb n="13"/><w part="F">τε</w> ἡ διάμετρος τοῦ <unclear>Ο</unclear> κύκλου <w part="I">ἐλάσ</w>
 					<lb n="14"/><w part="F">σων</w> ἐστὶν ἢ διπλασία τῆς <w part="I">δια</w>
@@ -4418,7 +4418,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</unclear>
 					<w><unclear>τὸ</unclear><supplied reason="lost">ν</supplied></w>
 					<supplied reason="lost">Ρ</supplied>
-					<w><supplied reason="lost">κύκ</supplied>λον</w>· τέσσαρες <choice>
+					<w><supplied reason="lost">κύκ</supplied>λον</w>: τέσσαρες <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -4426,7 +4426,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="25"/>οἱ ΑΒ ΓΔ μείζους <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσὶν</ex></expan>
-					</choice> τοῦ Ρ κύκλου· ὁ <choice>
+					</choice> τοῦ Ρ κύκλου: ὁ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -4438,7 +4438,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							>κ<unclear>ύ</unclear></w>
 					<lb n="28"/><w part="F">κλος</w> ἴσος ἐδείχθη τῆι <w>εἰρημέν<unclear>αι</unclear></w>
 					<lb n="29"/><w>ἐπιφα<unclear>ν</unclear>εία</w>
-					<w><unclear>τ</unclear>ο<supplied reason="lost">ῦ</supplied></w> σχήματος·
+					<w><unclear>τ</unclear>ο<supplied reason="lost">ῦ</supplied></w> σχήματος:
 					<milestone n="112v2" unit="folio"/>
 					<lb n="1"/>ἐλάσσων <choice>
 						<abbr></abbr>
@@ -4505,7 +4505,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>πολυγών</abbr>
 						<expan>πολυγών<ex>ου</ex></expan>
 					</choice>
-					<lb n="22"/>καθέτωι ἠγμένη· δεικτέον <choice>
+					<lb n="22"/>καθέτωι ἠγμένη: δεικτέον <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ <w part="I">κῶ</w>
@@ -4525,7 +4525,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w>διάμετρο<supplied reason="lost">ι</supplied></w> αἱ ΖΝ <lb n="26"/>ΗΜ ΘΛ ΙΚ, κῶνοι <w
 						part="I">ἀναγεγράφθω</w>
 					<lb n="27"/><w part="F">σαν</w> κορυφὴν ἔχοντες τὸ τῆς <w part="I"><unclear>σ</unclear>φαί</w>
-					<lb n="28"/><w part="F">ρας</w> κέντρον· ἔσται δὴ ῥόμβος <lb n="29"/>στερεὸς ἔκ τε τοῦ
+					<lb n="28"/><w part="F">ρας</w> κέντρον: ἔσται δὴ ῥόμβος <lb n="29"/>στερεὸς ἔκ τε τοῦ
 							<w>κώνο<unclear>υ</unclear></w>, οὗ βάσις <choice>
 						<abbr>μ</abbr>
 						<expan>μ<ex>ὲν</ex></expan>
@@ -4536,7 +4536,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κύκλ</abbr>
 						<expan>κύκλ<ex>ος</ex></expan>
 					</choice>,
-					<lb n="33"/>κορυφὴ δὲ τὸ Χ σημεῖον· ἴσος <choice>
+					<lb n="33"/>κορυφὴ δὲ τὸ Χ σημεῖον: ἴσος <choice>
 						<abbr>ἐστὶ</abbr>
 						<expan>ἐστὶ<ex>ν</ex></expan>
 					</choice>
@@ -4571,7 +4571,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="8"/>τοῦ κώνου τοῦ βάσιν μὲν ἔχοντος <lb n="9"/>τὸν μέγιστον κύκλον, ὕψος δὲ τὴν <lb
 						n="10"/>ἐκ τοῦ κέντρου τῆς σφαίρας,
 					<lb n="11"/>ἐπειδὴ καὶ ὁ κῶνος ὁ ἴσος αὐτῶι <lb n="12"/>μείζων ἢ τετραπλάσιος <w part="I">γίνε</w>
-					<lb n="13"/><w part="F">ται</w> τοῦ εἰρημένου κώνου·
+					<lb n="13"/><w part="F">ται</w> τοῦ εἰρημένου κώνου:
 					<w part="I">βά</w>
 					<lb n="14"/><w part="F">σιν</w> τε γὰρ μείζονα ἢ <w part="I">τετρα</w>
 					<lb n="15"/><w part="F">πλάσιον</w> ἔχει καὶ ὕψος ἴσον.
@@ -4693,7 +4693,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="22"/>τὸ μὲν περιγεγραμμένον <w part="I">σχῆ</w>
 					<lb n="23"/><w part="F">μα</w> ἔσται ἐν τῆι σφαίραι, τὸ δὲ <w part="I">ἐγ</w>
-					<lb n="24"/><w part="F">γεγραμμένον</w>· δεικτέον οὖν <choice>
+					<lb n="24"/><w part="F">γεγραμμένον</w>: δεικτέον οὖν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ἡ <choice>
@@ -4737,10 +4737,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="1"/><w part="F"><unclear>φανεί</unclear>αι</w> τοῦ <choice>
 						<abbr>περιγεγραμμέ<unclear>ν</unclear></abbr>
 						<expan>περιγεγραμμέ<unclear>ν<ex>ου</ex></unclear></expan>
-					</choice>·
+					</choice>:
 					<lb n="2"/>περὶ τὴν σφαῖραν ὁ δὲ Ν ἴσος τῆι <lb n="3"/>ἐπιφανείαι <w>τ<unclear>ο</unclear><supplied
 							reason="lost">ῦ</supplied></w>
-					<w>γεγραμμένο<supplied reason="lost">υ</supplied></w>·
+					<w>γεγραμμένο<supplied reason="lost">υ</supplied></w>:
 					<w part="I">δύ</w>
 					<lb n="4"/><w part="F"><choice>
 							<abbr>ν<supplied reason="lost">α</supplied>τ<supplied reason="lost"
@@ -4818,7 +4818,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">τοῦ</w>
 					<lb n="21"/><w part="F">τον</w> ἔχουσιν αἱ ἐκ τῶν <w>κέντ<unclear>ρω</unclear>ν</w>
 					<w>τ<supplied reason="lost">ῶν</supplied></w>
-					<lb n="22"/>ΜΝ <w>κ<supplied reason="lost">ύ</supplied>κλων</w> πρὸς ἀλλήλαις δυνάμει·
+					<lb n="22"/>ΜΝ <w>κ<supplied reason="lost">ύ</supplied>κλων</w> πρὸς ἀλλήλαις δυνάμει:
 					<lb n="23"/>ὥστε καὶ αἱ τῶν ΜΝ διάμετροι τὸν <lb n="24"/>αὐτὸν ἔχουσι λόγον ταῖς τῶν <w part="I"
 						>πολυγώ</w>
 					<lb n="25"/><w part="F">νων</w> πλευραῖς. οἱ δὲ κύκλοι πρὸς <w part="I">ἀλ</w>
@@ -4834,7 +4834,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="28"/><w>ἐπιφ<supplied reason="lost">αν</supplied>είαις</w> τοῦ <choice>
 						<abbr>περιγεγραμμέν</abbr>
 						<expan>περιγεγραμμέν<ex>ου</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="29"/>δῆλον οὖν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
@@ -4868,7 +4868,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="4"/>τῶι Ν, ὕψος δὲ ὁ μὲν Ξ κῶνος τὴν <lb n="5"/>ἐκ τοῦ κέντρου τῆς σφαίρας,
 					ὁ δὲ <lb n="6"/><unclear>Ο</unclear> τὴν ἀπὸ τοῦ κέντρου ἐπὶ τὴν ΑΚ <lb n="7"/>κάθετον
-						ἠγμένην· ἴσος <choice>
+						ἠγμένην: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ μὲν <supplied reason="lost">Ξ</supplied>
@@ -4897,7 +4897,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὴν ἀπὸ τοῦ κέντρου τῆς <lb n="15"/>σφαίρας ἐπὶ τὴν ΑΚ <w>κά<supplied reason="lost"
 							>θετ</supplied><unclear>ο</unclear>ν</w>
 					<w part="I">ἀ</w>
-					<lb n="16"/><w part="F">γομένην</w>· τὸν αὐτὸν <choice>
+					<lb n="16"/><w part="F">γομένην</w>: τὸν αὐτὸν <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> λόγον ἔχει <lb n="17"/>τὸ ὕψος τοῦ Ξ κώνου <choice>
@@ -4922,7 +4922,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΑΚ· τῶν <choice>
+					</choice> ΑΚ: τῶν <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ΞΟ κώνων αἱ <w part="I"><choice>
@@ -5014,7 +5014,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<figure n="1.33.1">
 						<figDesc>Figure 1.33.1</figDesc>
 					</figure>
-					<lb n="1"/>τοῦ μεγίστου κύκλου ὁ Α· λέγω <choice>
+					<lb n="1"/>τοῦ μεγίστου κύκλου ὁ Α: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ὁ Α <lb n="2"/>ἴσος ἐστὶν τῆι ἐπιφανείαι τῆς <lb n="3"/>σφαίρας. εἰ γὰρ
@@ -5029,7 +5029,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="5"/>ἡ ἐπιφάνεια τῆς σφαίρας <choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> ὁ Α <lb n="6"/>κύκλος· δυνατὸν <choice>
+					</choice> ὁ Α <lb n="6"/>κύκλος: δυνατὸν <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -5143,7 +5143,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice>
-					<lb n="6"/>ἐγγεγραμμένου· ἡ ἐπιφάνεια ἄρα <lb n="7"/>τοῦ περιγεγραμμένου σχήματος
+					<lb n="6"/>ἐγγεγραμμένου: ἡ ἐπιφάνεια ἄρα <lb n="7"/>τοῦ περιγεγραμμένου σχήματος
 						<milestone n="153v2" unit="folio"/>
 					<lb n="8"/>περὶ τὴν σφαῖραν <choice>
 						<abbr></abbr>
@@ -5165,12 +5165,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ἐπιφάνει</abbr>
 						<expan>ἐπιφάνει<ex>α</ex></expan>
 					</choice>
-					<lb n="11"/>τῆς σφαίρας πρὸς τὸν Α κύκλον·
+					<lb n="11"/>τῆς σφαίρας πρὸς τὸν Α κύκλον:
 					<choice>
 						<abbr>ὅ</abbr>
 						<expan>ὅ<ex>περ</ex></expan>
 					</choice>
-					<lb n="12"/>ἄτοπον· ἡ μὲν γὰρ ἐπιφάνεια τοῦ <lb n="13"/>περιγεγραμμένου τῆς <choice>
+					<lb n="12"/>ἄτοπον: ἡ μὲν γὰρ ἐπιφάνεια τοῦ <lb n="13"/>περιγεγραμμένου τῆς <choice>
 						<abbr>ἐπιφάνει</abbr>
 						<expan>ἐπιφάνει<ex>ας</ex></expan>
 					</choice>
@@ -5185,7 +5185,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="16"/>τοῦ Α κύκλου ἐλάσσων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστί</ex></expan>
-					</choice>·
+					</choice>:
 					<w>δέδ<supplied reason="lost">ει</supplied>κται</w>
 					<lb n="17"/>γὰρ ἡ ἐπιφάνεια τοῦ <w part="I">ἐγγεγραμμέ</w>
 					<lb n="18"/><w part="F">νου</w> ἐλάσσων τοῦ μεγίστου κύκλου <lb n="19"/>τῶν ἐν τῆι σφαίραι ἢ <w
@@ -5208,7 +5208,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> οὐδὲ ἐλάσσων.
 					<milestone n="Arch58v" unit="underTextFolio"/><milestone n="150v1" unit="folio"/>
-					<lb n="1"/>εἰ γὰρ δυνατόν, ἔστω· καὶ ὁμοίως <lb n="2"/><w><supplied reason="lost"
+					<lb n="1"/>εἰ γὰρ δυνατόν, ἔστω: καὶ ὁμοίως <lb n="2"/><w><supplied reason="lost"
 							>εὑρήσ</supplied>θωσαν</w> αἱ ΒΓ εὐθεῖαι ὥστε <lb n="3"/>τὴν Β <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
@@ -5227,12 +5227,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τὴ<ex>ν</ex></expan>
 					</choice>
 					<lb n="8"/>τοῦ περιγεγραμμένου ἐλάσσονα <lb n="9"/>λόγον ἔχειν τοῦ τῆς Β πρὸς
-						<sic><num>δ</num></sic>·
+						<sic><num>δ</num></sic>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="10"/>τὰ διπλάσια ἄρα· ἡ ἐπιφάνεια <lb n="11"/>ἄρα τοῦ περιγεγραμμένου πρὸς <lb
+					<lb n="10"/>τὰ διπλάσια ἄρα: ἡ ἐπιφάνεια <lb n="11"/>ἄρα τοῦ περιγεγραμμένου πρὸς <lb
 						n="12"/>τὴν ἐπιφάνειαν τοῦ <w part="I">ἐγγεγραμμέ</w>
 					<lb n="13"/><w part="F">νου</w> ἐλάσσονα λόγον ἔχει <choice>
 						<abbr>ἤ</abbr>
@@ -5252,13 +5252,13 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> τὴν <w part="I">ἐπι</w>
-					<lb n="16"/><w part="F">φάνειαν</w> τῆς σφαίρας·
+					<lb n="16"/><w part="F">φάνειαν</w> τῆς σφαίρας:
 					<choice>
 						<abbr>ὅ</abbr>
 						<expan>ὅ<ex>περ</ex></expan>
 					</choice>
 					<w part="I">ἄτο</w>
-					<lb n="17"/><w part="F">πον</w>· ἡ μὲν γὰρ τοῦ <w part="I">περιγεγραμ</w>
+					<lb n="17"/><w part="F">πον</w>: ἡ μὲν γὰρ τοῦ <w part="I">περιγεγραμ</w>
 					<lb n="18"/><w part="F">μένου</w> ἐπιφάνεια μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
@@ -5276,7 +5276,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="23"/>ἐδείχθη δὲ <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
-					</choice> οὐδὲ μείζων· ἡ <choice>
+					</choice> οὐδὲ μείζων: ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -5325,21 +5325,21 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice> ἡ σφαῖρα τετραπλασία <lb n="8"/>τοῦ εἰρημένου κώνου, ἔστω, εἰ <w
 						part="I">δυ</w>
-					<lb n="9"/><w part="F">νατόν</w>, μείζων ἢ τετραπλασία·
+					<lb n="9"/><w part="F">νατόν</w>, μείζων ἢ τετραπλασία:
 					<lb n="10"/>ἔστω δὲ ὁ Ξ κῶνος βάσιν μὲν <w part="I">ἔ</w>
 					<lb n="11"/><w part="F">χων</w> τετραπλασίαν τοῦ ΑΒΓΔ <lb n="12"/>κύκλου, ὕψος δὲ ἴσον τῆι
 					ἐκ τοῦ <w part="I"><choice>
 							<abbr>κέ</abbr>
 							<expan>κέ<ex>ν</ex></expan>
 						</choice></w>
-					<lb n="13"/><w part="F">τρου</w> τῆς σφαίρας· μείζων οὖν <lb n="14"/><choice>
+					<lb n="13"/><w part="F">τρου</w> τῆς σφαίρας: μείζων οὖν <lb n="14"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice> ἡ σφαῖρα τοῦ Ξ κώνου. ἔσται δὴ <lb n="15"/>δύο μεγέθη ἄνισα ἥ τε σφαῖρα <lb
 						n="16"/><choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> ὁ κῶνος· δυνατὸν οὖν δύο <choice>
+					</choice> ὁ κῶνος: δυνατὸν οὖν δύο <choice>
 						<abbr>εὐθεί</abbr>
 						<expan>εὐθεί<ex>ας</ex></expan>
 					</choice>
@@ -5412,7 +5412,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τουτ</abbr>
 						<expan>τουτ<ex>έστι</ex></expan>
 					</choice>
-					<lb n="11"/>τῆς <w><unclear>Α</unclear>Κ</w>·
+					<lb n="11"/>τῆς <w><unclear>Α</unclear>Κ</w>:
 					<w>δ<supplied reason="lost">ει</supplied>κτέον</w>
 					<choice>
 						<abbr></abbr>
@@ -5428,7 +5428,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="13"/><w part="F">αι</w>. εἰλήφθω γὰρ κύκλος ὁ Μ, οὗ ἡ <lb n="14"/>ἐκ τοῦ
 					κέντρου δύναται τὸ <w part="I">περιε</w>
 					<lb n="15"/><w part="F">χόμενον</w> ὑπό τε τῆς ΕΘ πλευρᾶς <lb n="16"/>καὶ τῆς ἡμισείας τῆς
-						ΕΖ·
+						ΕΖ:
 					<choice>
 						<abbr>γίγνετ</abbr>
 						<expan>γίγνετ<ex>αι</ex></expan>
@@ -5454,10 +5454,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τ<ex>ῆς</ex></expan>
 					</choice>
 					<lb n="6"/>βάσεως τῆι ΑΚ. ἐδύνατο δὲ καὶ ἡ <lb n="7"/>ἐκ τοῦ κέντρου τοῦ Λ κύκλου ἴσον τῶι
-						<lb n="8"/>αὐτῶι χωρίωι· ὁ <choice>
+						<lb n="8"/>αὐτῶι χωρίωι: ὁ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
-					</choice> Λ κύκλος ἴσος ἔσται <lb n="9"/>τοῖς Μ Ν Ξ κύκλοις· ὥστε καὶ τῆι <w part="I">ἐ</w>
+					</choice> Λ κύκλος ἴσος ἔσται <lb n="9"/>τοῖς Μ Ν Ξ κύκλοις: ὥστε καὶ τῆι <w part="I">ἐ</w>
 					<lb n="10"/><w part="F">πιφανείαι</w> τοῦ ἐγγεγραμμένου <choice>
 						<abbr>σχ</abbr>
 						<expan>σχ<ex>ήματος</ex></expan>
@@ -5471,7 +5471,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">ἐ</w>
 					<lb n="2"/><w part="F">λάσσονα</w> ἕξει τῆς τοῦ τμήματος <w part="I">ἐπι</w>
 					<lb n="3"/><w part="F">φ<unclear>ανεί</unclear>ας</w> τοῦ <w>π<supplied reason="lost"
-							>ε</supplied>ρ<supplied reason="lost">ι</supplied>λαμβάνοντος</w>· τὸ <lb n="4"/><choice>
+							>ε</supplied>ρ<supplied reason="lost">ι</supplied>λαμβάνοντος</w>: τὸ <lb n="4"/><choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> αὐτὸ πέρας αὐτῶν ἐστιν ἐν <w part="I">ἐπιπέ</w>
@@ -5522,7 +5522,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="3"/><w part="F">κται</w> ἴση οὖσα κύκλωι, οὗ ἡ ἐκ τοῦ <lb n="4"/>κέντρου ἴσον
 					δύναται τῶι <w part="I">περιε</w>
 					<lb n="5"/><w part="F">χομένωι</w> ὑπό τε τῆς ΕΘ καὶ τῶν <lb n="6"/><w><unclear>Ε</unclear>Ζ</w> ΓΔ
-						ΚΑ· τὸ δὲ ὑπὸ τῆς ΕΘ <w><supplied reason="lost">κ</supplied>αὶ</w>
+						ΚΑ: τὸ δὲ ὑπὸ τῆς ΕΘ <w><supplied reason="lost">κ</supplied>αὶ</w>
 					<choice>
 						<abbr>τῶ</abbr>
 						<expan>τῶ<ex>ν</ex></expan>
@@ -5533,7 +5533,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w>τ<supplied reason="lost">ῶι</supplied></w>
 					<supplied reason="lost">ὑπὸ</supplied>
 					<supplied reason="lost">τῶν</supplied>
-					<lb n="8"/>ΕΛ ΚΘ <w>περιεχομέν<supplied reason="lost">ωι</supplied></w>·
+					<lb n="8"/>ΕΛ ΚΘ <w>περιεχομέν<supplied reason="lost">ωι</supplied></w>:
 					<supplied reason="lost">τὸ</supplied>
 					<supplied reason="lost">δὲ</supplied>
 					<supplied reason="lost">ὑπὸ</supplied>
@@ -5542,10 +5542,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						>τοῦ</supplied>
 					<supplied reason="lost">ἀπὸ</supplied>
 					<supplied reason="lost">τῆς</supplied>
-					<lb n="10"/>ΑΘ· καὶ <unclear><choice>
+					<lb n="10"/>ΑΘ: καὶ <unclear><choice>
 							<abbr></abbr>
 							<expan><ex>γὰρ</ex></expan>
-						</choice></unclear> τοῦ ΛΘ ΘΚ·
+						</choice></unclear> τοῦ ΛΘ ΘΚ:
 					<w><supplied reason="lost">φαν</supplied><unclear>ερ</unclear>ὸν</w>
 					<lb n="11"/><unclear><choice>
 							<abbr></abbr>
@@ -5560,7 +5560,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>σ<unclear>χή</unclear>ματ<ex>ος</ex></expan>
 					</choice>,
 					<lb n="13"/>ἐλάσσων ἐστὶ τῆς ἐκ τοῦ <supplied reason="lost">κέντρου</supplied>
-					<lb n="14"/>τοῦ Μ· δῆλον <unclear><choice>
+					<lb n="14"/>τοῦ Μ: δῆλον <unclear><choice>
 							<abbr></abbr>
 							<expan><ex>ἄρα</ex></expan>
 						</choice></unclear>
@@ -5618,7 +5618,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						part="I"><supplied reason="lost">κ</supplied>έν</w>
 					<lb n="16"/><w part="F">τρου</w> ἐπὶ μίαν <w>πλ<supplied reason="lost">ευρὰν</supplied></w> τοῦ <w
 						part="I">πολυ</w>
-					<lb n="17"/><w part="F">γώνου</w> καθέτωι ἠγμένηι·
+					<lb n="17"/><w part="F">γώνου</w> καθέτωι ἠγμένηι:
 					<choice>
 						<abbr>δεικτέ</abbr>
 						<expan>δεικτέ<ex>ον</ex></expan>
@@ -5631,7 +5631,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="19"/><w part="F">εχομένωι</w> τμήματι σὺν τῶι <w part="I">κώ</w>
 					<lb n="20"/><w part="F">νωι</w> τῶι ΑΕΓ. ἀναγεγράφθωσαν <lb n="21"/>δὲ καὶ κῶνοι ἀπὸ τῶν
 					κύκλων <lb n="22"/>τῶν περὶ διαμέτρους τῆς ΘΖ ΚΙ <lb n="23"/><w>κορυφ<unclear>ὴν</unclear></w>
-					ἔχοντες τὸ Ε σημεῖον·
+					ἔχοντες τὸ Ε σημεῖον:
 					<lb n="24"/><w>οὐκο<unclear>ῦν</unclear></w> ὁ μὲν ΗΒ ΘΕ ῥόμβος <lb n="25"/>στερεὸς ἴσος ἐστὶ
 						κώνωι, οὗ ἡ <choice>
 						<abbr>μ</abbr>
@@ -5686,7 +5686,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="13"/>τὰς ΖΛ ΑΓ, ὕψος δὲ τὸ ἀπὸ τοῦ Ε <lb n="14"/>ἐπὶ <choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ὴν</ex></expan>
-					</choice> ΖΑ καθέτωι ἠγμένη· οἱ <choice>
+					</choice> ΖΑ καθέτωι ἠγμένη: οἱ <choice>
 						<abbr></abbr>
 						<expan><ex>οὖν</ex></expan>
 					</choice>
@@ -5709,7 +5709,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone n="114v2" unit="folio"/>
 					<lb n="19"/><w part="F">νου</w> καθέτωι ἠγμένηι, τὰς δὲ <w part="I"
 							><unclear>β</unclear><supplied reason="lost">ά</supplied></w>
-					<lb n="20"/><w part="F">σεις</w> ἴσας τῆι ἐπιφανείαι τοῦ ΑΖ <lb n="21"/>ΗΒ ΛΓ σχήματος·
+					<lb n="20"/><w part="F">σεις</w> ἴσας τῆι ἐπιφανείαι τοῦ ΑΖ <lb n="21"/>ΗΒ ΛΓ σχήματος:
 					ἔχει δὲ <choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -5718,7 +5718,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ἴσ</abbr>
 						<expan>ἴσ<ex>ην</ex></expan>
 					</choice>
-					<lb n="23"/>τῆ ἐπιφανείαι τοῦ σχήματος·
+					<lb n="23"/>τῆ ἐπιφανείαι τοῦ σχήματος:
 					<lb n="24"/>ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -5737,7 +5737,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="27"/>τῶι ΑΕΓ κώνωι·
+					<lb n="27"/>τῶι ΑΕΓ κώνωι:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -5780,7 +5780,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τοῦ <w part="I">ἐγγεγραμμέ</w>
-					<lb n="3"/><w part="F">νου</w> σχήματος σὺν τῶι κώνωι· ὁ <choice>
+					<lb n="3"/><w part="F">νου</w> σχήματος σὺν τῶι κώνωι: ὁ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
@@ -5808,12 +5808,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>μία</abbr>
 						<expan>μία<ex>ν</ex></expan>
 					</choice>
-					<lb n="12"/>πλευρὰν τοῦ πολυγώνου καθέτωι <lb n="13"/>ἠγμένηι· ἥ τε γὰρ βάσις τῆς <w
+					<lb n="12"/>πλευρὰν τοῦ πολυγώνου καθέτωι <lb n="13"/>ἠγμένηι: ἥ τε γὰρ βάσις τῆς <w
 						part="I">βάσε</w>
 					<lb n="14"/><w part="F">ως</w> μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice>· δέδεικται γὰρ τοῦτο <lb n="15"/><choice>
+					</choice>: δέδεικται γὰρ τοῦτο <lb n="15"/><choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice> τὸ ὕψος τοῦ ὕψους.
@@ -5846,7 +5846,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="23"/><choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> περὶ αὐτὸ κύκλος· ἕξει δὴ τὸ αὐτὸ <lb n="24"/>κέντρον τὸ <unclear>Α</unclear>ΒΓ
+					</choice> περὶ αὐτὸ κύκλος: ἕξει δὴ τὸ αὐτὸ <lb n="24"/>κέντρον τὸ <unclear>Α</unclear>ΒΓ
 							<w><supplied reason="lost">κύ</supplied>κλωι</w>. ἐὰν δὴ <milestone n="113v2"
 						unit="folio"/>
 					<lb n="1"/>μενούσης <w>τ<supplied reason="lost">ῆ</supplied>ς</w> ΕΚ <choice>
@@ -5899,7 +5899,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἔσται <lb n="17"/>τὸ περιγραφὲν σχῆμα ὑπὸ <w part="I">κωνι</w>
 					<lb n="18"/><w part="F">κῶν</w> ἐπιφανειῶν περιεχόμενον,
 					<milestone n="114r2" unit="folio"/>
-					<lb n="19"/>βάσις ὁ περὶ τὴν ΖΗ <w><unclear>κ</unclear>ύ<unclear>κ</unclear>λος</w>· ἡ δὲ
+					<lb n="19"/>βάσις ὁ περὶ τὴν ΖΗ <w><unclear>κ</unclear>ύ<unclear>κ</unclear>λος</w>: ἡ δὲ
 						<lb n="20"/>τοῦ εἰρημένου σχήματος <w part="I">ἐπιφά</w>
 					<lb n="21"/><w part="F">νεια</w> μείζων <choice>
 						<abbr></abbr>
@@ -5909,7 +5909,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
-					<lb n="24"/>ἐφαπτόμεναι αἱ ΑΜ ΒΝ· κατὰ <w part="I">κω</w>
+					<lb n="24"/>ἐφαπτόμεναι αἱ ΑΜ ΒΝ: κατὰ <w part="I">κω</w>
 					<lb n="25"/><w part="F">νικῆς</w>
 					<choice>
 						<abbr></abbr>
@@ -5926,7 +5926,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="29"/>τῆς σφαίρας,
 					<w>ο<unclear>ὗ</unclear></w> βάσις ὁ περὶ <lb n="30"/><w>διάμετρο<supplied reason="lost"
-							>ν</supplied></w> τὴν ΑΒ κύκλος· πέρας <lb n="31"/>γὰρ ἐν <w>ἑν<supplied
+							>ν</supplied></w> τὴν ΑΒ κύκλος: πέρας <lb n="31"/>γὰρ ἐν <w>ἑν<supplied
 							reason="lost">ὶ</supplied></w> ἐπιπέδωι τὸ αὐτὸ <w part="I"><choice>
 							<abbr>ἔχ</abbr>
 							<expan>ἔχ<ex>ου</ex></expan>
@@ -5950,7 +5950,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τῆς γεγενημένης <lb n="3"/>ὑπὸ <w>τ<unclear>ῶ</unclear>ν</w> ΜΑ
-						<w><unclear>Ν</unclear>Β</w>· ἡ μὲν γὰρ ΖΜ <choice>
+						<w><unclear>Ν</unclear>Β</w>: ἡ μὲν γὰρ ΖΜ <choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ῆς</ex></expan>
 					</choice> ΜΑ <lb n="4"/>μείζων <choice>
@@ -5962,7 +5962,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ὀρθὴν <w>ὑποτείν<unclear>ει</unclear></w>, ἡ <lb n="5"/>δὲ ΝΗ τῆς ΝΒ,
 					ὅταν δὲ τοῦτο ἦ,
 					<w>μεί<supplied reason="lost">ζων</supplied></w>
-					<lb n="6"/>γίνεται ἡ ἐπιφάνεια τῆς <w>ἐπιφα<supplied reason="lost">νείας</supplied></w>·
+					<lb n="6"/>γίνεται ἡ ἐπιφάνεια τῆς <w>ἐπιφα<supplied reason="lost">νείας</supplied></w>:
 					<lb n="7"/>ταῦτα γὰρ δέδεικται ἐν τοῖς <w><supplied reason="lost">λ</supplied>ή<supplied
 							reason="lost">μ</supplied>μα<supplied reason="lost">σιν</supplied></w>.
 					<lb n="8"/>δῆλον οὖν <choice>
@@ -6133,7 +6133,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice>
 					<w>ὕ<unclear>ψ</unclear>ος</w> τοῦ τμήματος <lb n="16"/><unclear>τ</unclear>ῆς μείζονος
-						σφαίρας· τοῦτο <choice>
+						σφαίρας: τοῦτο <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
@@ -6170,7 +6170,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><supplied reason="lost">ὕ</supplied><unclear>ψ</unclear>ος</w>
 					<supplied reason="lost">τοῦ</supplied>
 					<w part="I"><supplied reason="lost">ἐλάσ</supplied></w>
-					<lb n="21"/><w part="F">σονος</w> τμήματος· ἐὰν γὰρ <w part="I">ἐπι</w>
+					<lb n="21"/><w part="F">σονος</w> τμήματος: ἐὰν γὰρ <w part="I">ἐπι</w>
 					<lb n="22"/><w part="F">ζεύξωμεν</w> τὴν ΚΖ,
 					<choice>
 						<abbr>ἔστ</abbr>
@@ -6183,21 +6183,21 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
 					</choice> δὲ καὶ ἡ ΑΒ τῆι ΚΛ <w part="I">πα</w>
-					<lb n="24"/><w part="F">ράλληλος</w>, καὶ κοινὴ ἡ ΖΕ· ὅμοιον <lb n="25"/><choice>
+					<lb n="24"/><w part="F">ράλληλος</w>, καὶ κοινὴ ἡ ΖΕ: ὅμοιον <lb n="25"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> τὸ ΖΚΗ τρίγωνον τῶι ΔΑΞ <w part="I">τριγώ</w>
 					<lb n="26"/><w part="F">νωι</w>. καί <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
-					</choice> μείζων ἡ ΖΚ τῆς ΑΔ·
+					</choice> μείζων ἡ ΖΚ τῆς ΑΔ:
 					<lb n="27"/>μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> καὶ ἡ ΖΗ τῆς ΔΞ, ἴση δὲ <lb n="28"/>ἡ ΜΘ τῆι <choice>
 						<abbr>μέτρωι</abbr>
 						<expan><ex>δια</ex>μέτρωι</expan>
-					</choice> τῆι ΓΔ· ἐὰν γὰρ <lb n="29"/>ἐπιζευχθῆι ἡ Ε<unclear>Ο</unclear>, ἐπεὶ ἴση <choice>
+					</choice> τῆι ΓΔ: ἐὰν γὰρ <lb n="29"/>ἐπιζευχθῆι ἡ Ε<unclear>Ο</unclear>, ἐπεὶ ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ἡ μὲν <lb n="30"/>ΜΟ τῆι ΟΖ, ἡ δὲ ΘΕ τῆι ΕΖ,
@@ -6210,7 +6210,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> ἡ ΕΟ τῆι ΜΘ· διπλασία <choice>
+					</choice> ἡ ΕΟ τῆι ΜΘ: διπλασία <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -6223,8 +6223,8 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> τῆς ΕΟ· ἴση ἄρα ἐστὶν ἡ ΜΘ <lb n="34"/>τῆι ΓΜ, τὸ δὲ ὑπὸ τῶν ΓΔ ΔΞ ἴσον
-					τῶι <lb n="35"/>ἀπὸ τῆς ΑΔ· ἡ <choice>
+					</choice> τῆς ΕΟ: ἴση ἄρα ἐστὶν ἡ ΜΘ <lb n="34"/>τῆι ΓΜ, τὸ δὲ ὑπὸ τῶν ΓΔ ΔΞ ἴσον
+					τῶι <lb n="35"/>ἀπὸ τῆς ΑΔ: ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> τοῦ σχήματος <milestone n="Arch61v" unit="underTextFolio"/><milestone n="123v1"
@@ -6263,7 +6263,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<supplied reason="lost">περὶ</supplied>
 					<lb n="6"/><w><supplied reason="lost">διά</supplied>μετρο<supplied reason="lost">ν</supplied></w>
 					<supplied reason="lost">τὴν</supplied>
-					<unclear>ΑΒ</unclear>·
+					<unclear>ΑΒ</unclear>:
 					<supplied reason="lost">ὁ</supplied>
 					<unclear><choice>
 							<abbr></abbr>
@@ -6315,7 +6315,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τῆι ἐκ τοῦ κέντρου τῆς <choice>
 						<abbr>σφαίρ<supplied reason="lost"></supplied></abbr>
 						<expan>σφαίρ<supplied reason="lost"><ex>ας</ex></supplied></expan>
-					</choice>·
+					</choice>:
 					<lb n="19"/>τὸ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
@@ -6323,7 +6323,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="21"/><w part="F">μα</w> τῆς μείζονος σφαίρας, ἧς <lb n="22"/>κέντρον <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τὸ αὐτό· δῆλον οὖν τὸ <w part="I">λε</w>
+					</choice> τὸ αὐτό: δῆλον οὖν τὸ <w part="I">λε</w>
 					<lb n="23"/><w part="F">γόμενόν</w>
 					<choice>
 						<abbr></abbr>
@@ -6372,7 +6372,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w>το<supplied reason="lost">ῦ</supplied></w>
 					<w><supplied reason="lost">τμ</supplied>ήματος</w>, ὕψος δὲ τῆι
 							<w><unclear>ἐ</unclear><supplied reason="lost">κ</supplied></w>
-					<lb n="9"/>τοῦ <w>κέντ<unclear>ρ</unclear>ου</w>· ὁ <choice>
+					<lb n="9"/>τοῦ <w>κέντ<unclear>ρ</unclear>ου</w>: ὁ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> ἴσος κῶνος <choice>
@@ -6437,7 +6437,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						part="I">περιενε</w>
 					<lb n="26"/><w part="F">χθέντες</w> οἱ κύκλοι ποιήτωσαν <lb n="27"/>σχήματα ὑπὸ κωνικῶν <w part="I"
 						>ἐπιφα</w>
-					<lb n="28"/><w part="F">νειῶν</w> περιεχόμενα· δεικτέον <lb n="29"/><choice>
+					<lb n="28"/><w part="F">νειῶν</w> περιεχόμενα: δεικτέον <lb n="29"/><choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ἡ τοῦ περιγεγραμμένου <w part="I">σχή</w>
@@ -6473,7 +6473,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="4"/>δύναται τῶι ὑπό τε μιᾶς <w part="I">πλευ</w>
 					<lb n="5"/><w part="F">ρᾶς</w> τοῦ περιγεγραμμένον <w part="I">πο</w>
 					<lb n="6"/><w part="F">λύγωνον</w> καὶ πασῶν τῶν <w part="I">ἐπι</w>
-					<lb n="7"/><w part="F">ζευγνυουσῶν</w> τὰς γωνίας καὶ <lb n="8"/>ἔτι τῆς ἡμισείας τῆς ΕΖ·
+					<lb n="7"/><w part="F">ζευγνυουσῶν</w> τὰς γωνίας καὶ <lb n="8"/>ἔτι τῆς ἡμισείας τῆς ΕΖ:
 					ἔσται δὴ <lb n="9"/>ὁ Μ κύκλος ἴσος τῆι ἐπιφανείαι <lb n="10"/>τοῦ περιγεγραμμένου <choice>
 						<abbr>σχήμ<unclear>α</unclear><supplied reason="lost">τ</supplied></abbr>
 						<expan>σχήμ<unclear>α</unclear><supplied reason="lost">τ</supplied><ex>ος</ex></expan>
@@ -6486,7 +6486,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="14"/><w part="F">ρᾶς</w> τοῦ ἐγγεγραμμένου <w part="I">πολυγώ</w>
 					<lb n="15"/><w part="F">νου</w> καὶ πασῶν τῶν <w part="I">ἐπιζευγνυ</w>
 					<lb n="16"/><w part="F"><unclear>ο</unclear>υσῶν</w> τὰς γωνίας σὺν τῆι <w part="I">ἡμι</w>
-					<lb n="17"/><w part="F">σείαι</w> τῆς ΑΓ·
+					<lb n="17"/><w part="F">σείαι</w> τῆς ΑΓ:
 					<choice>
 						<abbr>ἔστ</abbr>
 						<expan>ἔστ<ex>αι</ex></expan>
@@ -6537,7 +6537,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸν Ν <choice>
 						<abbr></abbr>
 						<expan><ex>κύκλ</ex><ex>ον</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="24"/>φανερὸν οὖν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
@@ -6562,7 +6562,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ <lb n="28"/>πολύγωνον. ἔστω πάλιν κῶνος <lb n="29"/>ὁ Ξ βάσιν μὲν ἔχων τῶι Μ
 						ἴσην,
 					<lb n="30"/>ὕψος δὲ τὴν ἐκ τοῦ κέντρου τῆς <w part="I">ἐ</w>
-					<lb n="31"/><w part="F"><supplied reason="lost">λάσ</supplied>σονος</w> σφαίρας· ἴσος δὴ <w
+					<lb n="31"/><w part="F"><supplied reason="lost">λάσ</supplied>σονος</w> σφαίρας: ἴσος δὴ <w
 						part="I">οὗ</w>
 					<lb n="32"/><w part="F"><supplied reason="lost">τός</supplied></w>
 					<supplied reason="lost">
@@ -6586,7 +6586,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice> Δ <supplied reason="lost">ἐπὶ</supplied>
 					<supplied reason="lost">τὴν</supplied>
-					<lb n="3"/>ΑΛ κάθετον ἠγμένην·
+					<lb n="3"/>ΑΛ κάθετον ἠγμένην:
 					<choice>
 						<abbr>ἔστ</abbr>
 						<expan>ἔστ<ex>αι</ex></expan>
@@ -6599,7 +6599,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="5"/><w part="F">ματι</w> σὺν τῶι κώνωι, οὗ βάσις <supplied reason="lost"
 						>ὁ</supplied>
 					<lb n="6"/><w><unclear>π</unclear>ε<unclear>ρὶ</unclear></w> διάμετρον τὴν ΑΓ κύκλος,
-					<lb n="7"/>κορυφὴ δὲ τὸ Δ κέντρον·
+					<lb n="7"/>κορυφὴ δὲ τὸ Δ κέντρον:
 					<w>ταῦ<unclear>τ</unclear><supplied reason="lost">α</supplied></w>
 					<supplied reason="lost">
 						<choice>
@@ -6671,7 +6671,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="15"/><choice>
 						<abbr>μετρον</abbr>
 						<expan><ex>διά</ex>μετρον</expan>
-					</choice>· ἔσται <choice>
+					</choice>: ἔσται <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὡς ἡ <choice>
@@ -6719,7 +6719,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
 					<w>τ<supplied reason="lost">ὸ</supplied></w>
-					<lb n="19"/>ὕψος τὸ <supplied reason="lost">Ο</supplied> κώνου ὅμοιοι·
+					<lb n="19"/>ὕψος τὸ <supplied reason="lost">Ο</supplied> κώνου ὅμοιοι:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
@@ -6748,7 +6748,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>πρ</abbr>
 						<expan>πρ<ex>ὸς</ex></expan>
-					</choice> τὴν διάμετρον·
+					</choice> τὴν διάμετρον:
 					<w part="I">φα</w>
 					<lb n="23"/><w part="F">νερὸν</w> οὖν <choice>
 						<abbr></abbr>
@@ -6837,7 +6837,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice>
-					<lb n="11"/><w><supplied reason="lost">τῶ</supplied>ι</w> ΑΒ· εἰ δὴ
+					<lb n="11"/><w><supplied reason="lost">τῶ</supplied>ι</w> ΑΒ: εἰ δὴ
 							<w><unclear>δ</unclear><supplied reason="lost">εῖξαι</supplied></w>
 					<supplied reason="lost">
 						<choice>
@@ -6862,7 +6862,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<supplied reason="lost">τὸ</supplied> Δ <w>κέντρ<supplied reason="lost">ον</supplied></w>,
 					καὶ <w>ἀ<unclear>πὸ</unclear></w>
 					<lb n="16"/><w><unclear>τ</unclear>οῦ</w> Δ ἐπὶ τὰ ΑΓ ἐπιζευχθεῖσαι <w part="I">ἐκ</w>
-					<lb n="17"/><w part="F"><supplied reason="lost">β</supplied>εβλήσθωσαν</w>· καὶ δύο μεγεθῶν
+					<lb n="17"/><w part="F"><supplied reason="lost">β</supplied>εβλήσθωσαν</w>: καὶ δύο μεγεθῶν
 						<lb n="18"/><w><unclear>ἀ</unclear>νίσων</w> ὄντων, τῆς τε
 							<w>ἐπιφανεία<unclear>ς</unclear></w>
 					<lb n="19"/><w><supplied reason="lost">τ</supplied>οῦ</w> τμήματος <choice>
@@ -6940,7 +6940,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸ <lb n="36"/><w><supplied reason="lost">ἐγγε</supplied>γραμμένον</w>· ἑκάτερος <unclear><choice>
+					</choice> τὸ <lb n="36"/><w><supplied reason="lost">ἐγγε</supplied>γραμμένον</w>: ἑκάτερος <unclear><choice>
 							<abbr></abbr>
 							<expan><ex>γὰρ</ex></expan>
 						</choice></unclear>
@@ -6979,7 +6979,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice>
 					<lb n="10"/>σχήματος ἐπιφάνεια τῆς <w part="I">ἐπι</w>
 					<lb n="11"/><w part="F">φανείας</w> τοῦ
-						<w><unclear>τμ</unclear>ήμα<unclear>τ</unclear>ος</w>· καὶ ἡ <choice>
+						<w><unclear>τμ</unclear>ήμα<unclear>τ</unclear>ος</w>: καὶ ἡ <choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice>
@@ -6992,7 +6992,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> τοῦ Ζ <w part="I">κύ</w>
-					<lb n="14"/><w part="F">κλου</w>·
+					<lb n="14"/><w part="F">κλου</w>:
 					<choice>
 						<abbr>ὅ</abbr>
 						<expan>ὅ<ex>περ</ex></expan>
@@ -7000,7 +7000,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>ἀδύν</abbr>
 						<expan>ἀδύν<ex>ατον</ex></expan>
-					</choice>· δέδεικται <choice>
+					</choice>: δέδεικται <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> ἡ <w part="I">εἰρη</w>
@@ -7041,7 +7041,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> μείζων ἡ <lb n="25"/>ἐπιφάνεια τοῦ Ζ <w>κύκλο<supplied reason="lost"
 						>υ</supplied></w>.
 					<supplied reason="lost">ἐδείχθη</supplied>
-					<lb n="26"/>δὲ ὡς οὐδὲ ἐλάσσων· ἴση <choice>
+					<lb n="26"/>δὲ ὡς οὐδὲ ἐλάσσων: ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>.
@@ -7117,7 +7117,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="15"/>οὗ ἡ ἐκ τοῦ κέντρου ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῆι ΒΓ·
+					</choice> τῆι ΒΓ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -7148,7 +7148,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὴν ΒΓ <lb n="21"/>κύκλου, ὁ δὲ Ε κύκλος ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῆι <lb n="22"/>ἐπιφανείαι τοῦ ΑΒΔ τμήματος·
+					</choice> τῆι <lb n="22"/>ἐπιφανείαι τοῦ ΑΒΔ τμήματος:
 					<lb n="23"/><supplied reason="lost">δέδεικται</supplied>
 					<supplied reason="lost"><choice>
 							<abbr></abbr>
@@ -7171,7 +7171,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I">κύ</w>
 					<lb n="4"/><w part="F">κλον</w> τὸν ἴσον τῆι κατὰ τὴν <supplied reason="lost">ΑΒΔ</supplied>
 					<lb n="5"/>περιφέρειαν <w><unclear>ἐ</unclear>πιφανείαι</w>, ὕψος δὲ <lb n="6"/>ἴσον τῆι
-						ΒΓ·
+						ΒΓ:
 					<w><unclear>δ</unclear>εικτέον</w>
 					<choice>
 						<abbr></abbr>
@@ -7183,7 +7183,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice> κείσθω ὁ Θ κῶνος, οἷος <w part="I">εἴρη</w>
-					<lb n="10"/><w part="F">ται</w>· δύο δὴ μεγεθῶν ἀνίσων <choice>
+					<lb n="10"/><w part="F">ται</w>: δύο δὴ μεγεθῶν ἀνίσων <choice>
 						<abbr>ὄντω</abbr>
 						<expan>ὄντω<ex>ν</ex></expan>
 					</choice>,
@@ -7237,7 +7237,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="3"/>τῆς Δ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> Ζ· τὸ <choice>
+					</choice> Ζ: τὸ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -7259,7 +7259,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> Ε ἐλάσσονα λόγον ἔχει <lb n="7"/>ἢ ὁ στερεὸς τομεὺς πρὸς <w>τὸ<unclear>ν</unclear></w>
 					<supplied reason="lost">Θ</supplied>
 					<w part="I">κῶ</w>
-					<lb n="8"/><w part="F">νον</w>· ἢ τὸ <w>περιγεγραμμέν<supplied reason="lost"
+					<lb n="8"/><w part="F">νον</w>: ἢ τὸ <w>περιγεγραμμέν<supplied reason="lost"
 						>ον</supplied></w>
 					<w><supplied reason="lost">τ</supplied>ῶι</w>
 					<w part="I">το</w>
@@ -7271,14 +7271,14 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="10"/>ἐναλλάξ· μεῖζον δέ <choice>
+					<lb n="10"/>ἐναλλάξ: μεῖζον δέ <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστι</ex></expan>
 					</choice> τὸ <w part="I">περιγε</w>
 					<lb n="11"/><w part="F">γραμμένον</w> στερεὸν σχῆμα <w><supplied reason="lost"
 							>το</supplied><unclear>ῦ</unclear></w>
 					<w part="I">τμή</w>
-					<lb n="12"/><w part="F">ματος</w>·
+					<lb n="12"/><w part="F">ματος</w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -7298,11 +7298,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> μεῖζόν <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστι</ex></expan>
-					</choice> τοῦ Θ κώνου·
+					</choice> τοῦ Θ κώνου:
 					<lb n="14"/><choice>
 						<abbr>ὅ</abbr>
 						<expan>ὅ<ex>περ</ex></expan>
-					</choice> ἀδύνατον· δέδεικται γὰρ ἐν <lb n="15"/>τοῖς ἄνω ἔλασσον ὂν τοῦ <w part="I"
+					</choice> ἀδύνατον: δέδεικται γὰρ ἐν <lb n="15"/>τοῖς ἄνω ἔλασσον ὂν τοῦ <w part="I"
 							>τηλικο<supplied reason="lost">ύ</supplied></w>
 					<lb n="16"/><w part="F">του</w> κώνου,
 					<choice>
@@ -7350,7 +7350,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="6"/>τὸν στερεὸν τομέα στερεὰ <choice>
 						<abbr>σχήμα</abbr>
 						<expan>σχήμα<ex>τα</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="7"/>ὁμοίως <w>οὖ<unclear>ν</unclear></w> δείξομεν <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
@@ -7392,7 +7392,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice> ὁ <w part="I">το</w>
 					<lb n="17"/><w part="F">μεὺς</w> τοῦ ἐγγεγραμμένου εἰς <w part="I">αὐ</w>
-					<lb n="18"/><w part="F">τὸν</w> σχήματος· μείζων <choice>
+					<lb n="18"/><w part="F">τὸν</w> σχήματος: μείζων <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ Θ <w part="I">κῶ</w>
@@ -7418,7 +7418,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>προτάσ</abbr>
 						<expan>προτάσ<ex>εις</ex></expan>
 					</choice>
-					<lb n="6"/>ἀπέστειλα Κόνωνι·
+					<lb n="6"/>ἀπέστειλα Κόνωνι:
 					<choice>
 						<abbr>συμβνει</abbr>
 						<expan>συμβ<ex>αί</ex>νει</expan>
@@ -7525,7 +7525,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="1"/>εὑρίσκονται θεωρίας, τῶ τε περὶ <lb n="2"/>ἑλίκων καὶ τῶ περὶ τῶν <w part="I"
 						>κωνο</w>
 					<lb n="3"/><w part="F">ειδῶν</w>, πειράσομαι διὰ τάχους <lb n="4"/>ἀποστεῖλαι. τὸ
-					δὲ πρῶτον ἦν τῶν <lb n="5"/>προβλημάτων τόδε· σφαίρας <lb n="6"/>δοθείσης ἐπίπεδον χωρίον
+					δὲ πρῶτον ἦν τῶν <lb n="5"/>προβλημάτων τόδε: σφαίρας <lb n="6"/>δοθείσης ἐπίπεδον χωρίον
 						<w part="I">εὑ</w>
 					<lb n="7"/><w part="F">ρεῖν</w> ἴσον τῆι ἐπιφανείαι τῆς <w part="I"><choice>
 							<abbr>σφ</abbr>
@@ -7533,7 +7533,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice></w>
 					<lb n="8"/><w part="F">ρας</w>. ἔστι δὲ τοῦτο φανερὸν <w part="I">δεδειγ</w>
 					<lb n="9"/><w part="F">μένον</w> ἐκ τῶν προειρημένων <w part="I">θε</w>
-					<lb n="10"/><w part="F">ωρημάτων</w>· τὸ γὰρ <choice>
+					<lb n="10"/><w part="F">ωρημάτων</w>: τὸ γὰρ <choice>
 						<abbr>τετραπλάσι</abbr>
 						<expan>τετραπλάσι<ex>ον</ex></expan>
 					</choice>
@@ -7557,7 +7557,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 				<ab>
 					<lb n="14"/><hi rend="margin">
 						<num>Α</num>
-					</hi> τὸ δεύτερον ἦν· Κώνου <choice>
+					</hi> τὸ δεύτερον ἦν: Κώνου <choice>
 						<abbr>δοθέντ</abbr>
 						<expan>δοθέντ<ex>ος</ex></expan>
 					</choice>
@@ -7571,7 +7571,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="20"/>ἡμιόλιος κύλινδρος ὁ ΓΖΔ, τῆς δὲ <lb n="21"/>Β σφαίρας ἡμιόλιος
 						κύλινδρος, οὗ <lb n="22"/>βάσις ὁ περὶ διάμετρον τὴν ΗΘ <w part="I">κύ</w>
 					<lb n="23"/><w part="F">κλος</w>, ἄξων δὲ ὁ ΚΛ ἴσος τῆι <w part="I">δια</w>
-					<lb n="24"/><w part="F">μέτρωι</w> τῆς Β σφαίρας· ἴσος <choice>
+					<lb n="24"/><w part="F">μέτρωι</w> τῆς Β σφαίρας: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -7582,7 +7582,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ἀντιπεπόνθασι</abbr>
 						<expan>ἀντιπεπόνθασι<ex>ν</ex></expan>
 					</choice>
-					<lb n="27"/>αἱ βάσεις τοῖς ὕψεσιν· ὡς <choice>
+					<lb n="27"/>αἱ βάσεις τοῖς ὕψεσιν: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ Ε <choice>
@@ -7610,7 +7610,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΕΖ.
-					<lb n="30"/>ἴση δὲ ἡ ΚΛ τῆι ΗΘ· ὁ γὰρ ἡμιόλιος <lb n="31"/>κύλινδρος τῆς σφαίρας ἴσον ἔχει
+					<lb n="30"/>ἴση δὲ ἡ ΚΛ τῆι ΗΘ: ὁ γὰρ ἡμιόλιος <lb n="31"/>κύλινδρος τῆς σφαίρας ἴσον ἔχει
 						<lb n="32"/>τὸν ἄξονα τῆι <choice>
 						<abbr>μέτρωι</abbr>
 						<expan><ex>δια</ex>μέτρωι</expan>
@@ -7626,7 +7626,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἐστι</ex></expan>
-					</choice> τῶν ἐν <lb n="34"/>τῆι σφαίραι·
+					</choice> τῶν ἐν <lb n="34"/>τῆι σφαίραι:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -7644,7 +7644,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΗΘ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὴν ΕΖ. ἔστω τῶ ἀπὸ ΗΘ <lb n="36"/>ἴσον τὸ ὑπὸ ΓΔ ΜΝ·
+					</choice> τὴν ΕΖ. ἔστω τῶ ἀπὸ ΗΘ <lb n="36"/>ἴσον τὸ ὑπὸ ΓΔ ΜΝ:
 					<w><unclear>ὡ</unclear>ς</w>
 					<choice>
 						<abbr></abbr>
@@ -7698,21 +7698,21 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice> δοθεῖσα <w>ἑ<unclear>κ</unclear>ατέρα</w> τῶν ΓΔ <w><supplied reason="lost"
-						>Ε</supplied>Ζ</w>·
+						>Ε</supplied>Ζ</w>:
 					<lb n="5"/>δύο ἄρα δοθεισῶν εὐθειῶν τῶν ΓΔ <lb n="6"/>ΕΖ δύο μέσαι ἀνάλογόν <choice>
 						<abbr></abbr>
 						<expan><ex>εἰσιν</ex></expan>
-					</choice> αἱ ΗΘ ΜΝ·
+					</choice> αἱ ΗΘ ΜΝ:
 					<lb n="7"/>δοθεῖσα <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἑκατέρα τῆς ΗΘ ΜΝ.
-					<lb n="8"/>Συντεθήσεται δὴ τὸ πρόβλημα οὕτως·
+					<lb n="8"/>Συντεθήσεται δὴ τὸ πρόβλημα οὕτως:
 					<lb n="9"/><w>ἔ<supplied reason="lost">στ</supplied>ω</w> δὴ ὁ δοθεὶς κῶνος ἢ <choice>
 						<abbr>κύλινδρο</abbr>
 						<expan>κύλινδρο<ex>ς</ex></expan>
 					</choice>
-					<lb n="10"/>ὁ Α· δεῖ δὴ τῶι Α κώνωι ἢ <choice>
+					<lb n="10"/>ὁ Α: δεῖ δὴ τῶι Α κώνωι ἢ <choice>
 						<abbr>κυλίνδρ</abbr>
 						<expan>κυλίνδρ<ex>ω</ex></expan>
 					</choice>
@@ -7749,7 +7749,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="20"/>ΚΛ ἴσος τῆι ΗΘ <choice>
 						<abbr>μέτρωι</abbr>
 						<expan><ex>δια</ex>μέτρωι</expan>
-					</choice>· λέγω δὴ <choice>
+					</choice>: λέγω δὴ <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice>
@@ -7832,11 +7832,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ὴν</ex></expan>
-					</choice> ΒΖ· τῶν <choice>
+					</choice> ΒΖ: τῶν <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ΕΚ κυλίνδρων <lb n="28"/>ἀντιπεπόνθασιν αἱ βάσεις τοῖς <w part="I">ὕψε</w>
-					<lb n="29"/><w part="F">σιν</w>· ἴσος <choice>
+					<lb n="29"/><w part="F">σιν</w>: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ Ε κύλινδρος τῶι Κ <w part="I">κυ</w>
@@ -7852,7 +7852,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="32"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
-					</choice>· καὶ ἡ σφαῖρα <choice>
+					</choice>: καὶ ἡ σφαῖρα <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>, ἧς <choice>
@@ -7954,7 +7954,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<abbr>με</abbr>
 							<expan><ex>διά</ex>με</expan>
 						</choice></w>
-					<lb n="19"/><w part="F">τρον</w> τὴν ΒΖ κορυφὰς ἔχοντες <lb n="20"/>τὰ ΚΔ σημεῖα· λέγω <choice>
+					<lb n="19"/><w part="F">τρον</w> τὴν ΒΖ κορυφὰς ἔχοντες <lb n="20"/>τὰ ΚΔ σημεῖα: λέγω <choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
 					</choice> ἴσος <choice>
@@ -7998,7 +7998,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τῆι <lb n="6"/>ΒΓ, ὕψος δὲ ἴσον τῆι ἐκ τοῦ κέντρου <lb n="7"/>τῆς
-						σφαίρας· ἔσται δὴ ὁ Μ κῶνος <lb n="8"/>ἴσος τῶι ΒΓ ΘΖ στερεῶι τομεῖ·
+						σφαίρας: ἔσται δὴ ὁ Μ κῶνος <lb n="8"/>ἴσος τῶι ΒΓ ΘΖ στερεῶι τομεῖ:
 					<w part="I">τοῦ</w>
 					<lb n="9"/><w part="F">το</w>
 					<choice>
@@ -8071,7 +8071,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ ἀπὸ ΓΒ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸ <lb n="16"/>ἀπὸ ΒΕ·
+					</choice> τὸ <lb n="16"/>ἀπὸ ΒΕ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8102,7 +8102,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τὴ<ex>ν</ex></expan>
 					</choice>
 					<milestone n="92v1" unit="folio"/>
-					<lb n="20"/>ΒΖ κύκλου· ὡς <choice>
+					<lb n="20"/>ΒΖ κύκλου: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἡ ΔΘ <choice>
@@ -8127,7 +8127,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice> ἴση ἡ ΘΓ τῶι ἄξονι τοῦ Μ <w part="I">κώ</w>
-					<lb n="23"/><w part="F">νου</w>·
+					<lb n="23"/><w part="F">νου</w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -8146,7 +8146,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὴν ΒΖ <choice>
 						<abbr>κύκλ</abbr>
 						<expan>κύκλ<ex>ον</ex></expan>
-					</choice>· ἴσος <choice>
+					</choice>: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -8155,12 +8155,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>κέντρ<ex>ου</ex></expan>
 					</choice>
 					<lb n="28"/>τῆς σφαίρας, τῶι ΒΔ ΖΘ <w part="I"><supplied reason="lost">σ</supplied>τερε</w>
-					<lb n="29"/><w part="F">ῶι</w> ῥόμβωι· τοῦτο <choice>
+					<lb n="29"/><w part="F">ῶι</w> ῥόμβωι: τοῦτο <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> ἐν τοῖς <w part="I">λείμμα</w>
 					<lb n="30"/><w part="F">σι</w> τοῦ πρώτου βιβλίου δέδεικται.
-					<lb n="31"/>ἢ οὕτως· ἐπεί <choice>
+					<lb n="31"/>ἢ οὕτως: ἐπεί <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστιν</ex></expan>
 					</choice>, ὡς ἡ ΔΘ <choice>
@@ -8204,7 +8204,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>διά</ex>μετρον</expan>
 					</choice> τὴν ΒΖ κύκλον,
 					<milestone n="93r2" unit="folio"/>
-					<lb n="1"/>ὕψος δὲ ἡ ΔΘ· ἀντιπεπόνθασι <choice>
+					<lb n="1"/>ὕψος δὲ ἡ ΔΘ: ἀντιπεπόνθασι <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
@@ -8223,7 +8223,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῶι <lb n="7"/>ΒΓ ΖΘ στερεῶι τομεῖ·
+					</choice> τῶι <lb n="7"/>ΒΓ ΖΘ στερεῶι τομεῖ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -8290,7 +8290,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΘΓ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΓΕ. ἴση δὲ ἡ ΘΓ <lb n="19"/>τῆι ΘΑ· καὶ ἐναλλὰξ <choice>
+					</choice> ΓΕ. ἴση δὲ ἡ ΘΓ <lb n="19"/>τῆι ΘΑ: καὶ ἐναλλὰξ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -8312,7 +8312,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΑΕ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΕΓ· ὥστε καὶ συνθέντι,
+					</choice> ΕΓ: ὥστε καὶ συνθέντι,
 					<w>ὡ<unclear>ς</unclear></w>
 					<lb n="21"/>ἡ ΚΘ <choice>
 						<abbr></abbr>
@@ -8330,14 +8330,14 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ ἀπὸ ΒΕ. κείσθω δὴ πάλιν <lb n="23"/>κύκλος ὁ Ν ἴσην ἔχων τὴν ἐκ τοῦ <lb n="24"
 					/>κέντρου τῆι ἐπιφανείαι τοῦ ΒΑΖ <lb n="25"/>τμήματος. καὶ νοείσθω ὁ κῶνος ὁ <lb n="26"/>Ν
 					ἴσον ἔχων τὸ ὕψος τῆ ἐκ τοῦ <w part="I">κέν</w>
-					<lb n="27"/><w part="F">τρου</w> τῆς σφαίρας· ἴσος <choice>
+					<lb n="27"/><w part="F">τρου</w> τῆς σφαίρας: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῶ ΒΘ <lb n="28"/>ΖΑ στερεῶ τομεῖ· τοῦτο <choice>
+					</choice> τῶ ΒΘ <lb n="28"/>ΖΑ στερεῶ τομεῖ: τοῦτο <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> ἐν τῶι <w part="I">πρώ</w>
@@ -8396,7 +8396,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ὁ Ν κύκλος <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὸν περὶ <lb n="3"/>διάμετρον τὴν ΒΖ κύκλον· ἴσος <choice>
+					</choice> τὸν περὶ <lb n="3"/>διάμετρον τὴν ΒΖ κύκλον: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -8413,13 +8413,13 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κείσθω</abbr>
 						<expan><ex>προσ</ex>κείσθω</expan>
 					</choice> ὁ <lb n="6"/>κῶνος, οὗ βάσις μὲν ὁ περὶ τὴν ΒΖ <lb n="7"/>κύκλος, ὕψος
-					δὲ ἡ ΕΘ· ὅλον <choice>
+					δὲ ἡ ΕΘ: ὅλον <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> τὸ ΑΒΖ <lb n="8"/>τμῆμα τῆς σφαίρας ἴσον <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> τῶι <lb n="9"/>ΒΖ κώνω·
+					</choice> τῶι <lb n="9"/>ΒΖ κώνω:
 					<choice>
 						<abbr>ὅ</abbr>
 						<expan>ὅ<ex>περ</ex></expan>
@@ -8449,7 +8449,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>ὕψ<ex>ος</ex></expan>
 					</choice>
 					<lb n="13"/>ἴσον, ὡς συναμφότερος ἥ τε ἐκ <lb n="14"/>τοῦ κέντρου τῆς σφαίρας καὶ ἡ <lb
-						n="15"/>κάθετος τοῦ λοιποῦ τμήματος·
+						n="15"/>κάθετος τοῦ λοιποῦ τμήματος:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8505,7 +8505,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>ῆς</ex></expan>
-					</choice> σφαίρας·
+					</choice> σφαίρας:
 					<choice>
 						<abbr>ἴσ</abbr>
 						<expan>ἴσ<ex>ος</ex></expan>
@@ -8517,7 +8517,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> ὁ κῶνος τῆς <lb n="24"/>σφαίρας· ἡ <choice>
+					</choice> ὁ κῶνος τῆς <lb n="24"/>σφαίρας: ἡ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> σφαῖρα <choice>
@@ -8607,10 +8607,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΓΔ. καὶ συνθέντι· ἴση <choice>
+					</choice> ΓΔ. καὶ συνθέντι: ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
-					</choice> ἡ ΑΘ <lb n="13"/>τῆ ΘΓ·
+					</choice> ἡ ΑΘ <lb n="13"/>τῆ ΘΓ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8653,7 +8653,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="15"/>ἡ ΚΘ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΘΑ· ἴσον <choice>
+					</choice> ΘΑ: ἴσον <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> τὸ ὑπὸ ΔΚ ΘΑ τῶι <lb n="16"/>ὑπὸ τῶν ΔΘΚ. πάλιν, ἐπεί <choice>
@@ -8669,7 +8669,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΘΓ, ἡ ΘΔ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΓΔ, ἐναλλάξ·
+					</choice> ΓΔ, ἐναλλάξ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8679,7 +8679,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΓΔ, ἐδείχθη ἡ ΔΕ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΕΓ·
+					</choice> ΕΓ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8693,7 +8693,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΘΔ, ἡ ΘΕ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΕΓ·
+					</choice> ΕΓ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -8717,7 +8717,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan>τῶ<ex>ν</ex></expan>
 					</choice>
 					<milestone n="92r2" unit="folio"/>
-					<lb n="21"/>ΑΕΓ. τὸ δὲ ὑπὸ τῶν ΚΘΔ ἴσον ἐδείχθη <lb n="22"/>τῶι ὑπὸ ΚΔ ΑΘ·
+					<lb n="21"/>ΑΕΓ. τὸ δὲ ὑπὸ τῶν ΚΘΔ ἴσον ἐδείχθη <lb n="22"/>τῶι ὑπὸ ΚΔ ΑΘ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8764,7 +8764,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice>
-					<lb n="28"/>Ν κύκλου·
+					<lb n="28"/>Ν κύκλου:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -8816,7 +8816,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ ὕψος <lb n="32"/><choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
-					</choice> Ν κώνου· ἴσος <choice>
+					</choice> Ν κώνου: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -8828,10 +8828,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>ττ</abbr>
 						<expan>τ<ex>ου</ex>τ<ex>έστιν</ex></expan>
 					</choice> ἡ σφαῖρα, τῶι ΒΔ ΖΚ <w part="I">στερε</w>
-					<lb n="34"/><w part="F">ῶι</w> ῥόμβωι· ἢ <choice>
+					<lb n="34"/><w part="F">ῶι</w> ῥόμβωι: ἢ <choice>
 						<abbr></abbr>
 						<expan><ex>οὕτως</ex></expan>
-					</choice>·
+					</choice>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
@@ -8868,7 +8868,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τὸ ὕψος <choice>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
-					</choice> Ν κώνου·
+					</choice> Ν κώνου:
 					<choice>
 						<abbr>ἴσ</abbr>
 						<expan>ἴσ<ex>ος</ex></expan>
@@ -8900,7 +8900,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>διά</ex>μετρ<ex>ον</ex></expan>
 					</choice>
 					<milestone n="Arch66r" unit="underTextFolio"/><milestone n="40r1" unit="folio"/>
-					<lb n="1"/>τὴν ΒΖ κύκλος, ὕψος δὲ ἡ ΔΚ·
+					<lb n="1"/>τὴν ΒΖ κύκλος, ὕψος δὲ ἡ ΔΚ:
 					<w part="I">ἀντι</w>
 					<lb n="2"/><w part="F">πεπόνθασι</w>
 					<choice>
@@ -8923,7 +8923,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice> τῶι ΒΚ ΖΔ <lb n="4"/><w>στερεῶ<supplied reason="lost">ι</supplied></w>
-					<w>ῥόμβω<supplied reason="lost">ι</supplied></w>·
+					<w>ῥόμβω<supplied reason="lost">ι</supplied></w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -8939,7 +8939,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τμήμαι</abbr>
 						<expan>τμήμα<ex>τ</ex>ι</expan>
 					</choice>
-					<lb n="8"/>τῆς σφαίρας· λοιπὸς <choice>
+					<lb n="8"/>τῆς σφαίρας: λοιπὸς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ ΒΚΖ <lb n="9"/>κῶνος ἴσος <choice>
@@ -8959,7 +8959,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 				</ab>
 				<milestone unit="proposition" n="3"/>
 				<ab>
-					<lb n="11"/>Τρίτον ἦν πρόβλημα τόδε·
+					<lb n="11"/>Τρίτον ἦν πρόβλημα τόδε:
 					<choice>
 						<abbr>τὴ</abbr>
 						<expan>τὴ<ex>ν</ex></expan>
@@ -8983,7 +8983,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
-					<unclear>Γ</unclear>Β <w>δοθ<supplied reason="lost">εί</supplied><unclear>ς</unclear></w>·
+					<unclear>Γ</unclear>Β <w>δοθ<supplied reason="lost">εί</supplied><unclear>ς</unclear></w>:
 					<choice>
 						<abbr>τε</abbr>
 						<expan><ex>ὥσ</ex>τε</expan>
@@ -9004,7 +9004,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> τῆι ΑΒ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ὀρθὰς ἡ ΔΕ· θέσει <choice>
+					</choice> ὀρθὰς ἡ ΔΕ: θέσει <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> καὶ τὸ <lb n="4"/><choice>
@@ -9017,7 +9017,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΔΕ ἐπίπεδον. συντεθήσεται δὲ <choice>
 						<abbr></abbr>
 						<expan><ex>οὕτως</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="5"/>ἔστω σφαῖρα, ἧς μέγιστος <choice>
 						<abbr>κύκλ</abbr>
 						<expan>κύκλ<ex>ος</ex></expan>
@@ -9078,7 +9078,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>κέντρ</abbr>
 						<expan>κέντρ<ex>ου</ex></expan>
 					</choice> τῆι ΑΔ, ὁ δὲ Κ <lb n="14"/>τὴν ἐκ τοῦ κέντρου ἴσην ἔχων τῆι <lb n="15"
-						/>ΔΒ·
+						/>ΔΒ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ἔστιν</ex></expan>
@@ -9098,7 +9098,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr>τ</abbr>
 						<expan>τ<ex>οῦ</ex></expan>
 					</choice>
-					<lb n="17"/>ΔΒΕ τμήματος· τοῦτο <choice>
+					<lb n="17"/>ΔΒΕ τμήματος: τοῦτο <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
@@ -9181,7 +9181,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w><unclear>ἔ</unclear><supplied reason="lost">στω</supplied></w>
 					<supplied reason="lost">ἡ</supplied>
 					<w><supplied reason="lost">δο</supplied>θεῖ<unclear>σ</unclear>α</w> σφαῖρα <lb n="5"/>ἡ ΑΒ
-						ΓΔ· δεῖ δὴ <w>αὐ<supplied reason="lost">τὴ</supplied><unclear>ν</unclear></w>
+						ΓΔ: δεῖ δὴ <w>αὐ<supplied reason="lost">τὴ</supplied><unclear>ν</unclear></w>
 					<w>τε<unclear>μεῖ</unclear>ν</w>
 					<w part="I">ἐπι</w>
 					<lb n="6"/><w part="F">πέδωι</w>, ὥστε τὰ τμήματα τῆς <w part="I"><choice>
@@ -9197,7 +9197,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>διὰ</ex></expan>
 					</choice> τῆς ΑΓ <w part="I"><supplied reason="lost">ἐ</supplied>πιπ<unclear>έ</unclear></w>
-					<lb n="9"/><w part="F">δωι</w>· λόγος <choice>
+					<lb n="9"/><w part="F">δωι</w>: λόγος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -9261,7 +9261,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
 					</choice>
-					<lb n="18"/>ἐπεζεύχθωσαν αἱ ΑΛ ΛΓ ΑΡ ΡΓ·
+					<lb n="18"/>ἐπεζεύχθωσαν αἱ ΑΛ ΛΓ ΑΡ ΡΓ:
 					<choice>
 						<abbr>ἴσ</abbr>
 						<expan>ἴσ<ex>ος</ex></expan>
@@ -9275,7 +9275,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ὁ μὲν ΑΛΓ κῶνος τῶι ΑΔΓ <w part="I">τμή</w>
 					<lb n="20"/><w part="F">ματι</w> τῆς σφαίρας, ὁ δὲ ΑΡΓ τῶι Α <lb n="21"/><supplied
-						reason="lost">ΒΓ</supplied>·
+						reason="lost">ΒΓ</supplied>:
 					<supplied reason="lost">λόγος</supplied>
 					<supplied reason="lost">ἄρα</supplied>
 					<supplied reason="lost">καὶ</supplied>
@@ -9350,7 +9350,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΒΧ.
 					<supplied reason="lost">καὶ</supplied>
-					<supplied reason="lost">κείσθω</supplied> τῆι ΚΒ ἴση <lb n="6"/>ἡ ΒΖ·
+					<supplied reason="lost">κείσθω</supplied> τῆι ΚΒ ἴση <lb n="6"/>ἡ ΒΖ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὅτι</ex></expan>
@@ -9360,7 +9360,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<expan><ex>γὰρ</ex></expan>
 					</choice>
 					<w>ἐκτ<supplied reason="lost">ὸς</supplied></w> τοῦ Ρ πεσεῖται <w part="I">δῆ</w>
-					<lb n="7"/><w part="F">λον</w>· καὶ ἔσται, ὡς ἡ ΛΔ <unclear><choice>
+					<lb n="7"/><w part="F">λον</w>: καὶ ἔσται, ὡς ἡ ΛΔ <unclear><choice>
 							<abbr></abbr>
 							<expan><ex>πρὸς</ex></expan>
 						</choice></unclear> ΔΧ,
@@ -9370,7 +9370,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ <unclear>Ζ</unclear>Β <lb n="8"/><choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΒΧ·
+					</choice> ΒΧ:
 					<choice>
 						<abbr>τε</abbr>
 						<expan><ex>ὥσ</ex>τε</expan>
@@ -9446,7 +9446,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΒΖ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΖΧ· ὁ <choice>
+					</choice> ΖΧ: ὁ <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -9477,11 +9477,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΛΧ, ἡ ΒΖ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΘΖ·
+					</choice> ΘΖ:
 					<lb n="18"/>λόγος δὲ τῆς ΡΛ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΛΧ δοθείς· λόγος <choice>
+					</choice> ΛΧ δοθείς: λόγος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -9489,7 +9489,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΖΘ δοθείς. δοθεῖσα δὲ <lb n="20"/>ἡ <supplied reason="lost"
-						>Β</supplied><unclear>Ζ</unclear>·
+						>Β</supplied><unclear>Ζ</unclear>:
 					<w><unclear>ἴ</unclear><supplied reason="lost">ση</supplied></w>
 					<supplied reason="lost"><choice>
 							<abbr></abbr>
@@ -9500,7 +9500,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<expan><ex>ἐστι</ex></expan>
 						</choice></unclear>
 					<w>τῆ<supplied reason="lost">ι</supplied></w> ἐκ <w>τ<supplied reason="lost">ο</supplied>ῦ</w>
-					<w>κ<supplied reason="lost">έντρου</supplied></w>·
+					<w>κ<supplied reason="lost">έντρου</supplied></w>:
 					<w part="I"><supplied reason="lost">δοθεῖ</supplied></w>
 					<lb n="21"/><w part="F"><supplied reason="lost">σα</supplied></w>
 					<supplied reason="lost">ἄρα</supplied>
@@ -9519,7 +9519,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="1"/>συντεθήσεται δὴ τὸ πρόβλημα <choice>
 						<abbr></abbr>
 						<expan><ex>οὕτως</ex></expan>
-					</choice>·
+					</choice>:
 					<lb n="2"/>ἔστω, ὧ μὲν δεῖ ἴσον τμῆμα <w part="I">συστή</w>
 					<lb n="3"/><w part="F">σασθαι</w>, τὸ ΑΒΓ, ὡς δὲ ὅμοιον, τὸ ΕΖΗ,
 					<lb n="4"/>καὶ ἔστωσαν μέγιστοι κύκλοι τῶν <lb n="5"/>σφαιρῶν οἱ ΑΒΓ ΝΕ ΗΖΟ,
@@ -9553,7 +9553,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΟΦ, ἡ ΩΦ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΦΗ· ἴσος <choice>
+					</choice> ΦΗ: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -9636,7 +9636,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὴν ΛΞ·
+					</choice> τὴν ΛΞ:
 					<choice>
 						<abbr>ἔστ</abbr>
 						<expan>ἔστ<ex>αι</ex></expan>
@@ -9675,7 +9675,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΨΥ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΥΛ· ἴσος <choice>
+					</choice> ΥΛ: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ὁ ΨΘΚ <w part="I">κῶ</w>
@@ -9717,8 +9717,8 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΨΥ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΘΚ· καὶ <w part="I">ἐναλ</w>
-					<lb n="4"/><w part="F">λὰξ</w> καὶ <w><unclear>ἀ</unclear>νάπαλιν</w>·
+					</choice> ΘΚ: καὶ <w part="I">ἐναλ</w>
+					<lb n="4"/><w part="F">λὰξ</w> καὶ <w><unclear>ἀ</unclear>νάπαλιν</w>:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>ὡς</ex></expan>
@@ -9766,7 +9766,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice>
-					<lb n="8"/>ΧΤ·
+					<lb n="8"/>ΧΤ:
 					<choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
@@ -9799,7 +9799,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ἡ ΨΥ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> τὴν ΧΤ· ἴσος <choice>
+					</choice> τὴν ΧΤ: ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice>
@@ -9807,7 +9807,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>ἐστὶν</ex></expan>
 					</choice> ὁ ΧΑΒ <w part="I">κῶ</w>
-					<lb n="11"/><w part="F">νος</w> τῶι ΨΘΚ κώνωι·
+					<lb n="11"/><w part="F">νος</w> τῶι ΨΘΚ κώνωι:
 					<choice>
 						<abbr>τε</abbr>
 						<expan><ex>ὥσ</ex>τε</expan>
@@ -9962,7 +9962,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					ἐκ τοῦ κέντρου ἴση <lb n="26"/><choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
-					</choice> τῆι ΕΖ· αἱ <choice>
+					</choice> τῆι ΕΖ: αἱ <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> ἐπιφάνειαι τῶν <w part="I">εἰρη</w>
@@ -9981,7 +9981,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 									>ύ</supplied>σ<unclear></unclear>ς</abbr>
 						<expan>ἐπ<supplied reason="lost">ι</supplied>ζευγνυο<supplied reason="lost"
 									>ύ</supplied>σ<unclear><ex>αι</ex></unclear>ς</expan>
-					</choice>· ὥστε καὶ <lb n="32"/>ἡ <supplied reason="lost">ΜΛ</supplied> τῆι ΕΖ ἴση <choice>
+					</choice>: ὥστε καὶ <lb n="32"/>ἡ <supplied reason="lost">ΜΛ</supplied> τῆι ΕΖ ἴση <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστίν</ex></expan>
 					</choice>. ἐπεὶ δὲ ὅμοιόν <choice>
@@ -10002,7 +10002,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</choice> ΡΝ, ἡ ΒΠ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΠΘ· καὶ <choice>
+					</choice> ΠΘ: καὶ <choice>
 						<abbr>ἀνάπαλι</abbr>
 						<expan>ἀνάπαλι<ex>ν</ex></expan>
 					</choice>
@@ -10027,11 +10027,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="2"/>οὕτως ἡ ΒΠ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΓΒ· ὅμοια <choice>
+					</choice> ΓΒ: ὅμοια <choice>
 						<abbr></abbr>
 						<expan><ex>γὰρ</ex></expan>
 					</choice> τὰ <w part="I">τρίγω</w>
-					<lb n="3"/><w part="F">να</w>· ὡς <choice>
+					<lb n="3"/><w part="F">να</w>: ὡς <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
 					</choice> ἡ Ν<supplied reason="lost">Λ</supplied>
@@ -10055,14 +10055,14 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
 					</choice> ΒΓ. καὶ <w><supplied reason="lost"
-						>ἐ</supplied>ν<unclear>α</unclear>λλάξ</w>·
+						>ἐ</supplied>ν<unclear>α</unclear>λλάξ</w>:
 					<w>λό<unclear>γ</unclear>ος</w>
 					<supplied reason="lost">δὲ</supplied>
 					<lb n="5"/>τῆς ΕΖ <choice>
 						<abbr></abbr>
 						<expan><ex>πρὸς</ex></expan>
-					</choice> ΒΓ· δοθεῖσα γὰρ <w><unclear>ἑ</unclear><supplied reason="lost"
-						>κα</supplied>τέρα</w>·
+					</choice> ΒΓ: δοθεῖσα γὰρ <w><unclear>ἑ</unclear><supplied reason="lost"
+						>κα</supplied>τέρα</w>:
 					<lb n="6"/><w><unclear>λ</unclear>όγος</w>
 					<choice>
 						<abbr></abbr>
@@ -10083,10 +10083,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<w part="I"><unclear>δ</unclear>οθεῖ</w>
 					<lb n="7"/><w part="F"><supplied reason="lost">σα</supplied></w>
 					<supplied reason="lost">ἡ</supplied>
-					<supplied reason="lost">ΒΘ</supplied>· δοθεῖσα <choice>
+					<supplied reason="lost">ΒΘ</supplied>: δοθεῖσα <choice>
 						<abbr></abbr>
 						<expan><ex>ἄρα</ex></expan>
-					</choice> καὶ ἡ ΛΝ·
+					</choice> καὶ ἡ ΛΝ:
 					<w part="I">ὥσ</w>
 					<lb n="8"/><w part="F">τε</w> καὶ ἡ <supplied reason="lost">σφαῖρα</supplied>
 					<w><supplied reason="lost">δ</supplied>οθεῖσά</w> ἐστιν.
@@ -10095,7 +10095,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</figure>
 					<milestone n="117r2" unit="folio"/>
 					<lb n="9"/><w><supplied reason="lost">συντεθή</supplied>σετ<unclear>α</unclear>ι</w> δὴ
-						οὕτως· ἔστω τὰ <lb n="10"/>δοθέντα δύο τμήματα σφαίρας <lb n="11"/>τὰ ΑΒΓ ΔΕΖ,
+						οὕτως: ἔστω τὰ <lb n="10"/>δοθέντα δύο τμήματα σφαίρας <lb n="11"/>τὰ ΑΒΓ ΔΕΖ,
 					τὸ μὲν ΑΒΓ, ὧ δεῖ <choice>
 						<abbr>ὅμοι</abbr>
 						<expan>ὅμοι<ex>ον</ex></expan>
@@ -10161,7 +10161,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<lb n="24"/><choice>
 						<abbr></abbr>
 						<expan><ex>καὶ</ex></expan>
-					</choice> ἐπεζεύχθω ἡ ΑΜ·
+					</choice> ἐπεζεύχθω ἡ ΑΜ:
 					<w>ὅμο<supplied reason="lost">ια</supplied></w>
 					<supplied reason="lost">
 						<choice>
