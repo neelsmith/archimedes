@@ -263,6 +263,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 		</profileDesc>
 	</teiHeader>
 	<text xml:lang="grc-c">
+	
 		<body>
 			<div n="1" type="book">
 				<head>
