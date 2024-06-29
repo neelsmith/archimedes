@@ -1,0 +1,53 @@
+project:
+  type: website
+jupyter: julia-1.10  
+theme: spacelab
+execute:
+  freeze: auto
+date: last-modified  
+margin-header: "⚠️ *Just notes and questions.*"
+bibliography: "reff.bib"
+format:
+  html: 
+    toc: true
+
+
+website:
+  title: "Archimedes"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd         
+      - text: "Questions"
+        file: topics/index.qmd           
+      - text: "Reference"
+        file: reference/index.qmd  
+    right:   
+      - icon: github
+        href: https://github.com/hcmid/Orthography.jl
+        aria-label: GitHub
+      - icon: person-circle
+        menu:
+          - text: "About me"
+            href: https://neelsmith.quarto.pub
+          - text: "More of my digital scholarship"
+            href: https://neelsmith.quarto.pub/digschol/
+        aria-label: "More of my work"  
+
+  sidebar:
+    - title: "Reference"
+      contents: 
+        - reference/index.qmd
+
+    - title: "Questions"
+      contents:
+        - topics/index.qmd
+
+
+    - title: "Home"
+      contents:
+        - index.qmd               
+ 
+

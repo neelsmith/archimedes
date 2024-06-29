@@ -2,3 +2,5 @@ Manifest.toml
 *~
 settings.json
 .vscode/
+dumps/
+_site/
