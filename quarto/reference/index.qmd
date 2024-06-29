@@ -1,7 +1,8 @@
 # Reference
 
-The discovery of the Moerbeke translation (**B**): @rose1884
+The discovery of **B**, the Moerbeke translation: @rose1884
 
 Editions:
 
 *Measurement of the Circle*: @clagett1952
+
