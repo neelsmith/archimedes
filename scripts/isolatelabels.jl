@@ -3,7 +3,7 @@ datalines = filter(readlines(f)[2:end]) do ln
     ! isempty(ln)
 end
 
-
+"""True if string `s` parses as a label."""
 function islabel(s)
     allcaps = true
     for c in s
@@ -21,8 +21,7 @@ lexcounts = []
 for ln in datalines
     cols = split(ln, "|")
     if islabel(cols[1])
-
-        @info("Pushing $(ln) as label")
+        #@info("Pushing $(ln) as label")
         push!(labelcounts, ln )    
     else
         push!(lexcounts, ln)
@@ -32,4 +31,9 @@ end
 labelfile = joinpath(pwd(), "data", "labelcounts.cex")
 open(labelfile,"w") do io
     write(io, join(labelcounts,"\n"))
+end
+
+lexfile = joinpath(pwd(), "data", "rawlexcounts.cex")
+open(lexfile,"w") do io
+    write(io, join(lexcounts,"\n"))
 end
