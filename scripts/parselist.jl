@@ -1,16 +1,9 @@
-using Downloads
-using CitableParserBuilder
+#using Downloads
+using CitableParserBuilder, CitableBase
 using Kanones
 
 parserurl = "http://shot.holycross.edu/morphology/attic_core-current.cex"
-
-function getremoteparser(u)
-	tmp = Downloads.download(u)
-	parser = Kanones.dfParser(tmp)
-	rm(tmp)
-	parser
-end
-parser = getremoteparser(parserurl)
+parser = kParser(parserurl, UrlReader)
 
 
 countsfile = joinpath(pwd(), "data", "tokensnormed.cex")
@@ -19,15 +12,25 @@ tokens = map(lns) do ln
 	split(ln, "|")[1]
 end
 
-parsetoken(tokens[1], parser)
-#=
-f = joinpath(pwd(),"tokencounts-sandc.cex")
+parses = map(tokens) do t
+	parsetoken(t, parser)
+end
+parsecounts = map(v -> length(v), parses)
 
-wordlist = map(readlines(f)[2:end]) do ln
-    split(ln,"|")[1]
+
+summarylines =  ["token|count|parses"]
+for (i,p) in enumerate(lns)
+	msg = parsecounts[i] > 0 ? p * "|yes" : p * "|no"
+	push!(summarylines, msg)
 end
 
-parses = parsewordlist(wordlist, parser)
+parseress = joinpath(pwd(), "data", "parseresults.cex")
+open(parseress,"w") do io
+	write(io, join(summarylines, "\n"))
+end
 
-successes = filter(p -> ! isempty(p), parses)
-=#
+failures = filter(ln -> endswith(ln,"|no"), summarylines)
+failsfile = joinpath(pwd(), "data", "failures.cex")
+open(failsfile,"w") do io
+	write(io, join(failures,"\n"))
+end
