@@ -82,3 +82,9 @@ open(lcoutfile, "w") do io
     write(io, join(lcdelimited,"\n"))
 end
 
+
+wordlistfile = joinpath(pwd(), "data", "wordlist-ordered.txt")
+wordlist = collect(keys(lcsorted))
+open(wordlistfile,"w") do io
+    write(io, join(wordlist, "\n") )
+end
