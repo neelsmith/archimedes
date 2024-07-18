@@ -1,7 +1,7 @@
-f = joinpath(pwd(), "SandC-src.txt")
+f = joinpath(pwd(), "texts", "SandC-src.txt")
 outfile = "tokencounts-sandc.cex"
-#f = joinpath(pwd(), "archimedes-src.txt")
-#outfile = "tokencounts-all.cex"
+
+
 srclines = readlines(f)
 
 parts = map(srclines) do ln
@@ -39,6 +39,7 @@ for k in keys(sorted)
     push!(delimited, string(k,"|", sorted[k]))
 end
 
+outfile = joinpath(pwd(), "data", "rawtokencounts.cex")
 open(outfile, "w") do io
     write(io, join(delimited,"\n"))
 end
