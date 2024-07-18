@@ -18,25 +18,30 @@ txt = replace(txt1, r"-[ ]*" => "")
 function islabel(s)
     allcaps = true
     for c in s
-        if islowercase(c) || Base.Unicode.category_string(c) == "Punctuation, other"
+        if islowercase(c) || Base.Unicode.category_string(c) == "Punctuation, other" || s[end] == 'ʹ'
             allcaps = false
         end
     end
     allcaps
 end
 
+"""True if final character of `s` is numeric marker."""
+function isnum(s)
+    s[end] == 'ʹ'
+end
+
+
 using Orthography, PolytonicGreek
 
 tkns = tokenize(txt, literaryGreek())
 
-nopunct = filter(tkns) do t
-    (t.tokencategory isa PunctuationToken) == false
+lookslikelex = filter(tkns) do t
+    (t.tokencategory isa PunctuationToken) == false && isnum(t.text) == false
 end
 
-tknstrings = map(nopunct) do tkn
+tknstrings = map(lookslikelex) do tkn
     tkn.text
 end
-
 
 
 
@@ -61,8 +66,10 @@ end
 
 using Kanones
 nolabels = filter(tkns) do t
-    (t.tokencategory isa PunctuationToken) == false && ! islabel(t.text)
+    (t.tokencategory isa PunctuationToken) == false && ! islabel(t.text) && ! isnum(t.text)
 end
+
+
 
 lctokens = map(t -> knormal(t.text), nolabels)
 
