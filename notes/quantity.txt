@@ -1,0 +1,12 @@
+Euclid uses neut nom/acc sg μέρος 163 times; μέγεθος only 30.
+Archimedes SC uses μέγεθος  10 times, μέρος  only twice. 
+
+I have not yet read the passages to see if they're synonyms or have some different sense in either author, but was motivated by Euclid 1.def.1: σημεῖόν ἐστιν, οὗ μέρος οὐθέν.  I wonder if this means "[In the realm of geometry], a point is an entity without quantity."
+
+Definition 2 γραμμὴ δὲ μῆκος ἀπλατές is clearly refering to two dimensions of quantity.  "A line [segment] is length without breadth."  It has quantity in a single dimension, but we're specifying the absence of breadth because in Book 1 we're going to be working in 2-D geometry.
+Definition 5, ἐπίπεδος ἐπιφάνεια δέ ἐστιν, ὃ μῆκος καὶ πλάτος μόνον ἔχει. A plane surface is a [geometric] entity with *only* two dimensions."
+Definition 6 ἐπίπεδος δὲ γωνία ἐστὶν ἡ ἐν ἐπιπέδῳ δύο γραμμῶν ἁπτομένων ἀλλήλων καὶ μὴ ἐπ' εὐθείας κειμένων πρὸς ἀλλήλας τῶν γραμμῶν κλίσις A plane angle (angle in a plane surface) is the inclination of two intersecting lines (segments) which do not line on a straight line with each other.  (ἅπτω to touch can I suppose mean intersect or coincide)
+Interesting that while Def. 6 does not mention quantity in relation to plane angles, Defintitions 10-12 define terms for the three possible results of comparing a quantity: equality (right angles), greater than (obtuse), and less than (acute).  So, like line segments and sufaces, angles have quantity, but it's not specified in terms of the two dimensions of a plane (width, breadth) but in terms of the angular inclination/relation of the defining line segments.
+Figures (σχῆματα) are defined by containment, which implicitly defines their surface area. The definitions of specific figures (circle, quadrangles, triangles in various species) are all defined in terms of already defined elements that have quantity.
+So maybe this idea that each of these entities is in some sense an instantiation of a more abstract (Platonic?) idea of quantity is actually in the Greek of Euclid Book 1 Definitions.
+I imagine these expressions are essentially synonymous ways of talking about this relation:  "A point is an entity without quantity"; "A line segment IS width without breath", "A plane surface is an entity which HAS only width and breadth". For angles in a plane, we just imply their possession of a dimension (unless κλίσις  
