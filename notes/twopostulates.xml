@@ -1,0 +1,37 @@
+<wrapper>
+<milestone unit="postulate" n="1"/>
+				<ab> τῶν τὰ αὐτὰ <lb n="26"/>πέρατα ἐχουσῶν γραμμῶν <w part="I">ἐ</w>
+					<lb n="27"/><w part="F">λαχίστην</w> εἶναι τὴν εὐθεῖαν.
+				</ab>
+				<milestone unit="postulate" n="2"/>
+				<ab> τῶν <lb n="28"/>δὲ ἄλλων γραμμῶν, εἶναι τὰς <w part="I">τοιαύ</w>
+					<lb n="29"/><w part="F">τας</w>, ἐπειδ’ ἂν ὦσιν ἀμφότεραι <lb n="30"/>ἐπὶ τὰ αὐτὰ
+						κοῖλαι, καὶ ἤτοι ὅλη <lb n="31"/>περιλαμβάνηται ἡ ἑτέρα <choice>
+						<abbr>αὐτ</abbr>
+						<expan>αὐτ<ex>ῶν</ex></expan>
+					</choice>
+					<lb n="32"/>ὑπὸ τῆς ἑτέρας ἐπιφανείας <lb n="33"/><choice>
+						<abbr></abbr>
+						<expan><ex>καὶ</ex></expan>
+					</choice> τῆς εὐθείας τῆς τὰ αὐτὰ <w part="I">πέρα</w>
+					<lb n="34"/><w part="F">τα</w> ἐχούσης αὐτῆ, ἢ τινὰ μὲν <w part="I"><choice>
+							<abbr></abbr>
+							<expan><ex>περι</ex></expan>
+						</choice></w>
+					<milestone n="3r2" unit="folio"/>
+					<lb n="1"/><w part="F"><supplied reason="lost">λαμβάνηται</supplied></w>,
+					<supplied reason="lost">τινὰ</supplied>
+					<supplied reason="lost">δὲ</supplied>
+					<supplied reason="lost">κοινὰ</supplied>
+					<supplied reason="lost">ἔχη</supplied>,
+					<lb n="2"/><supplied reason="lost">καὶ</supplied>
+					<supplied reason="lost">ἐλάσσονα</supplied>
+					<supplied reason="lost">εἶναι</supplied>
+					<supplied reason="lost">τὴν</supplied>
+					<w part="I"><supplied reason="lost">περιλαμ</supplied></w>
+					<lb n="3"/><w part="F">βαν<supplied reason="lost">ο</supplied>μέ<supplied reason="lost"
+							>νην</supplied></w>.
+				</ab>
+
+
+</wrapper>                
