@@ -4,3 +4,4 @@ settings.json
 .vscode/
 dumps/
 _site/
+.DS_Store
