@@ -62,17 +62,38 @@ corpus = abbrexpan == :editorial ? editorial : diplomatic
 passagev = map(psg -> passagecomponent(psg.urn), corpus.passages)
 
 # ╔═╡ 5d62dda9-7fbf-4156-9e6d-1e02932e5a51
-md"""*Passage*: $(@bind psg Select(passagev))"""
+md"""*Passage*: $(@bind psg Select(passagev, default="1.proposition.1"))"""
 
 # ╔═╡ 25622a67-6680-4e52-baca-b38bb2e22a3c
+
 function formatpsg(ref, corp, lb)
 	psgmatches = filter(corp.passages) do psg
 		passagecomponent(psg.urn) == ref
 	end
+	raw = join(map(psg -> text(psg), psgmatches),"\n\n")
+	lb ? raw : replace(raw, "/" => "")
 end
 
 # ╔═╡ 1bfe4328-aa69-4c35-b581-12b4db941ce7
-formatpsg(psg, corpus, lbs)
+formatpsg(psg, corpus, lbs) |> Markdown.parse
+
+# ╔═╡ 4e3ac8bb-d51e-41a5-bc2b-0e8673fed1f5
+function htmlize(ref, corp, lb)
+	psgmatches = filter(corp.passages) do psg
+		passagecomponent(psg.urn) == ref
+	end
+		raw = join(map(psg -> text(psg), psgmatches),"\n\n")
+		if lb
+			raw = replace(raw, "/" => "<br/>")
+		else 
+			raw = replace(raw, "/" => "")
+		end
+		"<p>" * raw * "</p>"
+	
+end
+
+# ╔═╡ 40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
+htmlize(psg, corpus, lbs)  |> HTML
 
 # ╔═╡ 77a9494b-5625-4b7a-ae93-c95905b5dcdf
 md"""> ## CSS and HTML"""
@@ -641,6 +662,7 @@ version = "17.4.0+2"
 # ╟─5d62dda9-7fbf-4156-9e6d-1e02932e5a51
 # ╟─84ed47e0-d4c6-42f9-8e7b-a2a44a2aa0b4
 # ╠═1bfe4328-aa69-4c35-b581-12b4db941ce7
+# ╠═40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
 # ╟─f7d9f543-10ae-4791-be4f-3fc5d9fb33e1
 # ╟─8f82c38d-beb3-4d8d-af68-cdf9c99c53ae
 # ╠═ae2f62d9-1699-4f3d-8f7c-1db065636d28
@@ -652,6 +674,7 @@ version = "17.4.0+2"
 # ╠═253263bb-d419-4eb1-a213-416cba6ffe5e
 # ╠═48adea5c-761b-403f-b084-65731c823abf
 # ╠═25622a67-6680-4e52-baca-b38bb2e22a3c
+# ╠═4e3ac8bb-d51e-41a5-bc2b-0e8673fed1f5
 # ╟─77a9494b-5625-4b7a-ae93-c95905b5dcdf
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
