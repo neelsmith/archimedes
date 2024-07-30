@@ -11,7 +11,7 @@ teins = "http://www.tei-c.org/ns/1.0"
 
 INITIAL_W = "I"
 FINAL_W = "F"
-LB = "#"
+LB = "/"
 
 
 """Look up value of attribute `aname` in node `n`.
