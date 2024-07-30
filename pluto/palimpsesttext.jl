@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.42
+# v0.19.43
 
 using Markdown
 using InteractiveUtils
@@ -18,6 +18,7 @@ end
 begin
 	using CitableBase, CitableText, CitableCorpus
 	using PlutoUI
+	using PlutoTeachingTools
 end
 
 # ╔═╡ b63aa737-224f-4822-ba44-0c49113485e0
@@ -27,7 +28,7 @@ TableOfContents()
 md"""# Read the Archimedes Palimpsest"""
 
 # ╔═╡ 84ed47e0-d4c6-42f9-8e7b-a2a44a2aa0b4
-md"""*Abbreviations*: $(@bind abbrexpan Select([:expan => "Expand", :abbr => "Do not expand"])) *Show line breaks* $(@bind lbs CheckBox())"""
+md"""*Abbreviations*: $(@bind abbrexpan Select([:expan => "Expand", :abbr => "Do not expand"])) *Show line breaks* $(@bind lbs CheckBox()) *Show restorations*: $(@bind restorations CheckBox())"""
 
 # ╔═╡ f7d9f543-10ae-4791-be4f-3fc5d9fb33e1
 html"""
@@ -64,8 +65,11 @@ passagev = map(psg -> passagecomponent(psg.urn), corpus.passages)
 # ╔═╡ 5d62dda9-7fbf-4156-9e6d-1e02932e5a51
 md"""*Passage*: $(@bind psg Select(passagev, default="1.proposition.1"))"""
 
-# ╔═╡ 25622a67-6680-4e52-baca-b38bb2e22a3c
+# ╔═╡ 1b9b266a-9a98-4cbe-a9dd-27ee0d23d25b
+md"""## *Sphere and Cylinder*, $(psg)"""
 
+# ╔═╡ 25622a67-6680-4e52-baca-b38bb2e22a3c
+"""Format plain-text view of passage."""
 function formatpsg(ref, corp, lb)
 	psgmatches = filter(corp.passages) do psg
 		passagecomponent(psg.urn) == ref
@@ -74,29 +78,96 @@ function formatpsg(ref, corp, lb)
 	lb ? raw : replace(raw, "/" => "")
 end
 
-# ╔═╡ 1bfe4328-aa69-4c35-b581-12b4db941ce7
-formatpsg(psg, corpus, lbs) |> Markdown.parse
-
 # ╔═╡ 4e3ac8bb-d51e-41a5-bc2b-0e8673fed1f5
+"""Format passage with HTML markup."""
 function htmlize(ref, corp, lb)
 	psgmatches = filter(corp.passages) do psg
 		passagecomponent(psg.urn) == ref
 	end
 		raw = join(map(psg -> text(psg), psgmatches),"\n\n")
+
+		
+	
 		if lb
 			raw = replace(raw, "/" => "<br/>")
 		else 
 			raw = replace(raw, "/" => "")
 		end
+
+		raw = replace(raw, "[" => "<span class=\"restored\">")
+		raw = replace(raw, "]" => "</span>")
+
+	 	raw = replace(raw, r"\*([^\*]+?)\*" => s"<span class=\"unclear\">\1</span>")
+
+		raw = replace(raw, "〖" => "<span class=\"deletion\">")
+		raw = replace(raw, "〗" => "</span>")
+
+
+			raw = replace(raw, "{" => "<span class=\"deletion\">")
+			raw = replace(raw, "}" => "( <i>sic</i>) </span>")
 		"<p>" * raw * "</p>"
 	
 end
 
-# ╔═╡ 40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
+# ╔═╡ fbf7cf3e-083c-494e-af71-5580030be770
 htmlize(psg, corpus, lbs)  |> HTML
 
 # ╔═╡ 77a9494b-5625-4b7a-ae93-c95905b5dcdf
 md"""> ## CSS and HTML"""
+
+# ╔═╡ 331f2e61-3a74-4491-a751-a4c59990755b
+colorkey = """<p>Color key:</p>  
+<ul>
+<li><span class="unclear">unclear text</span></li>
+<li><span class="restored">editorial restoration</span></li>
+<li><span class="deletion">deletion</span></li>
+<li><span class="sic">sic</span></li>
+</ul>
+""" 
+
+# ╔═╡ 2c273581-e864-4a38-8e6a-a7a89fd92f21
+Foldable("Color key", HTML(colorkey))
+
+# ╔═╡ d1cade98-7138-49f8-aec0-a9f23056d2e8
+showrestored = """
+	color: red
+"""
+
+# ╔═╡ c34aa12d-9358-4e90-b7df-c80c23f12dca
+md"""> ### Debug"""
+
+# ╔═╡ fa4fcf27-0748-448f-a4ba-a537c0b17350
+hiderestored = """
+	color: lightgray;
+	background-color: lightgray;
+"""
+
+# ╔═╡ ca8ab551-a5af-41a3-bfa6-53e15489d97e
+restoredcolors = restorations ? showrestored : hiderestored
+
+# ╔═╡ e464d53e-b99e-4858-b650-ec25f4753645
+allcss = """<style>
+span.deletion {
+	color: purple;
+}
+
+span.restored {
+	$(restoredcolors)
+}
+span.unclear {
+	color: silver;
+}
+
+span.sic {
+	color: orange;
+}
+</style>"""
+
+# ╔═╡ b268c16e-e365-435b-839f-d074ef78742a
+"""$(allcss)""" |> HTML
+
+# ╔═╡ 40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
+htmlize(psg, corpus, lbs) |> println #|> HTML
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -104,12 +175,14 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 CitableBase = "d6f014bd-995c-41bd-9893-703339864534"
 CitableCorpus = "cf5ac11a-93ef-4a1a-97a3-f6af101603b5"
 CitableText = "41e66566-473b-49d4-85b7-da83b66615d8"
+PlutoTeachingTools = "661c6b06-c737-4d37-b85c-46df65de6f69"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 
 [compat]
 CitableBase = "~10.4.0"
 CitableCorpus = "~0.13.5"
 CitableText = "~0.16.2"
+PlutoTeachingTools = "~0.2.15"
 PlutoUI = "~0.7.59"
 """
 
@@ -117,9 +190,9 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.1"
+julia_version = "1.10.4"
 manifest_format = "2.0"
-project_hash = "c21138e9143689ec2ea5504aa729654e8880c54f"
+project_hash = "806df177186e096cedc874e3a52520fee6336f7c"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -182,6 +255,12 @@ git-tree-sha1 = "da30bc6866a19e0235319c7fa3ffa6ab7f27e02e"
 uuid = "e2e9ead3-1b6c-4e96-b95f-43e6ab899178"
 version = "0.10.2"
 
+[[deps.CodeTracking]]
+deps = ["InteractiveUtils", "UUIDs"]
+git-tree-sha1 = "c0216e792f518b39b22212127d4a84dc31e4e386"
+uuid = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
+version = "1.3.5"
+
 [[deps.CodecZlib]]
 deps = ["TranscodingStreams", "Zlib_jll"]
 git-tree-sha1 = "b8fe8546d52ca154ac556809e10c75e6e7430ac8"
@@ -207,7 +286,7 @@ weakdeps = ["Dates", "LinearAlgebra"]
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "1.1.0+0"
+version = "1.1.1+0"
 
 [[deps.ConcurrentUtilities]]
 deps = ["Serialization", "Sockets"]
@@ -281,6 +360,11 @@ deps = ["Statistics"]
 git-tree-sha1 = "05882d6995ae5c12bb5f36dd2ed3f61c98cbb172"
 uuid = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 version = "0.8.5"
+
+[[deps.Format]]
+git-tree-sha1 = "9c68794ef81b08086aeb32eeaf33531668d5f5fc"
+uuid = "1fa38f19-a742-5d3f-a2b9-30dd87b9d5f8"
+version = "1.3.7"
 
 [[deps.Future]]
 deps = ["Random"]
@@ -356,6 +440,31 @@ git-tree-sha1 = "31e996f0a15c7b280ba9f76636b3ff9e2ae58c9a"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.4"
 
+[[deps.JuliaInterpreter]]
+deps = ["CodeTracking", "InteractiveUtils", "Random", "UUIDs"]
+git-tree-sha1 = "5d3a5a206297af3868151bb4a2cf27ebce46f16d"
+uuid = "aa1ae85d-cabe-5617-a682-6adf51b2e16a"
+version = "0.9.33"
+
+[[deps.LaTeXStrings]]
+git-tree-sha1 = "50901ebc375ed41dbf8058da26f9de442febbbec"
+uuid = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+version = "1.3.1"
+
+[[deps.Latexify]]
+deps = ["Format", "InteractiveUtils", "LaTeXStrings", "MacroTools", "Markdown", "OrderedCollections", "Requires"]
+git-tree-sha1 = "5b0d630f3020b82c0775a51d05895852f8506f50"
+uuid = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+version = "0.16.4"
+
+    [deps.Latexify.extensions]
+    DataFramesExt = "DataFrames"
+    SymEngineExt = "SymEngine"
+
+    [deps.Latexify.weakdeps]
+    DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+    SymEngine = "123dc426-2d89-5057-bbad-38513e3affd8"
+
 [[deps.LazilyInitializedFields]]
 git-tree-sha1 = "8f7f3cabab0fd1800699663533b6d5cb3fc0e612"
 uuid = "0e77f7df-68c5-4e49-93ce-4cd80f5598bf"
@@ -407,10 +516,22 @@ git-tree-sha1 = "c1dd6d7978c12545b4179fb6153b9250c96b0075"
 uuid = "e6f89c97-d47a-5376-807f-9c37f3926c36"
 version = "1.0.3"
 
+[[deps.LoweredCodeUtils]]
+deps = ["JuliaInterpreter"]
+git-tree-sha1 = "1ce1834f9644a8f7c011eb0592b7fd6c42c90653"
+uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
+version = "3.0.1"
+
 [[deps.MIMEs]]
 git-tree-sha1 = "65f28ad4b594aebe22157d6fac869786a255b7eb"
 uuid = "6c6e2e6c-3030-632d-7369-2d6c69616d65"
 version = "0.1.4"
+
+[[deps.MacroTools]]
+deps = ["Markdown", "Random"]
+git-tree-sha1 = "2fa9ee3e63fd3a4f7a9a4f4744a52f4856de82df"
+uuid = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+version = "0.5.13"
 
 [[deps.Markdown]]
 deps = ["Base64"]
@@ -482,6 +603,24 @@ deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 version = "1.10.0"
 
+[[deps.PlutoHooks]]
+deps = ["InteractiveUtils", "Markdown", "UUIDs"]
+git-tree-sha1 = "072cdf20c9b0507fdd977d7d246d90030609674b"
+uuid = "0ff47ea0-7a50-410d-8455-4348d5de0774"
+version = "0.0.5"
+
+[[deps.PlutoLinks]]
+deps = ["FileWatching", "InteractiveUtils", "Markdown", "PlutoHooks", "Revise", "UUIDs"]
+git-tree-sha1 = "8f5fa7056e6dcfb23ac5211de38e6c03f6367794"
+uuid = "0ff47ea0-7a50-410d-8455-4348d5de0420"
+version = "0.1.6"
+
+[[deps.PlutoTeachingTools]]
+deps = ["Downloads", "HypertextLiteral", "LaTeXStrings", "Latexify", "Markdown", "PlutoLinks", "PlutoUI", "Random"]
+git-tree-sha1 = "5d9ab1a4faf25a62bb9d07ef0003396ac258ef1c"
+uuid = "661c6b06-c737-4d37-b85c-46df65de6f69"
+version = "0.2.15"
+
 [[deps.PlutoUI]]
 deps = ["AbstractPlutoDingetjes", "Base64", "ColorTypes", "Dates", "FixedPointNumbers", "Hyperscript", "HypertextLiteral", "IOCapture", "InteractiveUtils", "JSON", "Logging", "MIMEs", "Markdown", "Random", "Reexport", "URIs", "UUIDs"]
 git-tree-sha1 = "ab55ee1510ad2af0ff674dbcced5e94921f867a9"
@@ -528,6 +667,18 @@ deps = ["LazilyInitializedFields", "Pkg", "TOML", "Tar"]
 git-tree-sha1 = "ffd19052caf598b8653b99404058fce14828be51"
 uuid = "2792f1a3-b283-48e8-9a74-f99dce5104f3"
 version = "0.1.0"
+
+[[deps.Requires]]
+deps = ["UUIDs"]
+git-tree-sha1 = "838a3a4188e2ded87a4f9f184b4b0d78a1e91cb7"
+uuid = "ae029012-a4dd-5104-9daa-d747884805df"
+version = "1.3.0"
+
+[[deps.Revise]]
+deps = ["CodeTracking", "Distributed", "FileWatching", "JuliaInterpreter", "LibGit2", "LoweredCodeUtils", "OrderedCollections", "REPL", "Requires", "UUIDs", "Unicode"]
+git-tree-sha1 = "183ea9da1c6b1875a7c2280a86c673ab90383bf4"
+uuid = "295af30f-e4ad-537b-8983-00126c2a3abe"
+version = "3.5.17"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
@@ -661,8 +812,9 @@ version = "17.4.0+2"
 # ╟─e93d7824-537e-4f19-bcf0-d311446d6efb
 # ╟─5d62dda9-7fbf-4156-9e6d-1e02932e5a51
 # ╟─84ed47e0-d4c6-42f9-8e7b-a2a44a2aa0b4
-# ╠═1bfe4328-aa69-4c35-b581-12b4db941ce7
-# ╠═40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
+# ╟─1b9b266a-9a98-4cbe-a9dd-27ee0d23d25b
+# ╟─2c273581-e864-4a38-8e6a-a7a89fd92f21
+# ╟─fbf7cf3e-083c-494e-af71-5580030be770
 # ╟─f7d9f543-10ae-4791-be4f-3fc5d9fb33e1
 # ╟─8f82c38d-beb3-4d8d-af68-cdf9c99c53ae
 # ╠═ae2f62d9-1699-4f3d-8f7c-1db065636d28
@@ -674,7 +826,15 @@ version = "17.4.0+2"
 # ╠═253263bb-d419-4eb1-a213-416cba6ffe5e
 # ╠═48adea5c-761b-403f-b084-65731c823abf
 # ╠═25622a67-6680-4e52-baca-b38bb2e22a3c
-# ╠═4e3ac8bb-d51e-41a5-bc2b-0e8673fed1f5
+# ╟─4e3ac8bb-d51e-41a5-bc2b-0e8673fed1f5
 # ╟─77a9494b-5625-4b7a-ae93-c95905b5dcdf
+# ╟─331f2e61-3a74-4491-a751-a4c59990755b
+# ╠═b268c16e-e365-435b-839f-d074ef78742a
+# ╟─e464d53e-b99e-4858-b650-ec25f4753645
+# ╟─ca8ab551-a5af-41a3-bfa6-53e15489d97e
+# ╟─d1cade98-7138-49f8-aec0-a9f23056d2e8
+# ╟─fa4fcf27-0748-448f-a4ba-a537c0b17350
+# ╟─c34aa12d-9358-4e90-b7df-c80c23f12dca
+# ╠═40424e10-78a9-4bdb-b82c-a4fb6a7bdefb
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
