@@ -1,184 +1,141 @@
+#=
+Convert XML of AP XML to plain-text editions.
+=#
+
 using EzXML
 using Markdown
+using CitableBase, CitableText, CitableCorpus
 
-src = joinpath(pwd(), "notes", "twopostulates.xml")
-#xmltext = read(src, String)
-#doc = parsexml(xmltext)
-doc  = readxml(src)
 
 teins = "http://www.tei-c.org/ns/1.0"
 
-# EzXML.TEXT_NODE
+INITIAL_W = "I"
+FINAL_W = "F"
+LB = "#"
 
-xp = "/wrapper/ab"
-divs = findall(xp, root(doc))
 
-
-function showme(el, elnames = []; tier = 1)
-    namelist = elnames
-    for kid in eachnode(el)
-        #@info(string("(type " , nodetype(kid), ")" ))
-        if nodetype(kid) == EzXML.ELEMENT_NODE	
-            @info("$(tier). $(nodename(kid))")
-            newtier = tier + 1
-            
-            if nodename(kid) == "w"
-                @info("Look at $(attributes(w))")
-            end
-
-            if nodename(kid) in namelist
-                namelist = showme(kid, namelist; tier = newtier)
-            else
-                newlist = push!(namelist, nodename(kid))
-                namelist = showme(kid, newlist; tier = newtier)
-
-            end
-        elseif nodetype(kid) == EzXML.TEXT_NODE	
-            @info("$(nodecontent(kid))")
+"""Look up value of attribute `aname` in node `n`.
+"""
+function attrval(n::EzXML.Node, aname::AbstractString)
+    rslt = nothing
+    for a in eachattribute(n)
+        if nodename(a) == aname
+            rslt = nodecontent(a)
         end
     end
-    namelist
+    rslt
 end
 
-
-showme(divs[2])
-
-
-
-INITIIAL_W = "I"
-FINAL_W = "F"
-function mdfragg(el, textpieces = [], hanging = "")
+"""Collect a vector of text fragments with correct white spacing
+for a plain-text edition.
+"""
+function textfragg(el::EzXML.Node, textpieces = AbstractString[], hanging = ""; edition = :expanded)
+    
     fragg = textpieces
     for kid in eachnode(el)
         if nodename(kid) == "w"
-            childtext = mdtext(kid)
-            if kid["part"] == FINAL_W
-                str = hanging * "||" * childtext
+            childtext = textedition(kid, edition)
+
+            if attrval(kid, "part") == FINAL_W
+                str = hanging * LB * childtext
                 hanging = ""
-                @info("SPLITTER: $(str)")
+                #@info("SPLITTER: $(str)")
                 push!(fragg, str)
-            elseif kid["part"] == INITIIAL_W
+
+            elseif attrval(kid, "part") == INITIAL_W
                 hanging = childtext 
             end
         elseif nodename(kid) == "lb" && isempty(hanging)
-            push!(fragg, " || ")
+            push!(fragg, " $(LB) ")
+
+        elseif nodename(kid) == "abbr" && edition == :expanded
+            @info("Skip abbreviated with editino $(edition)")
+            # skip it
+
+
+        elseif nodename(kid) == "expan" && edition == :diplomatic
+            @info("Skip expanded with edition = $(edition)")
+            # skip it
 
         elseif nodetype(kid) == EzXML.ELEMENT_NODE	
-            #@info("$(nodename(kid))")
-            fragg = mdfragg(kid, fragg)
+            @info("$(nodename(kid)) in edition $(edition)")
+            fragg = textfragg(kid, fragg; edition = edition)
 
             
         elseif nodetype(kid) == EzXML.TEXT_NODE	
 
             rational = replace(nodecontent(kid), r"\s+" => " ")
             push!(fragg, rational)
-            fragg = mdfragg(kid, fragg)
+            fragg = textfragg(kid, fragg; edition = edition)
         end
     end
     fragg
 end
 
-function mdtext(el)
-    raw = join(mdfragg(el))
+
+"""Collect a single plain-text edition of a given XML element.
+"""
+function textedition(el::EzXML.Node, edition = :expanded)
+    raw = join(textfragg(el; edition = edition))
     replace(raw, r"\s+" => " ") |> strip
 end
 
 
 
-mdfragg(divs[2])|> join |> Markdown.parse
+
+f = joinpath(pwd(), "palimpsest-project", "SandC1mod.xml")
+sandcroot = readxml(f) |> root
+sandcbody = findfirst("//ns:body", sandcroot,["ns" => teins])
 
 
-
-mdtext(divs[2])
-
-
+dipl = textedition(sandcbody, :diplomatic)
+editorial = textedition(sandcbody, :expanded)
 
 
+open(joinpath("data", "ap-dipl.txt"), "w") do io
+    write(io, dipl)
+end
 
-function wbreaks(el)
+open(joinpath("data", "ap-editorial.txt"), "w") do io
+    write(io, editorial)
+end
+
+"""
+- 3 citation tiers
+"""
+function citableAP(docroot::EzXML.Node, edition = :expanded; delimiter = "|", blockheader = true)
+    datalines = []
+    baseurn = "urn:cts:greekLit:tlg0552.tlg001.ap:"
+    bks = findall("/ns:TEI/ns:text/ns:body/ns:div", docroot, ["ns" => teins])
+
+    for bk in bks
+        bkid = bk["n"]
+        divlevel = findall("ns:div", bk, ["ns" => teins])
+        for d in divlevel
+            divid = d["n"]
+            for a in findall("ns:ab", d, ["ns" => teins])
+                abid = a["n"]
+                ref = baseurn * join([bkid, divid, abid], ".")
+                txt = textedition(a, edition)
+                push!(datalines, join([ref, txt], delimiter))
+
+            end
+        end
+    end
+    blockheader ? "#!ctsdata\n" * join(datalines, "\n") : join(datalines, "\n")
     
-    for kid in eachnode(el)
-        if nodetype(kid) == EzXML.ELEMENT_NODE	
-            if nodename(kid) == "w"
-                @info(kid["part"])
-                #for a in eachattribute(kid)
-                #    @info(nodename(a))
-                #end
-            end
-        end
-    end
 end
 
+sandc_editorial_txt = citableAP(sandcroot)
+sandc_diplomatic_txt = citableAP(sandcroot, :diplomatic)
 
-wbreaks(divs[2])
+sandc_editorial = fromcex(sandc_editorial_txt, CitableTextCorpus)
+sandc_diplomatic = fromcex(sandc_diplomatic_txt, CitableTextCorpus)
 
-
-
-function choices(el, opts = [])
-    choicekids = opts
-    for kid in eachnode(el)
-        if nodetype(kid) == EzXML.ELEMENT_NODE	
-            if nodename(kid) == "choice"
-                for elname in showme(kid)
-                    if ! (elname in choicekids)
-                        push!(choicekids, elname)
-                    end
-                end
-            else
-                choicekids = choices(kid, choicekids)
-            end
-        end
-    end
-    choicekids
+open(joinpath("texts", "SandC-ap-diplomatic.cex"), "w") do io
+    write(io, sandc_diplomatic_txt)
 end
 
-choices(divs[2])
-
-nwsrc = joinpath(pwd(), "palimpsest-project", "SphereAndCylinder-NW-p5.xml")
-isfile(nwsrc)
-#nwxmltext = read(nwsrc, String)
-nwdoc = readxml(nwsrc)
-
-nwroot = root(nwdoc)
-nwbody = findfirst("//ns:body", nwroot, ["ns" => teins])
-nwtei = showme(nwbody)
-
-
-open("nwusage.txt", "w") do io
-    write(io, join(nwtei,"\n"))
+open(joinpath("texts", "SandC-ap-editorial.cex"), "w") do io
+    write(io, sandc_editorial_txt)
 end
-
-
-choicedescendants = choices(nwbody)
-open("nwchoices.txt", "w") do io
-    write(io, join(choicedescendants,"\n"))
-end
-
-
-figdescxp = "//ns:figDesc"
-figdescv = findall(figdescxp, nwroot,["ns"=> teins])
-showme(figdescv[1])
-
-ignore = ["figure",
-"figDesc"]
-
-
-nwxp = "/ns:TEI/ns:text/ns:body/ns:div/ns:ab"
-
-abv = findall(nwxp, nwroot,["ns"=> teins])
-
-elnames = []
-for ab in abv
-    for kid in eachelement(ab)
-        push!(elnames, kid.name )
-    end
-end
-
-elnames |> unique
-
-
-figxp =  "/ns:TEI//ns:figure"
-figv =  findall(figxp, root(nwdoc),["ns"=> teins])
-
-using CitableTeiReaders
-ezxmlstring.(figv)
