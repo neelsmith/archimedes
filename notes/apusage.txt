@@ -1,12 +1,12 @@
-div
-head
+√ div
+√ head
 milestone
-lb
-choice
-abbr
-expan
+√ lb
+√ choice
+√ abbr
+√ expan
 ex
-w
+√ w
 ab
 unclear
 supplied

@@ -725,10 +725,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 
 				<div n="proposition">
 					<milestone unit="proposition" n="1"/>
+					 
 					<ab n="1">
-						<hi rend="margin">
+						<title>
 							<num>Α</num>
-						</hi> ἐάνπερ <choice>
+						</title>
+						ἐάνπερ <choice>
 							<abbr>κύκλ</abbr>
 							<expan>κύκλ<ex>ον</ex></expan>
 						</choice>
@@ -809,10 +811,12 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice>.
 					</ab>
 					<milestone unit="proposition" n="2"/>
+					
 					<ab n="2">
-						<lb n="20"/><hi rend="margin">
+						<title>
 							<num>Β</num>
-						</hi> Δύο μεγεθῶν ἀνίσων δοθέντων <lb n="21"/>δυνατόν ἐστιν εὑρεῖν δύο εὐθείας <lb n="22"
+						</title> 
+						<lb/>Δύο μεγεθῶν ἀνίσων δοθέντων <lb n="21"/>δυνατόν ἐστιν εὑρεῖν δύο εὐθείας <lb n="22"
 							/>ἀνίσους, ὥστε τὴν μείζονα <choice>
 							<abbr>εὐθεῖα</abbr>
 							<expan>εὐθεῖα<ex>ν</ex></expan>
@@ -1016,9 +1020,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="8"/>
 					<ab n="8">
 						<milestone n="4r2" unit="folio"/>
-						<lb n="1"/><hi rend="margin">
+						<title>
 							<num>Θ</num>
-						</hi> Ἐὰν περὶ κῶνον ἰσοσκελῆ <w part="I">πυρα</w>
+						</title>
+						<lb n="1"/> Ἐὰν περὶ κῶνον ἰσοσκελῆ <w part="I">πυρα</w>
 						<lb n="2"/><w part="F">μὶς</w> περιγραφῆ ἡ ἐπιφάνεια τῆς <lb n="3"/>πυραμίδος <w>χ<supplied
 								reason="lost">ω</supplied>ρὶς</w> τῆς βάσεως <lb n="4"/>ἴση ἐστὶν τριγώνωι βάσιν μὲν <lb
 							n="5"/>ἔχοντι τὴν ἴσην τῆι <w>περιμέτρ<supplied reason="lost">ωι</supplied></w>
@@ -1134,9 +1139,8 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						</choice> τὸ σχᾶμα </ab>
 					<milestone unit="proposition" n="9"/>
 					<ab n="9">
-						<lb n="10"/><hi rend="margin">
-							<num>Ι</num>
-						</hi>
+						<title><num>Ι</num></title>
+						<lb n="10"/>
 						<w><supplied reason="lost">Ἐ</supplied><unclear>ὰν</unclear></w>
 						<supplied reason="lost">κώνου</supplied>
 						<w><supplied reason="lost">τιν</supplied>ὸς</w> ἰσοσκέλους εἰς τὸν <lb n="11"
@@ -1286,9 +1290,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="10"/>
 					<ab n="10">
 						<milestone n="108r2" unit="folio"/>
-						<lb n="1"/><hi rend="margin">
+						<lb n="1"/>
+						<title>
 							<num>ΙΑ</num>
-						</hi> Ἐὰν ἐπιψαύουσαι <w part="I">ἀ</w>
+						</title> Ἐὰν ἐπιψαύουσαι <w part="I">ἀ</w>
 						<lb n="2"/><w part="F">χθῶσι</w> τοῦ κύκλου, ὅς ἐστι βάσις <choice>
 							<abbr>τ</abbr>
 							<expan>τ<ex>οῦ</ex></expan>
@@ -1786,9 +1791,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</ab>
 					<milestone unit="proposition" n="13"/>
 					<ab n="13">
-						<lb n="24"/><hi rend="margin">
+						<lb n="24"/>
+						<title>
 							<num>ΙΔ</num>
-						</hi> Παντὸς κυλίνδρου ὀρθοῦ ἡ <w part="I">ἐπι</w>
+						</title> Παντὸς κυλίνδρου ὀρθοῦ ἡ <w part="I">ἐπι</w>
 						<lb n="25"/><w part="F">φάνεια</w> χωρὶς τῆς βάσεως <w part="I">ἴ</w>
 						<lb n="26"/><w part="F">ση</w>
 						<choice>
@@ -2513,10 +2519,11 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 							<abbr>τουτ</abbr>
 							<expan>τουτ<ex>έστιν</ex></expan>
 						</choice>
-						<lb n="20"/><hi rend="margin">ἡ Γ <lb/>Δ <w part="I">μή</w>
+						<lb n="20"/>
+							ἡ Γ <lb/>Δ <w part="I">μή</w>
 							<lb/><w part="F"><supplied reason="lost">κ</supplied><unclear>ε</unclear>ι</w>. ὃν
 							<lb/>δὲ <w part="I">λό</w>
-							<lb/><w part="F"><unclear>γ</unclear>ον</w></hi>
+							<lb/><w part="F"><unclear>γ</unclear>ον</w>
 						<w>ἔ<supplied reason="lost">χει</supplied></w>
 						<supplied reason="lost">ἡ</supplied> Γ <choice>
 							<abbr></abbr>
@@ -2881,9 +2888,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</ab>
 					<milestone unit="proposition" n="17"/>
 					<ab n="17">
-						<lb n="24"/><hi rend="margin">
+						<lb n="24"/>
+						<title>
 							<num>ΙΗ</num>
-						</hi> ἐὰν ὦσι δύο κῶνοι ἰσοσκελεῖς, ἡ δὲ <lb n="25"/>τοῦ ἑτέρου κώνου ἐπιφάνεια ἴση <lb
+						</title> ἐὰν ὦσι δύο κῶνοι ἰσοσκελεῖς, ἡ δὲ <lb n="25"/>τοῦ ἑτέρου κώνου ἐπιφάνεια ἴση <lb
 							n="26"/>ἦ τῆι τοῦ ἑτέρου βάσει, ἡ δὲ ἀπὸ τοῦ <lb n="27"/>κέντρου τῆς βάσεως ἐπὶ τὴν <w
 							part="I">πλευ</w>
 						<lb n="28"/><w part="F">ρὰν</w> τοῦ κώνου κάθετος ἀγομένη <lb n="29"/>τῶι ὕψει ἴση ἦ,
@@ -3031,9 +3039,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</ab>
 					<milestone unit="proposition" n="18"/>
 					<ab n="18">
-						<lb n="22"/><hi rend="margin">
+						<lb n="22"/>
+						<title>
 							<num>ΙΘ</num>
-						</hi> Παντὶ ῥόμβωι ἐξ ἰσοσκελῶν <choice>
+						</title> Παντὶ ῥόμβωι ἐξ ἰσοσκελῶν <choice>
 							<abbr>κών</abbr>
 							<expan>κών<ex>ων</ex></expan>
 						</choice>
@@ -3176,9 +3185,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="19"/>
 					<ab n="19">
 						<milestone n="100v2" unit="folio"/>
-						<lb n="1"/><hi rend="margin">
+						<lb n="1"/>
+						<title>
 							<num>Κ</num>
-						</hi> Ἐὰν κῶνος ἰσοσκελὴς ἐπιπέδωι <lb n="2"/>τμηθῆι παραλλήλωι τῆι βάσει,
+						</title> Ἐὰν κῶνος ἰσοσκελὴς ἐπιπέδωι <lb n="2"/>τμηθῆι παραλλήλωι τῆι βάσει,
 						<lb n="3"/>ἀπὸ δὲ τοῦ γενομένου κύκλου <w part="I">κῶ</w>
 						<lb n="4"/><w part="F">νος</w> ἀναγραφῆι κορυφὴν ἔχον τὸ <lb n="5"/>κέντρον τῆς βάσεως, ὁ
 						δὲ <w part="I">γενόμε</w>
@@ -3221,9 +3231,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="20"/>
 					<ab n="20">
 						<milestone n="100r2" unit="folio"/>
-						<lb n="1"/><hi rend="margin">
+						<lb n="1"/>
+						<title>
 							<num>ΚΑ</num>
-						</hi> Ἐὰν ῥόμβου ἐξ ἰσοσκελῶν <choice>
+						</title> Ἐὰν ῥόμβου ἐξ ἰσοσκελῶν <choice>
 							<abbr>κώνω</abbr>
 							<expan>κώνω<ex>ν</ex></expan>
 						</choice>
@@ -3382,9 +3393,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="21"/>
 					<ab n="21">
 						<milestone n="36v2" unit="folio"/>
-						<lb n="14"/><hi rend="margin">
+						<lb n="14"/>
+						<title>
 							<num>Κ<unclear>Β</unclear></num>
-						</hi> Ἐὰν εἰς κύκλον πολύγωνον ἐγγραφῆι <lb n="15"/>ἀρτιόπλευρόν τε καὶ <choice>
+						</title> Ἐὰν εἰς κύκλον πολύγωνον ἐγγραφῆι <lb n="15"/>ἀρτιόπλευρόν τε καὶ <choice>
 							<abbr>ἰσόπλευρο</abbr>
 							<expan>ἰσόπλευρο<ex>ν</ex></expan>
 						</choice>
@@ -3504,7 +3516,7 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 						<choice>
 							<abbr></abbr>
 							<expan><ex>ἄρα</ex></expan>
-						</choice> ὡς <hi rend="superscript">ἡ</hi> ΕΞ <choice>
+						</choice> ὡς ἡ ΕΞ <choice>
 							<abbr></abbr>
 							<expan><ex>πρὸς</ex></expan>
 						</choice> ΞΑ ἡ ΚΞ <choice>
@@ -3968,9 +3980,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="24"/>
 					<ab n="24">
 						<milestone n="133r1" unit="folio"/>
-						<lb n="19"/><hi rend="margin">
+						<lb n="19"/>
+						<title>
 							<num>ΚΔ</num>
-						</hi> Ἡ τοῦ ἐγγραφομένου σχήματος εἰς <choice>
+						</title> Ἡ τοῦ ἐγγραφομένου σχήματος εἰς <choice>
 							<abbr>τ</abbr>
 							<expan>τ<ex>ὴν</ex></expan>
 						</choice>
@@ -4246,9 +4259,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="25"/>
 					<ab n="25">
 						<milestone n="112r2" unit="folio"/>
-						<lb n="1"/><hi rend="margin">
+						<lb n="1"/>
+						<title>
 							<num>ΚΕ</num>
-						</hi> Τοῦ ἐγγεγραμμένου σχήματος εἰς <choice>
+						</title> Τοῦ ἐγγεγραμμένου σχήματος εἰς <choice>
 							<abbr>τή</abbr>
 							<expan>τή<ex>ν</ex></expan>
 						</choice>
@@ -5831,9 +5845,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					<milestone unit="proposition" n="39"/>
 					<ab n="39">
 						<milestone n="114r1" unit="folio"/>
-						<lb n="16"/><hi rend="margin">
+						<lb n="16"/>
+						<title>
 							<num>ΛΖ</num>
-						</hi>
+						</title>
 						<w>Ἔστ<supplied reason="lost">ω</supplied></w>
 						<w><supplied reason="lost">σφ</supplied>αῖρα</w> καὶ ἐν αὐτῆι μέγιστος <lb n="17"
 								/><w>κ<unclear>ύ</unclear>κλος</w> ὁ ΑΒΓ, καὶ τετμήσθω <choice>
@@ -6042,9 +6057,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</ab>
 					<milestone unit="proposition" n="40"/>
 					<ab n="40">
-						<lb n="24"/><hi rend="margin">
+						<lb n="24"/>
+						<title>
 							<num>ΛΗ</num>
-						</hi> Τοῦ περιγεγραμμένου <w part="I">σχήμα</w>
+						</title> Τοῦ περιγεγραμμένου <w part="I">σχήμα</w>
 						<lb n="25"/><w part="F">τος</w> τῶι τομεῖ ἡ <w>ἐπιφάν<supplied reason="lost"
 								>ε</supplied><unclear>ι</unclear>α</w>
 						<w part="I">μεί</w>
@@ -6779,9 +6795,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 					</ab>
 					<milestone unit="proposition" n="42"/>
 					<ab n="42">
-						<lb n="28"/><hi rend="margin">
+						<lb n="28"/>
+						<title>
 							<num>Μ</num>
-						</hi> Παντὸς τμήματος σφαίρας <w part="I">ἐλάσ</w>
+						</title> Παντὸς τμήματος σφαίρας <w part="I">ἐλάσ</w>
 						<lb n="29"/><w part="F">σονος</w> ἡμισφαιρίου ἡ <w part="I">ἐπιφά</w>
 						<lb n="30"/><w part="F">νεια</w> ἴση <choice>
 							<abbr></abbr>
@@ -7569,9 +7586,10 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 				<div n="proposition">
 				<milestone unit="proposition" n="1"/>
 				<ab n="1">
-					<lb n="14"/><hi rend="margin">
+					<lb n="14"/>
+					<title>
 						<num>Α</num>
-					</hi> τὸ δεύτερον ἦν: Κώνου <choice>
+					</title> τὸ δεύτερον ἦν: Κώνου <choice>
 						<abbr>δοθέντ</abbr>
 						<expan>δοθέντ<ex>ος</ex></expan>
 					</choice>
@@ -7900,9 +7918,9 @@ schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 				</ab>
 				<milestone unit="proposition" n="2"/>
 				<ab n="2">
-					<lb n="1"/><hi rend="margin">
+					<lb n="1"/><title>
 						<num>Β</num>
-					</hi> Παντὶ τμήματι τῆς σφαίρας ἴσος <choice>
+					</title> Παντὶ τμήματι τῆς σφαίρας ἴσος <choice>
 						<abbr></abbr>
 						<expan><ex>ἐστὶ</ex></expan>
 					</choice>

@@ -5,7 +5,7 @@ Convert XML of AP XML to plain-text editions.
 using EzXML
 using Markdown
 using CitableBase, CitableText, CitableCorpus
-
+using GreekScientificOrthography
 
 teins = "http://www.tei-c.org/ns/1.0"
 
@@ -49,16 +49,46 @@ function textfragg(el::EzXML.Node, textpieces = AbstractString[], hanging = ""; 
             push!(fragg, " $(LB) ")
 
         elseif nodename(kid) == "abbr" && edition == :expanded
-            @info("Skip abbreviated with editino $(edition)")
+            #@info("Skip abbreviated with editino $(edition)")
             # skip it
 
 
-        elseif nodename(kid) == "expan" && edition == :diplomatic
-            @info("Skip expanded with edition = $(edition)")
+        #elseif nodename(kid) == "expan" && edition == :diplomatic
+            #@info("Skip expanded with edition = $(edition)")
             # skip it
+
+
+        elseif nodename(kid) == "num"
+            s = textedition(kid, edition) * NUMERIC_TICK
+            push!(fragg, s)
+
+        elseif nodename(kid) == "g"
+            @info("Flagging symbolic glyph")
+            push!(fragg,"🧩")
+
+
+        elseif nodename(kid) == "supplied"
+            s = "[" * textedition(kid, edition) * "]"
+            push!(fragg, s)
+
+        elseif nodename(kid) == "unclear"
+            s = "*" * textedition(kid, edition) * "*"
+            push!(fragg, s)
+
+        elseif nodename(kid) == "del"
+            s = "〖" * textedition(kid, edition) * "〗"
+            push!(fragg, s)            
+
+        elseif nodename(kid) == "sic"
+            s = "{" * textedition(kid, edition) * "}"
+            push!(fragg, s) 
+
+        #elseif nodename(kid) == "ex"            
+        #    extext = textedition(kid, edition)            
+        #    push!(fragg,"$(extext)")
 
         elseif nodetype(kid) == EzXML.ELEMENT_NODE	
-            @info("$(nodename(kid)) in edition $(edition)")
+            #@info("$(nodename(kid)) in edition $(edition)")
             fragg = textfragg(kid, fragg; edition = edition)
 
             
@@ -72,7 +102,6 @@ function textfragg(el::EzXML.Node, textpieces = AbstractString[], hanging = ""; 
     fragg
 end
 
-
 """Collect a single plain-text edition of a given XML element.
 """
 function textedition(el::EzXML.Node, edition = :expanded)
@@ -80,28 +109,11 @@ function textedition(el::EzXML.Node, edition = :expanded)
     replace(raw, r"\s+" => " ") |> strip
 end
 
-
-
-
 f = joinpath(pwd(), "palimpsest-project", "SandC1mod.xml")
 sandcroot = readxml(f) |> root
-sandcbody = findfirst("//ns:body", sandcroot,["ns" => teins])
 
-
-dipl = textedition(sandcbody, :diplomatic)
-editorial = textedition(sandcbody, :expanded)
-
-
-open(joinpath("data", "ap-dipl.txt"), "w") do io
-    write(io, dipl)
-end
-
-open(joinpath("data", "ap-editorial.txt"), "w") do io
-    write(io, editorial)
-end
-
-"""
-- 3 citation tiers
+"""Create a CTS edition from AP project XML source.
+- Walk the tree in 3 citation tiers.
 """
 function citableAP(docroot::EzXML.Node, edition = :expanded; delimiter = "|", blockheader = true)
     datalines = []
@@ -139,3 +151,24 @@ end
 open(joinpath("texts", "SandC-ap-editorial.cex"), "w") do io
     write(io, sandc_editorial_txt)
 end
+
+
+
+
+### Test pieces:
+
+#=
+sandcbody = findfirst("//ns:body", sandcroot,["ns" => teins])
+
+dipl = textedition(sandcbody, :diplomatic)
+editorial = textedition(sandcbody, :expanded)
+
+
+pen(joinpath("data", "ap-dipl.txt"), "w") do io
+    write(io, dipl)
+end
+
+open(joinpath("data", "ap-editorial.txt"), "w") do io
+    write(io, editorial)
+end
+=#
