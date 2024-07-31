@@ -68,6 +68,12 @@ lbs
 # ╔═╡ a00ee450-5123-4c08-9a7b-f6e16a1478a5
 restorations
 
+# ╔═╡ 98416ab6-bf21-469c-a3e6-a204fa99e3c7
+md"""> ## Indexing"""
+
+# ╔═╡ a227d9f6-fb14-470e-bc17-54402b57baf5
+
+
 # ╔═╡ c95aa0c9-255f-4668-94fc-6f6aab186559
 md"""> ## Images"""
 
@@ -1804,12 +1810,14 @@ version = "17.4.0+2"
 # ╠═ae2f62d9-1699-4f3d-8f7c-1db065636d28
 # ╠═346b1b0c-e03a-42cf-9a18-f90f433b0194
 # ╠═a00ee450-5123-4c08-9a7b-f6e16a1478a5
+# ╟─98416ab6-bf21-469c-a3e6-a204fa99e3c7
+# ╠═a227d9f6-fb14-470e-bc17-54402b57baf5
 # ╟─c95aa0c9-255f-4668-94fc-6f6aab186559
 # ╟─3c0efce6-a20d-4544-9eb7-9e31b5f3a2e0
 # ╟─f6e395d7-cc9a-4bf7-8d0b-afb7ffd765fa
 # ╟─c31f26a8-53fa-4e2b-8612-4517034aff1d
 # ╟─65ab54d9-bd2a-4ed4-b98c-c97e38f41654
-# ╠═206ccd3e-39ed-4384-8b0f-3d96b49aad32
+# ╟─206ccd3e-39ed-4384-8b0f-3d96b49aad32
 # ╟─ebc42cb2-3876-4e6e-83ad-905e9e095a63
 # ╟─e7184d84-1948-4f7f-9a65-9895e3aff25a
 # ╟─974b082a-4acd-4c41-a44f-3622a4b58a81
