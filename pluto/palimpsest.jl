@@ -67,7 +67,7 @@ main {
 </style>"""
 
 # ╔═╡ d1e7418d-0753-4f03-b5ab-d7661948ff0d
-HTML(windowstyle)
+#HTML(windowstyle)
 
 # ╔═╡ f1683a1e-12f3-4e6c-a8e1-4898e60a3599
 
@@ -86,7 +86,7 @@ PlutoUI = "~0.7.59"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.1"
+julia_version = "1.10.4"
 manifest_format = "2.0"
 project_hash = "7ff172b4c20ae5fdecf96e79a77e5cc8f11337a2"
 
@@ -115,7 +115,7 @@ version = "0.11.5"
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-version = "1.1.0+0"
+version = "1.1.1+0"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -356,7 +356,7 @@ version = "17.4.0+2"
 # ╟─cfe7086e-4b62-438a-88cc-b4c27e3ce7d7
 # ╟─6b3ef8a3-fa97-4d63-80f3-523b507903c9
 # ╟─060692ae-bf48-4380-b4f3-c844ecda6d30
-# ╟─4f407b61-f672-41d1-aa03-00772186be58
+# ╠═4f407b61-f672-41d1-aa03-00772186be58
 # ╟─2b1ddd8e-71a1-47ad-9260-9a0b15aefd49
 # ╟─d3c7eb2c-b67e-4020-8633-797a621e2781
 # ╠═e53d99b3-0328-46b9-8fbf-c61acb0142cf
