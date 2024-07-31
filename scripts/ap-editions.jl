@@ -53,7 +53,7 @@ function textfragg(el::EzXML.Node, textpieces = AbstractString[], hanging = ""; 
             # skip it
 
 
-        #elseif nodename(kid) == "expan" && edition == :diplomatic
+        elseif nodename(kid) == "expan" && edition == :diplomatic
             #@info("Skip expanded with edition = $(edition)")
             # skip it
 
