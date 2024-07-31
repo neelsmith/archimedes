@@ -32,8 +32,14 @@ md"""# Read Archimedes, *Sphere and Cylinder* from the Archimedes palimpsest"""
 # ╔═╡ 84ed47e0-d4c6-42f9-8e7b-a2a44a2aa0b4
 md"""*Abbreviations*: $(@bind abbrexpan Select([:expan => "Expand", :abbr => "Do not expand"])) *Show line breaks* $(@bind lbs CheckBox()) *Show restorations*: $(@bind restorations CheckBox())"""
 
+# ╔═╡ e095aa37-bda4-4732-a135-9b3703983c66
+md""" ### Text"""
+
 # ╔═╡ 59e2a09a-1046-440e-9d1a-9b2f8311facb
 md"""> **Note** Images are linked to full-size zoomable versions"""
+
+# ╔═╡ 82ec9960-e6c3-4ae8-8cb3-0faf5f755364
+md"""### Figures"""
 
 # ╔═╡ f7d9f543-10ae-4791-be4f-3fc5d9fb33e1
 html"""
@@ -1794,10 +1800,12 @@ version = "17.4.0+2"
 # ╟─5d62dda9-7fbf-4156-9e6d-1e02932e5a51
 # ╟─84ed47e0-d4c6-42f9-8e7b-a2a44a2aa0b4
 # ╟─1b9b266a-9a98-4cbe-a9dd-27ee0d23d25b
+# ╟─e095aa37-bda4-4732-a135-9b3703983c66
 # ╟─de08b356-ba9e-48d6-aea0-3820fc848a3c
 # ╟─59e2a09a-1046-440e-9d1a-9b2f8311facb
 # ╟─2c273581-e864-4a38-8e6a-a7a89fd92f21
 # ╟─c3f862e4-9883-47e7-8e11-7566472e6155
+# ╟─82ec9960-e6c3-4ae8-8cb3-0faf5f755364
 # ╟─f7d9f543-10ae-4791-be4f-3fc5d9fb33e1
 # ╟─0d98b2c3-6e76-4bbf-99b4-f56c375949b7
 # ╟─8f82c38d-beb3-4d8d-af68-cdf9c99c53ae
