@@ -14,185 +14,152 @@ macro bind(def, element)
     end
 end
 
-# ╔═╡ a8d41a1a-4f54-11ef-18be-37e7f779526f
+# ╔═╡ 3084c13f-fa9d-496f-af78-474c7032f296
 begin
+	using CitableObject, CitableImage
 	using PlutoUI
-	using CitableImage, CitableObject
-	md"""*Unhide this cell to see Julia enviornment*."""
 end
 
-# ╔═╡ f4862f85-58fa-4517-a977-0c95e17f0b1a
+# ╔═╡ b239bf08-a8ea-47c4-a597-39bb3af6ee09
 TableOfContents()
 
-# ╔═╡ 41faae4b-994b-4a19-84bb-83274a331826
-md"""*Notebook version*: **1.0.0**"""
+# ╔═╡ 5e2c382e-ff5d-48e4-9961-27c09a1215de
+md"""# Quire structure of Archimedes Palimpsest"""
 
-# ╔═╡ a76576c2-e95e-44c3-9315-83274dfca72c
-md"""# Figures in MSS of Archimedes"""
+# ╔═╡ 42e58aa3-6c9a-47e8-a565-fcbef3458fa0
+md"""> Thumbnail images are linked to full-sized zoomable/pannable views."""
 
-# ╔═╡ 209458d0-56d0-4e4d-941c-c1cbcba24f71
-md"""> **Format for image tables**"""
+# ╔═╡ 033f4708-9121-4f86-a2c3-3f19f16788ff
+md"""*Width of thumbnail image (pixels)* $(@bind w Slider(50:25:350, show_value = true))"""
 
-# ╔═╡ 2c291537-22e8-4850-9003-532324e956b6
-md"""*Columns*: $(@bind ncols Slider(2:8, default = 4, show_value = true)) *Image width (pixels)* $(@bind w Slider(100:25:350, show_value = true, default = 150))"""
-
-# ╔═╡ fedeca3b-4078-469e-9ac5-63de20bc14ea
-md"""## Archimedes Palimpsest"""
-
-# ╔═╡ 93f53cec-954f-4285-bd86-5f6a8acf4429
-md"""*Prefer* $(@bind imgpref Select([
-	"pseudo_no_veil" => "False color",
-	"pseudo_sharpie" => "Gray scale",
-	"true_pack8" => "Natural light"
-], default = "pseudo_sharpie"))"""
-
-# ╔═╡ 7eabdf45-4197-40ca-a4b9-129c47baceb7
-md"""## Codex Bodmer 8"""
-
-# ╔═╡ 15672e44-5fb5-43ea-8c16-5dd6a2c14213
+# ╔═╡ 00d76202-88bf-445d-a881-1058f4baed92
 html"""
-<br/><br/><br/><br/>
-<br/><br/><br/><br/>
-<br/><br/><br/><br/>
-<br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
 """
 
-# ╔═╡ cbe578c8-24af-440b-bb62-9b7df05d3138
-md"""
+# ╔═╡ d30b2e02-c145-4f0b-ad9a-6bf4bdf8278c
+md"""> # Under the hood"""
 
----
+# ╔═╡ eea4e00b-944b-48ff-b863-bf85066a6edd
+rawdata = joinpath(pwd() |> dirname, "palimpsest-project", "quiremappings.cex") |> readlines
 
-> # Under the hood
-"""
+# ╔═╡ 529b1ad5-600c-4a93-8dcf-0e88a4ffafa7
+datalines = filter(ln -> ! isempty(ln), rawdata[2:end])
 
-# ╔═╡ bd6f89da-0c1f-41e0-8b8c-08eb7ed5722e
-md"""> ## Data"""
-
-# ╔═╡ 55793011-e788-4e98-a745-710f158cf20e
-cb8datalines = joinpath(pwd() |> dirname, "hcwork", "codbod8figures.cex") |> readlines
-
-# ╔═╡ 9a1ff7eb-811e-43b5-8d26-da584a1bcc3a
-cb8imgs = map(cb8datalines[2:end]) do ln
-	cols = split(ln,"|")
-	CitableObject.dropsubref(Cite2Urn(cols[2]))
+# ╔═╡ a2f8b57a-8681-4e52-b553-48b39cb31c11
+triples = map(datalines) do ln
+	(q, f1, f2) = split(ln, "|")
+	(quire = q, folio1 = f1, folio2 = f2)
 end
 
+# ╔═╡ d91734cb-9041-4cf3-b043-b6ad89768918
+quirelist = map(tr -> tr.quire, triples) |> unique
 
-# ╔═╡ 8d7cdce6-6ccf-4a92-ad4b-8a07189f07d3
-apdatalines = joinpath(pwd() |> dirname, "hcwork", "apfigures.cex") |> readlines
+# ╔═╡ 2747eba9-a78e-4a2a-9e9a-ddcc8bc20cf0
+md"""*Quire*: $(@bind quire Select(quirelist))"""
 
-# ╔═╡ 9bbbd01b-391e-4467-bd5b-2de0c2409c34
-apimgs = map(apdatalines[2:end]) do ln
-	cols = split(ln,"|")
-	try
-		preferred = replace(cols[4], "pseudo_no_veil" => imgpref)
-		Cite2Urn(preferred)
-	catch e
-		nothing
-	end
+# ╔═╡ fdd0e2be-c9d5-4309-bfb5-48c54a3872d5
+selected = filter(tr -> tr.quire == quire, triples)
+
+# ╔═╡ fb330070-f3d9-431f-8252-8e9feba8974f
+if length(selected) == 4
+	md"## Structure of quire $(quire): quaternion"
+elseif length(selected) == 3
+	md"## Structure quire $(quire): ternion"
 end
 
-# ╔═╡ 2797aa9f-dfec-462c-8b5f-eae0beedaa48
-apcaptions = map(apdatalines[2:end]) do ln
-	cols = split(ln,"|")
-	
-	
-	try
-		notes = cols[3]
-		annotate = isempty(notes) ? "" : string(" (**", notes, "**)")
-		pg = Cite2Urn(cols[5]) |> objectcomponent
-		"Original manuscript folio " * pg * annotate
-	catch e
-		nothing
-	end
-end
+# ╔═╡ 2e759cfc-4bf9-40d9-b8e3-fa16703dbee9
+folioids =  joinpath(pwd() |> dirname, "palimpsest-project", "apfolios.txt") |> readlines
 
-# ╔═╡ 5ea5ecad-8775-451d-8eb2-2ec86ea61685
-md"""Filter out record for missing folio 23v:"""
+# ╔═╡ c5a52aa1-5502-4839-b017-1d9a324086f7
+md"""> ## Tabular display"""
 
-# ╔═╡ d2f25dcf-2645-47aa-b05e-4dd6ddd59112
-validapcaptions = filter(cap -> ! isnothing(cap), apcaptions)
+# ╔═╡ eaf264af-b7b0-475e-9832-1b13de3ead25
+nrc = length(selected)
 
-# ╔═╡ 2fa8ddd6-12e3-47ec-8296-d342b3350f6f
-validapimgs = filter(img -> ! isnothing(img), apimgs)
-
-# ╔═╡ 4e1ebb06-7f68-47d4-81c0-359be3ca440c
-md"""These lists must be the same size!"""
-
-# ╔═╡ 2574efdb-0ac7-44e8-b91e-1a73a96fa2dd
-length(validapimgs) == length(validapcaptions)
-
-# ╔═╡ acf72ac1-5312-496f-9512-d2772ba8d602
-md"""> ## Table layout"""
-
-# ╔═╡ aef02982-fa7a-4b5c-9bb6-623706506bbe
-"""Compute rows needed for total elements in given number of columns."""
-function rowsize(total, colcount)
-	rsize = round(Int32, total / colcount)
-	nrows = mod(total, rsize) == 0 ?  round(Int32, total / colcount) : round(Int32, total / colcount) + 1
-end
-
-# ╔═╡ d7109623-a09b-416f-9147-78f4e96b8010
-ncb8rows = rowsize(length(cb8imgs), ncols)
-
-# ╔═╡ e1ac139b-9129-4bae-96b7-0cb8cf374f8c
-naprows = rowsize(length(validapimgs), ncols)
-
-# ╔═╡ b18a128c-257c-4115-8cf6-08a80e1e41fe
+# ╔═╡ bcd730b3-781f-41aa-bad2-c1bbb756a0c3
 md"""> ## Image service"""
 
-# ╔═╡ e96ee651-d2c8-4c26-a172-9626533e9b79
+# ╔═╡ 8d7c5d95-80d9-49d1-a05a-9e06ab3fb2a1
 iipsrvurl = "http://www.homermultitext.org/iipsrv"
 
-# ╔═╡ 44f07d8f-43cf-4052-bb27-ad2f07c38581
+# ╔═╡ f0f5b1a4-1a2d-45bc-8be7-f960746a9d91
 imgrootdir = "/project/homer/pyramidal/deepzoom"
 
-# ╔═╡ b532bf5f-21f1-4957-b6f8-7651143ab870
+# ╔═╡ 9e4cdbdd-bd75-44ee-aa30-39ae98a9ffa4
 ict = "http://www.homermultitext.org/ict2/?"
 
-# ╔═╡ acee251f-1aec-45f8-9214-687065b59d86
+# ╔═╡ b5977752-a400-4fb6-962e-71d7c6258f45
 imgservice = IIIFservice(iipsrvurl, imgrootdir)
 
-# ╔═╡ 3cb4ec5b-ea9e-4de6-ae75-e3de9ada7eca
-"""Format a markdown table of linked images."""
-function mdtable(imgs, rows, cols; icturl = ict, imgservice = imgservice, imgwidth = 100, captions = [])
-	max = length(imgs)
-	lbls = repeat("| ", cols) * " |"
-	hdr = repeat("| --- ", cols) * " |"
-
-	#sample = repeat("| data ", cols) * " |"
-	data = []
-	for r in 1:rows
-		offset = (r - 1) * cols
-		cells = []
-		for c in 1:cols
-			idx = c + offset
-			caption = if idx > length(captions)
-				""
-			elseif isempty(captions) 
-				""
-			elseif isnothing(captions[idx]) 
-				# This should already be filtered out.
-				"NOTHING!"
-			else
-				captions[idx]
-			end
-			mdcell = idx > max ? "" : linkedMarkdownImage(icturl, imgs[idx], imgservice; w = imgwidth, caption = caption)
-			push!(cells, string("| ", mdcell, caption))
-		end
-		push!(cells, " |")
-		push!(data, join(cells))
-	end
-
+# ╔═╡ 80fc11b9-12e6-4eef-a828-74195a87d4f9
+"""Format a markdown table illustraing quire structure."""
+function mdtable(quirepairings, folios; dim = nrc, icturl = ict, imgservice = imgservice, imgw = w)
+	imgcoll = "urn:cite2:citeap:palimpsest.v1:"
+	lbls = repeat("| ", dim ) * " |"
+	hdr = repeat("|--: ", dim) * " |"
 	
-	join([lbls, hdr, join(data,"\n")], "\n")
+
+
+	rows = []
+	# top half:
+	for row in 1:nrc
+		decrement = nrc - row + 1
+		cells = ["  "]
+		for col in 1:nrc
+			if col == decrement
+				f1name = quirepairings[row].folio1
+				#println("Look for $(f1name)")
+				matches = filter(f -> occursin(f1name, f), folios)
+				if isempty(matches)
+					push!(cells, "missing")
+				else
+				
+					u = Cite2Urn(imgcoll * matches[1] * "_Sinar_pseudo_sharpie")
+
+					cellval = linkedMarkdownImage(icturl, u, imgservice; w = imgw) * quirepairings[row].folio1
+					push!(cells, "| $(cellval)")
+				end
+			else
+				push!(cells, "| ")
+			end
+		end
+		push!(rows, join(cells) * " |")
+	end
+	# bottom half
+	for row in 1:nrc
+		
+		#println("$(row)/$(row)")
+		cells = ["  "]
+		for col in 1:nrc
+			if col == row
+				f2name = quirepairings[row].folio2
+				matches = filter(f -> occursin(f2name, f), folios)
+				if isempty(matches)
+					push!(cells, "missing")
+				else
+					u = Cite2Urn(imgcoll * matches[1] * "_Sinar_pseudo_sharpie")
+
+					
+					cellval = linkedMarkdownImage(icturl, u, imgservice; w = imgw) * quirepairings[row].folio2
+					push!(cells, "| $(cellval)")
+				end
+			else
+				push!(cells, "| " )
+			end
+		end
+		push!(rows, join(cells) * " ")
+	end
+	
+
+	join([lbls,hdr, join(rows, "\n")], "\n")
 end
 
-# ╔═╡ 6cce8496-93ef-40e8-9805-183b8b19c668
-mdtable(validapimgs, naprows, ncols; imgwidth = w, captions = validapcaptions) |> Markdown.parse
-
-# ╔═╡ 904a01d6-29d6-4b07-9a76-c9456b9e58b1
-mdtable(cb8imgs, ncb8rows, ncols; imgwidth = w) |> Markdown.parse
+# ╔═╡ 1efdcc31-436e-4807-a80c-45297bcb8ddd
+mdtable(selected, folioids) |> Markdown.parse
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1636,39 +1603,29 @@ version = "17.4.0+2"
 """
 
 # ╔═╡ Cell order:
-# ╟─a8d41a1a-4f54-11ef-18be-37e7f779526f
-# ╟─f4862f85-58fa-4517-a977-0c95e17f0b1a
-# ╟─41faae4b-994b-4a19-84bb-83274a331826
-# ╟─a76576c2-e95e-44c3-9315-83274dfca72c
-# ╟─209458d0-56d0-4e4d-941c-c1cbcba24f71
-# ╠═2c291537-22e8-4850-9003-532324e956b6
-# ╟─fedeca3b-4078-469e-9ac5-63de20bc14ea
-# ╟─93f53cec-954f-4285-bd86-5f6a8acf4429
-# ╟─6cce8496-93ef-40e8-9805-183b8b19c668
-# ╟─7eabdf45-4197-40ca-a4b9-129c47baceb7
-# ╟─904a01d6-29d6-4b07-9a76-c9456b9e58b1
-# ╟─15672e44-5fb5-43ea-8c16-5dd6a2c14213
-# ╟─cbe578c8-24af-440b-bb62-9b7df05d3138
-# ╟─bd6f89da-0c1f-41e0-8b8c-08eb7ed5722e
-# ╟─55793011-e788-4e98-a745-710f158cf20e
-# ╟─9a1ff7eb-811e-43b5-8d26-da584a1bcc3a
-# ╟─8d7cdce6-6ccf-4a92-ad4b-8a07189f07d3
-# ╟─9bbbd01b-391e-4467-bd5b-2de0c2409c34
-# ╠═2797aa9f-dfec-462c-8b5f-eae0beedaa48
-# ╟─5ea5ecad-8775-451d-8eb2-2ec86ea61685
-# ╟─d2f25dcf-2645-47aa-b05e-4dd6ddd59112
-# ╟─2fa8ddd6-12e3-47ec-8296-d342b3350f6f
-# ╟─4e1ebb06-7f68-47d4-81c0-359be3ca440c
-# ╠═2574efdb-0ac7-44e8-b91e-1a73a96fa2dd
-# ╟─acf72ac1-5312-496f-9512-d2772ba8d602
-# ╟─d7109623-a09b-416f-9147-78f4e96b8010
-# ╟─e1ac139b-9129-4bae-96b7-0cb8cf374f8c
-# ╟─aef02982-fa7a-4b5c-9bb6-623706506bbe
-# ╟─3cb4ec5b-ea9e-4de6-ae75-e3de9ada7eca
-# ╟─b18a128c-257c-4115-8cf6-08a80e1e41fe
-# ╟─e96ee651-d2c8-4c26-a172-9626533e9b79
-# ╟─44f07d8f-43cf-4052-bb27-ad2f07c38581
-# ╟─b532bf5f-21f1-4957-b6f8-7651143ab870
-# ╟─acee251f-1aec-45f8-9214-687065b59d86
+# ╟─3084c13f-fa9d-496f-af78-474c7032f296
+# ╟─b239bf08-a8ea-47c4-a597-39bb3af6ee09
+# ╟─5e2c382e-ff5d-48e4-9961-27c09a1215de
+# ╟─2747eba9-a78e-4a2a-9e9a-ddcc8bc20cf0
+# ╟─42e58aa3-6c9a-47e8-a565-fcbef3458fa0
+# ╟─033f4708-9121-4f86-a2c3-3f19f16788ff
+# ╟─fb330070-f3d9-431f-8252-8e9feba8974f
+# ╟─1efdcc31-436e-4807-a80c-45297bcb8ddd
+# ╟─00d76202-88bf-445d-a881-1058f4baed92
+# ╟─d30b2e02-c145-4f0b-ad9a-6bf4bdf8278c
+# ╟─eea4e00b-944b-48ff-b863-bf85066a6edd
+# ╟─529b1ad5-600c-4a93-8dcf-0e88a4ffafa7
+# ╟─a2f8b57a-8681-4e52-b553-48b39cb31c11
+# ╟─d91734cb-9041-4cf3-b043-b6ad89768918
+# ╟─fdd0e2be-c9d5-4309-bfb5-48c54a3872d5
+# ╟─2e759cfc-4bf9-40d9-b8e3-fa16703dbee9
+# ╟─c5a52aa1-5502-4839-b017-1d9a324086f7
+# ╟─eaf264af-b7b0-475e-9832-1b13de3ead25
+# ╟─80fc11b9-12e6-4eef-a828-74195a87d4f9
+# ╟─bcd730b3-781f-41aa-bad2-c1bbb756a0c3
+# ╟─8d7c5d95-80d9-49d1-a05a-9e06ab3fb2a1
+# ╟─f0f5b1a4-1a2d-45bc-8be7-f960746a9d91
+# ╟─9e4cdbdd-bd75-44ee-aa30-39ae98a9ffa4
+# ╟─b5977752-a400-4fb6-962e-71d7c6258f45
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
