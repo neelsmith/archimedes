@@ -4,20 +4,56 @@
 using Markdown
 using InteractiveUtils
 
+# This Pluto notebook uses @bind for interactivity. When running this notebook outside of Pluto, the following 'mock version' of @bind gives bound variables a default value (instead of an error).
+macro bind(def, element)
+    quote
+        local iv = try Base.loaded_modules[Base.PkgId(Base.UUID("6e696c72-6542-2067-7265-42206c756150"), "AbstractPlutoDingetjes")].Bonds.initial_value catch; b -> missing; end
+        local el = $(esc(element))
+        global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : iv(el)
+        el
+    end
+end
+
 # ╔═╡ a8d41a1a-4f54-11ef-18be-37e7f779526f
 begin
 	using PlutoUI
 	using CitableImage, CitableObject
+	md"""*Unhide this cell to see Julia enviornment*."""
 end
 
 # ╔═╡ f4862f85-58fa-4517-a977-0c95e17f0b1a
 TableOfContents()
 
+# ╔═╡ 41faae4b-994b-4a19-84bb-83274a331826
+md"""*Notebook version*: **1.0.0**"""
+
 # ╔═╡ a76576c2-e95e-44c3-9315-83274dfca72c
 md"""# Figures in MSS of Archimedes"""
 
+# ╔═╡ 209458d0-56d0-4e4d-941c-c1cbcba24f71
+md"""> **Format for image tables**"""
+
+# ╔═╡ 2c291537-22e8-4850-9003-532324e956b6
+md"""*Columns*: $(@bind ncols Slider(2:8, default = 4, show_value = true)) *Image width (pixels)* $(@bind w Slider(100:25:350, show_value = true, default = 150))"""
+
+# ╔═╡ fedeca3b-4078-469e-9ac5-63de20bc14ea
+md"""## Archimedes Palimpsest"""
+
+# ╔═╡ 93f53cec-954f-4285-bd86-5f6a8acf4429
+md"""*Prefer* $(@bind imgpref Select([
+	"pseudo_no_veil" => "False color",
+	"pseudo_sharpie" => "Gray scale",
+	"true_pack8" => "Natural light"
+], default = "pseudo_sharpie"))"""
+
+# ╔═╡ 7eabdf45-4197-40ca-a4b9-129c47baceb7
+md"""## Codex Bodmer 8"""
+
 # ╔═╡ 15672e44-5fb5-43ea-8c16-5dd6a2c14213
 html"""
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
 <br/><br/><br/><br/>
 """
 
@@ -29,18 +65,74 @@ md"""
 > # Under the hood
 """
 
+# ╔═╡ bd6f89da-0c1f-41e0-8b8c-08eb7ed5722e
+md"""> ## Data"""
+
 # ╔═╡ 55793011-e788-4e98-a745-710f158cf20e
-datalines = joinpath(pwd() |> dirname, "hcwork", "codbod8figures.cex") |> readlines
+cb8datalines = joinpath(pwd() |> dirname, "hcwork", "codbod8figures.cex") |> readlines
 
 # ╔═╡ 9a1ff7eb-811e-43b5-8d26-da584a1bcc3a
-cb8imgs = map(datalines[2:end]) do ln
+cb8imgs = map(cb8datalines[2:end]) do ln
 	cols = split(ln,"|")
-	Cite2Urn(cols[2])
+	CitableObject.dropsubref(Cite2Urn(cols[2]))
 end
 
 
-# ╔═╡ a004f6cf-86ac-4d47-be60-3a59ee0ef285
-length(cb8imgs)
+# ╔═╡ 8d7cdce6-6ccf-4a92-ad4b-8a07189f07d3
+apdatalines = joinpath(pwd() |> dirname, "hcwork", "apfigures.cex") |> readlines
+
+# ╔═╡ 9bbbd01b-391e-4467-bd5b-2de0c2409c34
+apimgs = map(apdatalines[2:end]) do ln
+	cols = split(ln,"|")
+	try
+		preferred = replace(cols[4], "pseudo_no_veil" => imgpref)
+		Cite2Urn(preferred)
+	catch e
+		nothing
+	end
+end
+
+# ╔═╡ 2797aa9f-dfec-462c-8b5f-eae0beedaa48
+apcaptions = map(apdatalines[2:end]) do ln
+	cols = split(ln,"|")
+	try
+		pg = Cite2Urn(cols[5]) |> objectcomponent
+		"Original manuscript folio " * pg
+	catch e
+		nothing
+	end
+end
+
+# ╔═╡ 5ea5ecad-8775-451d-8eb2-2ec86ea61685
+md"""Filter out record for missing folio 23v:"""
+
+# ╔═╡ d2f25dcf-2645-47aa-b05e-4dd6ddd59112
+validapcaptions = filter(cap -> ! isnothing(cap), apcaptions)
+
+# ╔═╡ 2fa8ddd6-12e3-47ec-8296-d342b3350f6f
+validapimgs = filter(img -> ! isnothing(img), apimgs)
+
+# ╔═╡ 4e1ebb06-7f68-47d4-81c0-359be3ca440c
+md"""These lists must be the same size!"""
+
+# ╔═╡ 2574efdb-0ac7-44e8-b91e-1a73a96fa2dd
+length(validapimgs) == length(validapcaptions)
+
+# ╔═╡ acf72ac1-5312-496f-9512-d2772ba8d602
+md"""> ## Table layout"""
+
+# ╔═╡ aef02982-fa7a-4b5c-9bb6-623706506bbe
+"""Compute rows needed for total elements in given number of columns."""
+function rowsize(total, colcount)
+	rsize = round(Int32, total / colcount)
+	nrows = mod(total, rsize) == 0 ?  round(Int32, total / colcount) : round(Int32, total / colcount) + 1
+end
+
+# ╔═╡ d7109623-a09b-416f-9147-78f4e96b8010
+ncb8rows = rowsize(length(cb8imgs), ncols)
+
+# ╔═╡ e1ac139b-9129-4bae-96b7-0cb8cf374f8c
+naprows = rowsize(length(validapimgs), ncols)
 
 # ╔═╡ b18a128c-257c-4115-8cf6-08a80e1e41fe
 md"""> ## Image service"""
@@ -57,8 +149,45 @@ ict = "http://www.homermultitext.org/ict2/?"
 # ╔═╡ acee251f-1aec-45f8-9214-687065b59d86
 imgservice = IIIFservice(iipsrvurl, imgrootdir)
 
-# ╔═╡ e8b6ed66-a322-4be6-a4f7-996cff0c35f4
-linkedMarkdownImage(ict, cb8imgs[1], imgservice) |> Markdown.parse
+# ╔═╡ 3cb4ec5b-ea9e-4de6-ae75-e3de9ada7eca
+"""Format a markdown table of linked images."""
+function mdtable(imgs, rows, cols; icturl = ict, imgservice = imgservice, imgwidth = 100, captions = [])
+	max = length(imgs)
+	lbls = repeat("| ", cols) * " |"
+	hdr = repeat("| --- ", cols) * " |"
+
+	#sample = repeat("| data ", cols) * " |"
+	data = []
+	for r in 1:rows
+		offset = (r - 1) * cols
+		cells = []
+		for c in 1:cols
+			idx = c + offset
+			caption = if idx > length(captions)
+				""
+			elseif isempty(captions) 
+				""
+			elseif isnothing(captions[idx])
+				"NOTHING!"
+			else
+				captions[idx]
+			end
+			mdcell = idx > max ? "" : linkedMarkdownImage(icturl, imgs[idx], imgservice; w = imgwidth, caption = caption)
+			push!(cells, string("| ", mdcell, caption))
+		end
+		push!(cells, " |")
+		push!(data, join(cells))
+	end
+
+	
+	join([lbls, hdr, join(data,"\n")], "\n")
+end
+
+# ╔═╡ 6cce8496-93ef-40e8-9805-183b8b19c668
+mdtable(validapimgs, naprows, ncols; imgwidth = w, captions = validapcaptions) |> Markdown.parse
+
+# ╔═╡ 904a01d6-29d6-4b07-9a76-c9456b9e58b1
+mdtable(cb8imgs, ncb8rows, ncols; imgwidth = w) |> Markdown.parse
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1502,15 +1631,35 @@ version = "17.4.0+2"
 """
 
 # ╔═╡ Cell order:
-# ╠═a8d41a1a-4f54-11ef-18be-37e7f779526f
+# ╟─a8d41a1a-4f54-11ef-18be-37e7f779526f
 # ╟─f4862f85-58fa-4517-a977-0c95e17f0b1a
+# ╟─41faae4b-994b-4a19-84bb-83274a331826
 # ╟─a76576c2-e95e-44c3-9315-83274dfca72c
-# ╠═e8b6ed66-a322-4be6-a4f7-996cff0c35f4
+# ╟─209458d0-56d0-4e4d-941c-c1cbcba24f71
+# ╟─2c291537-22e8-4850-9003-532324e956b6
+# ╟─fedeca3b-4078-469e-9ac5-63de20bc14ea
+# ╟─93f53cec-954f-4285-bd86-5f6a8acf4429
+# ╟─6cce8496-93ef-40e8-9805-183b8b19c668
+# ╟─7eabdf45-4197-40ca-a4b9-129c47baceb7
+# ╟─904a01d6-29d6-4b07-9a76-c9456b9e58b1
 # ╟─15672e44-5fb5-43ea-8c16-5dd6a2c14213
 # ╟─cbe578c8-24af-440b-bb62-9b7df05d3138
-# ╠═55793011-e788-4e98-a745-710f158cf20e
+# ╟─bd6f89da-0c1f-41e0-8b8c-08eb7ed5722e
+# ╟─55793011-e788-4e98-a745-710f158cf20e
 # ╟─9a1ff7eb-811e-43b5-8d26-da584a1bcc3a
-# ╠═a004f6cf-86ac-4d47-be60-3a59ee0ef285
+# ╟─8d7cdce6-6ccf-4a92-ad4b-8a07189f07d3
+# ╟─9bbbd01b-391e-4467-bd5b-2de0c2409c34
+# ╟─2797aa9f-dfec-462c-8b5f-eae0beedaa48
+# ╟─5ea5ecad-8775-451d-8eb2-2ec86ea61685
+# ╟─d2f25dcf-2645-47aa-b05e-4dd6ddd59112
+# ╟─2fa8ddd6-12e3-47ec-8296-d342b3350f6f
+# ╟─4e1ebb06-7f68-47d4-81c0-359be3ca440c
+# ╠═2574efdb-0ac7-44e8-b91e-1a73a96fa2dd
+# ╟─acf72ac1-5312-496f-9512-d2772ba8d602
+# ╟─d7109623-a09b-416f-9147-78f4e96b8010
+# ╟─e1ac139b-9129-4bae-96b7-0cb8cf374f8c
+# ╟─aef02982-fa7a-4b5c-9bb6-623706506bbe
+# ╟─3cb4ec5b-ea9e-4de6-ae75-e3de9ada7eca
 # ╟─b18a128c-257c-4115-8cf6-08a80e1e41fe
 # ╟─e96ee651-d2c8-4c26-a172-9626533e9b79
 # ╟─44f07d8f-43cf-4052-bb27-ad2f07c38581
