@@ -1,0 +1,12 @@
+Prop 1.13:
+
+Paris Grec 2360 (Heiberg G)
+https://tify.rocks/?manifest=https%3A%2F%2Fgallica.bnf.fr%2Fiiif%2Fark%3A%2F12148%2Fbtv1b10722421p%2Fmanifest.json&tify=%7B%22pages%22%3A%5B10%5D%2C%22pan%22%3A%7B%22x%22%3A0.665%2C%22y%22%3A0.557%7D%2C%22view%22%3A%22thumbnails%22%2C%22zoom%22%3A2.079%7D
+
+
+Laurentian Plutei 28.4 (Heiberg D)
+
+https://tify.rocks/?manifest=https%3A%2F%2Ftecabml.contentdm.oclc.org%2Fiiif%2Finfo%2Fplutei%2F475612%2Fmanifest.json&tify=%7B%22pages%22%3A%5B26%5D%2C%22pan%22%3A%7B%22x%22%3A0.615%2C%22y%22%3A0.791%7D%2C%22view%22%3A%22thumbnails%22%2C%22zoom%22%3A0.978%7D
+
+
+Marciana 305 (Heiberg E)
