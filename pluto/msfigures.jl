@@ -95,9 +95,13 @@ end
 # ╔═╡ 2797aa9f-dfec-462c-8b5f-eae0beedaa48
 apcaptions = map(apdatalines[2:end]) do ln
 	cols = split(ln,"|")
+	
+	
 	try
+		notes = cols[3]
+		annotate = isempty(notes) ? "" : string(" (**", notes, "**)")
 		pg = Cite2Urn(cols[5]) |> objectcomponent
-		"Original manuscript folio " * pg
+		"Original manuscript folio " * pg * annotate
 	catch e
 		nothing
 	end
@@ -167,7 +171,8 @@ function mdtable(imgs, rows, cols; icturl = ict, imgservice = imgservice, imgwid
 				""
 			elseif isempty(captions) 
 				""
-			elseif isnothing(captions[idx])
+			elseif isnothing(captions[idx]) 
+				# This should already be filtered out.
 				"NOTHING!"
 			else
 				captions[idx]
@@ -1649,7 +1654,7 @@ version = "17.4.0+2"
 # ╟─9a1ff7eb-811e-43b5-8d26-da584a1bcc3a
 # ╟─8d7cdce6-6ccf-4a92-ad4b-8a07189f07d3
 # ╟─9bbbd01b-391e-4467-bd5b-2de0c2409c34
-# ╟─2797aa9f-dfec-462c-8b5f-eae0beedaa48
+# ╠═2797aa9f-dfec-462c-8b5f-eae0beedaa48
 # ╟─5ea5ecad-8775-451d-8eb2-2ec86ea61685
 # ╟─d2f25dcf-2645-47aa-b05e-4dd6ddd59112
 # ╟─2fa8ddd6-12e3-47ec-8296-d342b3350f6f
